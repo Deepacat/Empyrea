@@ -1,0 +1,21 @@
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]
+#The time in ticks it takes for base liquification recipe to complete.
+#Range: > 0
+liquificationProcessTime = 20
+#The amount of ember the liquifier machine is using per game tick.
+#Range: > 0
+liquificationCost = 10
+#The amount of liquid ember the liquifier produces every process.
+#Range: > 0
+liquificationAmount = 10
+#Tank capacity of the liquifier machine.
+#Range: > 0
+liquifierCapacity = 8000
+#Tank capacity of the ember infuser machine.
+#Range: > 0
+infuserTankCapacity = 8000
+#Ember capacity of the ember infuser machine.
+#Range: > 0
+infuserEmberCapacity = 64000
+

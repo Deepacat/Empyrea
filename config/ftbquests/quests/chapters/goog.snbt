@@ -1,0 +1,2072 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "goog"
+	group: ""
+	icon: "botania:mana_diamond"
+	id: "193A50A5106765C9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "770326D38EF56751"
+			tasks: [{
+				id: "32E8F042AA402302"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "56891F28497632CE"
+			tasks: [{
+				id: "6775C890E0A7DBB1"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "5C95295FCB34C348"
+			tasks: [{
+				id: "43B0920C9BAD5FB1"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "511D7BF4B1E7EBAC"
+			tasks: [{
+				id: "0122E199E29D52B8"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "6C8BA39A79C0EEA5"
+			tasks: [{
+				id: "7CE79BE3AED90FFF"
+				item: "botania:living_root"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6C8BA39A79C0EEA5"]
+			id: "798F38F766EF2F15"
+			tasks: [
+				{
+					id: "63B3FBEEB175C00B"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "51348C26C4CA1859"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["798F38F766EF2F15"]
+			id: "6DF272F36ECB5AF8"
+			tasks: [{
+				id: "7863D51E9F4A38BD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botania:mystical_flowers)"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6DF272F36ECB5AF8"]
+			id: "3DBD24B4AC12CF51"
+			tasks: [{
+				id: "3C07D09B0F82D740"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3DBD24B4AC12CF51"]
+			id: "424032A84719B07F"
+			tasks: [{
+				id: "7C53A9A548F358C2"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["05468098F4EFF3DF"]
+			id: "241E7FE36C05010E"
+			tasks: [
+				{
+					id: "5E2649A18995C467"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "71A9C4D5D2008E51"
+					item: "spectrum:citrine_shard"
+					type: "item"
+				}
+				{
+					id: "14EE5FA63DC479F2"
+					item: "spectrum:topaz_shard"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: -5.5d
+		}
+		{
+			id: "6E45BB2C4E11EDFE"
+			tasks: [{
+				id: "17272880E3BC74A8"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6E45BB2C4E11EDFE"]
+			id: "65A8D5EBA1297808"
+			tasks: [{
+				id: "01D5CEB1A79B4850"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"3DBD24B4AC12CF51"
+				"44C5BE65E3202BB6"
+			]
+			id: "68BC6757B6175740"
+			tasks: [{
+				id: "4F55699C3437A5E1"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["424032A84719B07F"]
+			id: "6B61940108C9301B"
+			tasks: [
+				{
+					id: "3A6214FD5AAD79E8"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "326664A121D964DC"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"6B61940108C9301B"
+				"7200860E52B32DBB"
+			]
+			id: "44C5BE65E3202BB6"
+			tasks: [{
+				id: "3CDCFA4E540BF5B8"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6B61940108C9301B"]
+			id: "567C19A36A3C434F"
+			tasks: [{
+				id: "02C6B5C1E3CCD9AB"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["241E7FE36C05010E"]
+			id: "73A20AC8C1B84845"
+			tasks: [{
+				id: "5568268A1F3E9D98"
+				item: "spectrum:pedestal_basic_amethyst"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -4.5d
+		}
+		{
+			id: "2540921A5DBE6FF8"
+			tasks: [{
+				id: "4B7CC06A7B0DDB98"
+				item: "spectrum:mermaids_gem"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -5.0d
+		}
+		{
+			id: "5D2F14AB55277820"
+			tasks: [{
+				id: "4F36841733E0665B"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.0d
+		}
+		{
+			id: "4F3A9469A3F642BB"
+			tasks: [{
+				id: "7355CFA3E4C1D984"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -6.0d
+		}
+		{
+			id: "2E6D2D5EB68B05C4"
+			tasks: [{
+				id: "155542E859A9946C"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			id: "253D3BA82DA3A48C"
+			tasks: [{
+				id: "40EEDAD090BF4B91"
+				item: "spectrum:quitoxic_reeds"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -7.0d
+		}
+		{
+			id: "74B0F4752EBDF38F"
+			tasks: [{
+				id: "443EFFC1DDE15266"
+				item: "spectrum:nightdew_sprout"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.0d
+		}
+		{
+			id: "5F27F378750B9ACC"
+			tasks: [{
+				id: "1DC16792F96A3AA2"
+				item: "spectrum:shimmerstone_gem"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["58F4D3CB74026F94"]
+			id: "7B22F12D676729DE"
+			tasks: [{
+				id: "2263900F817B27E9"
+				item: "spectrum:stratine_fragments"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -4.0d
+		}
+		{
+			id: "58F4D3CB74026F94"
+			tasks: [{
+				id: "1EA9C4218DCF6E37"
+				item: {
+					Count: 1
+					id: "spectrum:molten_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -4.0d
+		}
+		{
+			id: "32B887ED7678AFB6"
+			tasks: [
+				{
+					id: "7DFB96544F9D32C3"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "6AA724AF1091B86A"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "6577BF98AB128D34"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "72B7197591FF44A3"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["567C19A36A3C434F"]
+			icon: "ars_nouveau:glyph_crush"
+			id: "465A86942DE99187"
+			tasks: [{
+				id: "00FA044347EBB193"
+				title: "crushing catalyst"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			id: "0CD1D8F170ABBFED"
+			tasks: [{
+				id: "21DCD757FFC8A795"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			title: "remove manapool swappies from enderstone"
+			x: -23.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3E06D61CB66724CF"]
+			id: "3A7E7B9067A3E5C3"
+			tasks: [{
+				id: "45AECDB4272A248C"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["553C2E3135CD5B0C"]
+			id: "5200C39C30A232CF"
+			tasks: [{
+				id: "5873AD6847F3F78F"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3E0FE9AF012F304C"]
+			id: "3BADC7BC51F3258E"
+			tasks: [{
+				id: "31081B9CF853FB97"
+				item: "minecraft:tuff"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["65A8D5EBA1297808"]
+			id: "3E0FE9AF012F304C"
+			tasks: [{
+				id: "11F1DDB91D7EF161"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3E0FE9AF012F304C"]
+			id: "3D7F8EAFAE3308A5"
+			tasks: [{
+				id: "2E0803CBF2EEF028"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5200C39C30A232CF"]
+			id: "550F82EA32425134"
+			tasks: [{
+				id: "5A1D58F9DFB7BBCD"
+				item: "minecraft:granite"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5200C39C30A232CF"]
+			id: "3A167F6D73B38995"
+			tasks: [{
+				id: "42A7D8D64C02E13C"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -10.0d
+		}
+		{
+			id: "3E06D61CB66724CF"
+			tasks: [{
+				id: "5DFE1FBADCE12420"
+				item: "embers_extended:molten_nightstone_bucket"
+				type: "item"
+			}]
+			title: "replaxceme with source"
+			x: -17.0d
+			y: -11.0d
+		}
+		{
+			id: "05468098F4EFF3DF"
+			tasks: [
+				{
+					id: "1BEDCA8B5782AD1A"
+					item: "minecraft:calcite"
+					type: "item"
+				}
+				{
+					id: "36AB8BB383CBA0FB"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: -6.5d
+		}
+		{
+			id: "553C2E3135CD5B0C"
+			tasks: [{
+				id: "57F05FA5C8F47D0E"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -12.0d
+		}
+		{
+			id: "638ABFAB859AEEF3"
+			tasks: [{
+				id: "7102C090382527F2"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "62392FFFD5A70B2E"
+			tasks: [{
+				id: "69B06E2F1E061717"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			id: "303ECDBCDD8AEE4E"
+			tasks: [{
+				id: "0DC242E437679C70"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			id: "4BC73F021502CD1A"
+			tasks: [{
+				id: "02E271B2DC7AA696"
+				title: "seed vault move to beneath??"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -3.0d
+		}
+		{
+			id: "088BEBEC607BBA3A"
+			tasks: [{
+				id: "54E8470961284392"
+				title: "i guesss void beneath :( structure still spawn?"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -2.0d
+		}
+		{
+			id: "3CB52A1DC1E551FF"
+			tasks: [{
+				id: "1D0C9A580E376FF0"
+				title: "homemade bedrock"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32B887ED7678AFB6"]
+			id: "3C9AFDA8D454CDB8"
+			tasks: [{
+				id: "665B25AB6F909C14"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C9AFDA8D454CDB8"]
+			id: "6BBA28D88CF11EB1"
+			tasks: [{
+				id: "5DDD7770E746E8E3"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3F444A73A6C57B0F"
+				"06D1323003231E88"
+			]
+			id: "7190F69343F9B734"
+			tasks: [{
+				id: "7DFD175F6631B09A"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			id: "3F444A73A6C57B0F"
+			tasks: [{
+				id: "31F0234F7071834F"
+				title: "replace bedrock w like deepslate or sumn"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			id: "06D1323003231E88"
+			tasks: [{
+				id: "376269B52E23061C"
+				item: "embers:caminite_blend"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			id: "3982CE939E88B87C"
+			tasks: [{
+				id: "6135F08F3878F24F"
+				item: "embers:lead_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			id: "747F13C39A682883"
+			tasks: [{
+				id: "78770405D7852C03"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -19.0d
+		}
+		{
+			id: "2325410696C0FD78"
+			tasks: [{
+				id: "40ED8963A52FECD5"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["747F13C39A682883"]
+			id: "1C36516E8C2E01E3"
+			tasks: [{
+				id: "7F56617C73ED3803"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["747F13C39A682883"]
+			id: "6AC738CA15E2A617"
+			tasks: [{
+				id: "30183E0B8C9768DC"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["747F13C39A682883"]
+			id: "5E3FDE9B81633AAB"
+			tasks: [{
+				id: "0FFC015B37178919"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["747F13C39A682883"]
+			id: "251CF4E330DE126D"
+			tasks: [{
+				id: "015275B065F36BE8"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -19.0d
+		}
+		{
+			id: "0241E72C7F16B121"
+			tasks: [{
+				id: "4DD0A91F2A0BB559"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["747F13C39A682883"]
+			id: "2F82967169AA6D11"
+			tasks: [{
+				id: "6B19CE71027E7A58"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["747F13C39A682883"]
+			id: "52697F5240F6C56F"
+			tasks: [{
+				id: "64DB7466B95E3744"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -18.0d
+		}
+		{
+			id: "37DF71047572E454"
+			tasks: [{
+				id: "1FCAA3700409FD6B"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["37DF71047572E454"]
+			id: "051E2E77ADC88BA9"
+			tasks: [{
+				id: "4AD3F7A7D3251FF8"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["37DF71047572E454"]
+			id: "49C1450D23BD883B"
+			tasks: [{
+				id: "7643F1990952F76A"
+				item: "spectrum:citrine_shard"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["37DF71047572E454"]
+			id: "6F170BEB77E476BF"
+			tasks: [{
+				id: "0B710BE5E609CF86"
+				item: "spectrum:topaz_shard"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2325410696C0FD78"]
+			id: "405A6FEED6CE82DE"
+			tasks: [{
+				id: "0B7329CC5FC44748"
+				item: "embers:lead_ingot"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["2325410696C0FD78"]
+			id: "26FFA290FFF1D1DD"
+			tasks: [{
+				id: "3BF937B86DF99283"
+				item: "embers:silver_ingot"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["2325410696C0FD78"]
+			id: "5262916876647A83"
+			tasks: [{
+				id: "0CB0F4EF919A7E9E"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2325410696C0FD78"]
+			id: "3B7DF8EA44915763"
+			tasks: [{
+				id: "77A7FCA2C147E7A1"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2325410696C0FD78"]
+			id: "2966B6C53E79F59C"
+			tasks: [{
+				id: "73206C7E4B06691F"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2325410696C0FD78"]
+			id: "43033397F22C1E70"
+			tasks: [{
+				id: "46B121D03FCA989A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0241E72C7F16B121"]
+			id: "203698A78460B785"
+			tasks: [{
+				id: "74E802F406BCAAFC"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0241E72C7F16B121"]
+			id: "1290EA17192821C8"
+			tasks: [{
+				id: "2BA1E38D8DA83BD7"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -16.5d
+		}
+		{
+			id: "56F798792F6E55E7"
+			tasks: [{
+				id: "0390BF0FCBE42570"
+				item: "spectrum:blackslag"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["56F798792F6E55E7"]
+			id: "4C04F049DA0C3066"
+			tasks: [{
+				id: "018EA08871B0B0E5"
+				item: "spectrum:blackslag_topaz_ore"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["56F798792F6E55E7"]
+			id: "471B53048D9E9C13"
+			tasks: [{
+				id: "79F49EC041E11DFB"
+				item: "spectrum:blackslag_amethyst_ore"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["56F798792F6E55E7"]
+			id: "0F0EA0C042071F16"
+			tasks: [{
+				id: "7CB049C4F831762C"
+				item: "spectrum:blackslag_citrine_ore"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["56F798792F6E55E7"]
+			id: "76B0DC4ADD9365F5"
+			tasks: [{
+				id: "1C13AC95E74AE6E4"
+				item: "spectrum:blackslag_azurite_ore"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["56F798792F6E55E7"]
+			id: "51F0B33750201FDF"
+			tasks: [{
+				id: "174902B4CC79AAF6"
+				item: "spectrum:blackslag_shimmerstone_ore"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["56F798792F6E55E7"]
+			id: "132798A664A5312A"
+			tasks: [{
+				id: "01E5DCCAEC775498"
+				item: "spectrum:blackslag_moonstone_ore"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["56F798792F6E55E7"]
+			id: "3A1EF4451A1C9278"
+			tasks: [{
+				id: "7140F83B79CDB554"
+				item: "spectrum:blackslag_onyx_ore"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0241E72C7F16B121"]
+			id: "1453486E728A7DD2"
+			tasks: [{
+				id: "2D8295002A9AAE98"
+				item: "malum:blazing_quartz_ore"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0241E72C7F16B121"]
+			id: "557B91655C5D047A"
+			tasks: [{
+				id: "4BA6D9BAE9F84CC6"
+				item: "spectrum:stratine_ore"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["6BBA28D88CF11EB1"]
+			id: "35B5353EDA66AD66"
+			tasks: [{
+				id: "56E0F06DFF90A924"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BBA28D88CF11EB1"]
+			id: "4D47E3A5380206C1"
+			tasks: [{
+				id: "4558E37257CCFCEF"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			id: "612638F00369FD21"
+			tasks: [{
+				id: "51DD55A5E722F9FC"
+				item: "ars_nouveau:drygmy_shard"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			id: "098A8670A848B84B"
+			tasks: [{
+				id: "29DAD501AC0FABB1"
+				item: "ars_nouveau:starbuncle_shards"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			id: "638BFE39C0357E76"
+			tasks: [{
+				id: "227750E27A720EA0"
+				item: "ars_nouveau:wixie_shards"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.0d
+		}
+		{
+			id: "649B1C389A6CACEE"
+			tasks: [{
+				id: "662C4EA4A549310D"
+				item: "ars_elemental:siren_shards"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 2.0d
+		}
+		{
+			id: "200054C9C0C18BEB"
+			tasks: [{
+				id: "62FEAF7EB28068E3"
+				item: "ars_nouveau:whirlisprig_shards"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["465A86942DE99187"]
+			id: "6A27AF3E6A274902"
+			tasks: [{
+				id: "3ABE499851126735"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"6A27AF3E6A274902"
+				"162C98E2A11197BB"
+			]
+			dependency_requirement: "one_completed"
+			id: "6C9F8F8B0B09EE63"
+			tasks: [{
+				id: "1265E94B6CBA149C"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"6C9F8F8B0B09EE63"
+				"0C3AF62FAAB5F318"
+			]
+			dependency_requirement: "one_completed"
+			id: "7A6483D98091F503"
+			tasks: [{
+				id: "6DA6617379A2E239"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			id: "0C3AF62FAAB5F318"
+			tasks: [{
+				id: "4A954C0694F6D5E7"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["68BC6757B6175740"]
+			id: "0DDD550A4EB3ED88"
+			tasks: [{
+				id: "4821949ADF3B8C74"
+				item: "botania:fel_pumpkin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0DDD550A4EB3ED88"]
+			id: "0DE6EF24BACA5225"
+			tasks: [{
+				id: "3C9F0FDBE4024F08"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0DE6EF24BACA5225"]
+			id: "094827C6A4E99C9A"
+			tasks: [
+				{
+					id: "3159600676AF3FD6"
+					item: "botania:blaze_block"
+					type: "item"
+				}
+				{
+					id: "06834BCFBBF920AA"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"094827C6A4E99C9A"
+				"567C19A36A3C434F"
+			]
+			id: "162C98E2A11197BB"
+			tasks: [{
+				id: "63BAF8703E40F695"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4E035B13EF5A5031"]
+			id: "50D82489E785C211"
+			tasks: [{
+				id: "66F1B5F6D1D4EEA7"
+				item: "spectrum:mermaids_gem"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["162C98E2A11197BB"]
+			id: "4E035B13EF5A5031"
+			tasks: [
+				{
+					id: "204F00C052719701"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "39BAAED2C9CA0F53"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"50D82489E785C211"
+				"09BA5C10E5A06D48"
+			]
+			id: "0BD315736D521C37"
+			tasks: [{
+				id: "7EEB7761FE2B06BA"
+				item: "spectrum:mud_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["162C98E2A11197BB"]
+			id: "1B72798AB15A037D"
+			tasks: [{
+				id: "64C88534C4B639E5"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"42BBFA49DED56490"
+				"0656C49BAAF548B5"
+			]
+			dependency_requirement: "one_started"
+			id: "09BA5C10E5A06D48"
+			tasks: [
+				{
+					id: "324D566C4F238C33"
+					item: "spectrum:pedestal_basic_amethyst"
+					type: "item"
+				}
+				{
+					id: "203F2D2CC1213444"
+					item: "spectrum:paintbrush"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1B72798AB15A037D"]
+			id: "42BBFA49DED56490"
+			tasks: [
+				{
+					id: "0125E0F596792DED"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "0AC7D4C0FD2B6D49"
+					item: "spectrum:topaz_shard"
+					type: "item"
+				}
+				{
+					id: "11A3A52B0C748A5B"
+					item: "spectrum:citrine_shard"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			icon: "minecraft:anvil"
+			id: "0656C49BAAF548B5"
+			tasks: [
+				{
+					id: "728C55500DC20E5D"
+					item: "ars_nouveau:glyph_crush"
+					type: "item"
+				}
+				{
+					id: "606F678B1D53C188"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0BD315736D521C37"]
+			id: "47E3293F30D8C9F3"
+			tasks: [{
+				id: "2F48623911F7D611"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["47E3293F30D8C9F3"]
+			id: "313A6DBDBA3F373D"
+			tasks: [{
+				id: "1EA06804D9DE3BEC"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["313A6DBDBA3F373D"]
+			id: "0AE5DF218DF547BF"
+			tasks: [{
+				id: "0FD9AFBBCB64F534"
+				item: "botania:dirt_rod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["567C19A36A3C434F"]
+			id: "47561B6D8ADAFC54"
+			tasks: [{
+				id: "77819D724480008D"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["09BA5C10E5A06D48"]
+			id: "0A8A2AB5A59293C7"
+			tasks: [{
+				id: "6FB682657C412E10"
+				item: "spectrum:pedestal_all_basic"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3B7F574E4D7B2B48"]
+			id: "678160E35FB584F0"
+			tasks: [{
+				id: "6D9F82A76A7458FD"
+				item: "spectrum:shimmerstone_gem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["16ECE09156D22884"]
+			id: "2BA114C73AE7F632"
+			tasks: [{
+				id: "14761A3CE4A75B2A"
+				item: "spectrum:vegetal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"7B19863A95AE8E8F"
+				"678160E35FB584F0"
+				"0A8A2AB5A59293C7"
+			]
+			id: "16ECE09156D22884"
+			tasks: [{
+				id: "09E01949333C3386"
+				item: "spectrum:bottle_of_fading"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			icon: "minecraft:bee_nest"
+			id: "7B19863A95AE8E8F"
+			tasks: [{
+				id: "760EC036989347B4"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:bee_nest"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2BA114C73AE7F632"]
+			id: "36EA0C51420776F5"
+			tasks: [
+				{
+					id: "1EEC1A80E6A33302"
+					item: "spectrum:orange_sapling"
+					type: "item"
+				}
+				{
+					id: "75A733AB306698AF"
+					item: "spectrum:orange_pigment"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"36EA0C51420776F5"
+				"5DE4B62F6F3B087B"
+			]
+			id: "7B12B27CCDD1FDF4"
+			tasks: [{
+				id: "4FFEB7CFA6218029"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7B12B27CCDD1FDF4"]
+			id: "55E286E3500102CE"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4B75CEED0A561403"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3DBD24B4AC12CF51"]
+			id: "7200860E52B32DBB"
+			tasks: [{
+				id: "340F2BBB44358B72"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0E6EB6115FA0B7BC"]
+			id: "180B08C171BEA1FA"
+			tasks: [
+				{
+					id: "24F75BDF51A52B81"
+					item: "ars_caelum:ritual_conjure_island_flourishing"
+					type: "item"
+				}
+				{
+					id: "1866CAC4387ED277"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["42BBFA49DED56490"]
+			id: "0E6EB6115FA0B7BC"
+			tasks: [{
+				id: "5C4D352BF5B0A2E2"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["180B08C171BEA1FA"]
+			id: "1A3B86810035A0CC"
+			tasks: [
+				{
+					id: "236B2CACAB248333"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "62AC28749929A966"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -16.0d
+		}
+		{
+			id: "5DE4B62F6F3B087B"
+			tasks: [
+				{
+					id: "4098196E7FD32DFD"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "2AE0720D73636D48"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "257AD47B6631A3B6"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["55E286E3500102CE"]
+			id: "1B9C3C1E487D9160"
+			tasks: [
+				{
+					id: "1C44F7D12BE2B68B"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "095D19E37D5B7F15"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["47561B6D8ADAFC54"]
+			id: "74D65AA2B003AEC9"
+			tasks: [{
+				id: "2043C4B1EB725463"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7B12B27CCDD1FDF4"]
+			id: "5B667AAAC03F416C"
+			tasks: [
+				{
+					id: "532CAD7CB1A20BC9"
+					item: {
+						Count: 1
+						id: "spectrum:molten_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7210838D80A7CCD9"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					id: "7D7D335E43B6A229"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5B667AAAC03F416C"]
+			id: "78D30F54A4C958A4"
+			tasks: [{
+				id: "28109464263CD86D"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["78D30F54A4C958A4"]
+			id: "22C949FABB55DE9C"
+			tasks: [{
+				id: "71E6B55D3EAFCD36"
+				item: "spectrum:stratine_fragments"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0BD315736D521C37"]
+			id: "15FECCF2D792A83A"
+			tasks: [{
+				id: "3060D14BFB4E4E39"
+				item: "spectrum:quitoxic_reeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0A8A2AB5A59293C7"]
+			id: "7FEE4F76560B91CB"
+			tasks: [
+				{
+					id: "737F8E3039658324"
+					item: "spectrum:fusion_shrine_basalt"
+					type: "item"
+				}
+				{
+					id: "362977746050DA79"
+					item: "spectrum:onyx_shard"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7FEE4F76560B91CB"]
+			id: "0A68047BAD25A547"
+			tasks: [
+				{
+					id: "4CF10ECF18F816BE"
+					item: "spectrum:brown_sapling"
+					type: "item"
+				}
+				{
+					id: "4F77E88DDC3FDF62"
+					item: "spectrum:brown_pigment"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7FEE4F76560B91CB"]
+			id: "49E15E617AA3D920"
+			tasks: [
+				{
+					id: "2880BDFDF25D0CDA"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					id: "5DE45A72BB7BDB5A"
+					item: "spectrum:stardust"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"0A68047BAD25A547"
+				"22C949FABB55DE9C"
+			]
+			id: "3839CE8B0E38D407"
+			tasks: [{
+				id: "352444F40EB968B9"
+				item: "spectrum:bottle_of_failing"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"16A9212873B52707"
+				"1A3B86810035A0CC"
+			]
+			id: "19876E7A0B8E3453"
+			tasks: [{
+				id: "3617754DF57DF940"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["1A3B86810035A0CC"]
+			id: "16A9212873B52707"
+			tasks: [{
+				id: "69CDF8C38CFB1E1C"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["19876E7A0B8E3453"]
+			id: "4C5867A824675F76"
+			tasks: [{
+				id: "637934A3A718B8F7"
+				item: "ars_nouveau:glyph_crush"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["7FEE4F76560B91CB"]
+			id: "11BB8FB5633AC4B0"
+			tasks: [{
+				id: "1BBE173D57A32E90"
+				item: "spectrum:liquid_crystal_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["50D82489E785C211"]
+			id: "40B1C5AE1D3FEC90"
+			tasks: [{
+				id: "01E1A3D9AA18583A"
+				item: {
+					Count: 1
+					id: "spectrum:lagoon_rod"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:lure"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["47561B6D8ADAFC54"]
+			id: "1A7C966923F2ECBB"
+			tasks: [{
+				id: "4C38C63EB1973133"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["47561B6D8ADAFC54"]
+			id: "20F0412ABA8D6BAC"
+			tasks: [{
+				id: "1A9AD26C54E45146"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5B667AAAC03F416C"
+				"1B9C3C1E487D9160"
+			]
+			id: "3633CBB030D49024"
+			tasks: [{
+				id: "640ABC3667F2E8D4"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["77BC8783600E1A2B"]
+			id: "388313BCBFACF45D"
+			tasks: [{
+				id: "524A28F5D231C2BA"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1BD6BAF89DC84DB6"]
+			id: "77BC8783600E1A2B"
+			tasks: [
+				{
+					id: "7BC82B622B2469AC"
+					item: "spectrum:midnight_aberration"
+					type: "item"
+				}
+				{
+					id: "0CCAC3E375AEB024"
+					item: "spectrum:midnight_solution_bucket"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3839CE8B0E38D407"]
+			id: "1BD6BAF89DC84DB6"
+			tasks: [{
+				id: "541BB19A57070187"
+				item: "spectrum:neolith"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["388313BCBFACF45D"]
+			id: "2D972DF7207CA8B1"
+			tasks: [{
+				id: "13A7EF6BEA17A660"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"2E1D2E7F07193ABA"
+				"645DA84DC18BE9CE"
+				"64106799A72E404E"
+				"4C4311938227CA8D"
+				"723FA65F41DA1EB7"
+			]
+			id: "35733D04135B10A6"
+			tasks: [{
+				id: "5C4FE506CBAB252A"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["35733D04135B10A6"]
+			id: "6CDF31D77CCB9000"
+			tasks: [{
+				id: "7C10671B6A89A99C"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6CDF31D77CCB9000"]
+			id: "2B3747B5C54DEDE1"
+			tasks: [
+				{
+					id: "1356A50F76F6AA58"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					id: "0589AD56C1A4E62F"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2B3747B5C54DEDE1"]
+			id: "6DBEC7F17D5D5D09"
+			tasks: [
+				{
+					id: "6B013ED990C27667"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "52F2A6EFE0BFA1F2"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"6DBEC7F17D5D5D09"
+				"2D972DF7207CA8B1"
+			]
+			id: "466A7C6DCB45CFA4"
+			tasks: [
+				{
+					id: "72E02F47C10B13F7"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "37034761E2E7637F"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"0B852D18CFEF9E10"
+				"1FA75761362BF804"
+			]
+			id: "723FA65F41DA1EB7"
+			tasks: [{
+				id: "7E5C4BB45934823D"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["01937E6AE360390E"]
+			id: "64106799A72E404E"
+			tasks: [{
+				id: "76378BA94BC9BF7E"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6C99F9C52274941B"
+				"6A2F115C15907050"
+			]
+			id: "4C4311938227CA8D"
+			tasks: [{
+				id: "00CE8757CED6C159"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0FC2E70EDEF12CE8"
+				"282B675E29FA9812"
+			]
+			id: "2E1D2E7F07193ABA"
+			tasks: [{
+				id: "53CA765104DA5797"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4AA74E4BEA33D447"
+				"7E8B8BCD5C5E8EE2"
+			]
+			id: "645DA84DC18BE9CE"
+			tasks: [{
+				id: "71F18FA2A0E009B5"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			id: "1FA75761362BF804"
+			tasks: [{
+				id: "13A2430459FCECF4"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "0B852D18CFEF9E10"
+			tasks: [{
+				id: "3BEA4C433D9D4EE9"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "01937E6AE360390E"
+			tasks: [{
+				id: "2CB28C2CC9101ADF"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "6A2F115C15907050"
+			tasks: [{
+				id: "30739E62C2E0F7B9"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "6C99F9C52274941B"
+			tasks: [{
+				id: "134E50CCFE66DAA6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wool_carpets)"
+					}
+				}
+				title: "Any #minecraft:wool_carpets"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "282B675E29FA9812"
+			tasks: [{
+				id: "029E8771CA2AC56A"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "6E3B742A55CEB0A0"
+			tasks: [{
+				id: "3774E0A85BEC3F0B"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "0FC2E70EDEF12CE8"
+			tasks: [{
+				id: "789D950284EC8E59"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			id: "7E8B8BCD5C5E8EE2"
+			tasks: [{
+				id: "16F0CD118DFBBBB5"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			id: "4AA74E4BEA33D447"
+			tasks: [{
+				id: "6AE7FEFC9E0FCBF1"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			icon: "spectrum:glistering_shooting_star"
+			id: "3B7F574E4D7B2B48"
+			tasks: [{
+				id: "52799E32E2741FC1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spectrum:shooting_star"
+				type: "observation"
+			}]
+			title: "custom shooting star script?"
+			x: 2.5d
+			y: -9.0d
+		}
+	]
+	title: "goog :)"
+}

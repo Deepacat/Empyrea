@@ -1,0 +1,470 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uhhhhhhhhhhhh"
+	group: ""
+	icon: "botania:life_essence"
+	id: "0F11BAD7C1F42364"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2E81CF26AE83A18F"
+				"04C37772EAA2901F"
+			]
+			id: "324AE2031BDA5D73"
+			tasks: [{
+				id: "76812E2E0374089E"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "2B56A0B9CC24B659"
+			tasks: [{
+				id: "3D1A48E488D49853"
+				item: "botania:pebble"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B56A0B9CC24B659"]
+			id: "2E81CF26AE83A18F"
+			tasks: [{
+				id: "0EA28A5CF36DB14A"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["324AE2031BDA5D73"]
+			id: "3686F6B44DEB9E5D"
+			tasks: [{
+				id: "74E9FDAA92A6EA2F"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3686F6B44DEB9E5D"]
+			id: "448B63EA1B400343"
+			tasks: [
+				{
+					id: "0A506A15BE8AA817"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "4FF8DB756B3367D0"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["448B63EA1B400343"]
+			id: "3EC145BDBE7CB911"
+			tasks: [{
+				id: "16B6B910F577A93D"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["448B63EA1B400343"]
+			id: "33852F6F482664E1"
+			tasks: [{
+				id: "12790306015333BB"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"324AE2031BDA5D73"
+				"33852F6F482664E1"
+				"5D4055B714C34D4F"
+			]
+			id: "1BB9B1B92CE12732"
+			tasks: [{
+				id: "4B09F11B05C4DAA1"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["524815CC343EEEF2"]
+			id: "19CF739095952B1F"
+			tasks: [{
+				id: "57A1933992C097BB"
+				item: "botania:blaze_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19CF739095952B1F"]
+			id: "534B14B8A5C1FB98"
+			tasks: [{
+				id: "58E2B9B1AA6A2741"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1BB9B1B92CE12732"
+				"53E27CAC83BA3096"
+			]
+			id: "524815CC343EEEF2"
+			tasks: [
+				{
+					id: "69B383843322A4D1"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+				{
+					id: "254F1FFD187DADC4"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["534B14B8A5C1FB98"]
+			id: "3F5DE1B480F20154"
+			tasks: [{
+				id: "3DE8C3B805BD750E"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["05A143D26FBB6645"]
+			id: "577CA7776C1DC4C4"
+			tasks: [{
+				id: "6E0FDF27414B9DF6"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["577CA7776C1DC4C4"]
+			id: "1DBDBE843C91EE20"
+			tasks: [{
+				id: "5BDE85515FCCC8B1"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3F5DE1B480F20154"
+				"4569E4E45F9BD972"
+			]
+			id: "05A143D26FBB6645"
+			tasks: [{
+				id: "27B28E03F589084F"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["324AE2031BDA5D73"]
+			id: "5D4055B714C34D4F"
+			tasks: [{
+				id: "76F4DC2FEBCD1973"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "53E27CAC83BA3096"
+			tasks: [
+				{
+					id: "6B55ED74D7648F42"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					id: "26AA053F9AC37BA0"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "231B8A1BEBA7BC04"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC145BDBE7CB911"]
+			id: "307B0BF886783887"
+			tasks: [{
+				id: "31DBE6B7A6D285EF"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["534B14B8A5C1FB98"]
+			id: "4F8D91010755A2AD"
+			tasks: [{
+				id: "79E82FD69F462DA1"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4F8D91010755A2AD"
+				"3EC145BDBE7CB911"
+			]
+			id: "4569E4E45F9BD972"
+			tasks: [{
+				id: "418620628BD02E82"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "5617542110CDB73B"
+			tasks: [{
+				id: "1388B6CCB1ACADE2"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "03895442584AB36B"
+			tasks: [{
+				id: "25362C8D77837A9D"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5617542110CDB73B"
+				"1E7351DBD4F2570E"
+				"03895442584AB36B"
+				"72442A8556ECE606"
+				"44CCD814C585CC33"
+			]
+			id: "47B994E5B1A34C57"
+			tasks: [{
+				id: "1F705BD430C2A76D"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["47B994E5B1A34C57"]
+			id: "1322AA967B7B4698"
+			tasks: [{
+				id: "3E37408DF9F06CCC"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "44CCD814C585CC33"
+			tasks: [{
+				id: "7ED351E83CA44E54"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "1E7351DBD4F2570E"
+			tasks: [{
+				id: "1A08FFB71FA14E7C"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "72442A8556ECE606"
+			tasks: [{
+				id: "0A7B2C4F35FB69DA"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1322AA967B7B4698"]
+			id: "367A3C717DB45BB3"
+			tasks: [{
+				id: "1F9F5D73BAB806EA"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"07D14FCA07741D12"
+				"404BF1AC476A76D1"
+				"1322AA967B7B4698"
+			]
+			id: "754DB769349CABFA"
+			tasks: [{
+				id: "3A866125DE2B949F"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["367A3C717DB45BB3"]
+			id: "07D14FCA07741D12"
+			tasks: [{
+				id: "7379856887AD47F4"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B8A85D888AABB09"]
+			id: "0E04407502D732CB"
+			tasks: [{
+				id: "1C1DF29C78C4A917"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0E04407502D732CB"]
+			id: "404BF1AC476A76D1"
+			tasks: [{
+				id: "75637C5AA384493B"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			id: "0B8A85D888AABB09"
+			tasks: [{
+				id: "6C1E0331CD1E1F13"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["754DB769349CABFA"]
+			id: "1820146D7CB811B1"
+			tasks: [{
+				id: "5D8B2A342EBD5BA0"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			id: "55E09ECA4EB6F4FA"
+			tasks: [{
+				id: "585990CACC3B7A94"
+				item: "botania:living_root"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55E09ECA4EB6F4FA"]
+			id: "411BB8CCAF6E0508"
+			tasks: [
+				{
+					id: "388EF79047F5BB78"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "28EFC6CA84C737BE"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["411BB8CCAF6E0508"]
+			id: "04C37772EAA2901F"
+			tasks: [{
+				id: "799FC8E6921CE7A4"
+				item: "botania:white_mystical_flower"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "gog :("
+}
