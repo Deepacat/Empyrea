@@ -804,7 +804,7 @@
             ]
         },
         {
-            "pakku_id": "yaK5hrNjW2Q2BRik",
+            "pakku_id": "1qGxI68ftAszrLjN",
             "type": "MOD",
             "slug": {
                 "curseforge": "blood-magic"
@@ -833,7 +833,9 @@
                         "sha1": "ae2451fcb27f75421337d38d3a13f3e5f4b6dd71",
                         "md5": "2ea93121fc479407e28952b1c04334c2"
                     },
-                    "required_dependencies": [],
+                    "required_dependencies": [
+                        "306770"
+                    ],
                     "size": 14953384,
                     "date_published": "2025-11-23T13:16:41.483Z"
                 }
@@ -2046,45 +2048,6 @@
             ]
         },
         {
-            "pakku_id": "vpfEAHAEYpN4ip48",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "default-options"
-            },
-            "name": {
-                "curseforge": "Default Options"
-            },
-            "id": {
-                "curseforge": "232131"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "defaultoptions-forge-1.20.1-18.0.4.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6972/483/defaultoptions-forge-1.20.1-18.0.4.jar",
-                    "id": "6972483",
-                    "parent_id": "232131",
-                    "hashes": {
-                        "sha1": "37ef64d3ae7fda292c882ee949a0280bf6c7f033",
-                        "md5": "2a453bba939907b55d4d7e0c31e6d8ad"
-                    },
-                    "required_dependencies": [
-                        "531761"
-                    ],
-                    "size": 94684,
-                    "date_published": "2025-09-07T12:29:22.480Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "DKaIKR4Y1ZQzlYiq",
             "type": "MOD",
             "slug": {
@@ -2117,51 +2080,6 @@
                     "required_dependencies": [],
                     "size": 10008,
                     "date_published": "2023-10-13T17:32:47.507Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "krM8WlGncGRxsq1r",
-            "pakku_links": [
-                "CU08B7zpsg9BAS11"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "defaultsettings"
-            },
-            "name": {
-                "curseforge": "DefaultSettings"
-            },
-            "id": {
-                "curseforge": "318012"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "DefaultSettings-1.20.x-4.0.7-Forge.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5141/86/DefaultSettings-1.20.x-4.0.7-Forge.jar",
-                    "id": "5141086",
-                    "parent_id": "318012",
-                    "hashes": {
-                        "sha1": "787645dd7602ca80face4180d6a3826f8e057a54",
-                        "md5": "3723212a3657e6d011b9e789218277c2"
-                    },
-                    "required_dependencies": [
-                        "659192"
-                    ],
-                    "size": 95942,
-                    "date_published": "2024-02-27T18:09:34.043Z"
                 }
             ]
         },
@@ -2478,6 +2396,46 @@
                     ],
                     "size": 69476,
                     "date_published": "2024-10-28T22:30:06.733Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "10lCRQYgBKVM7G6J",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "entityjs"
+            },
+            "name": {
+                "curseforge": "EntityJS"
+            },
+            "id": {
+                "curseforge": "967617"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "entityjs-0.6.5-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7174/421/entityjs-0.6.5-1.20.1.jar",
+                    "id": "7174421",
+                    "parent_id": "967617",
+                    "hashes": {
+                        "sha1": "b8520685883f469231feabdd7598fd59dd316551",
+                        "md5": "b4e5e749799e69ea8a054d6253802d15"
+                    },
+                    "required_dependencies": [
+                        "238086",
+                        "388172"
+                    ],
+                    "size": 2363784,
+                    "date_published": "2025-11-01T16:11:29.773Z"
                 }
             ]
         },
@@ -2875,6 +2833,45 @@
                     ],
                     "size": 248592,
                     "date_published": "2025-01-27T16:07:52.110Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "GM4Q33Rw6oFkmKX8",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-ultimine-forge"
+            },
+            "name": {
+                "curseforge": "FTB Ultimine (Forge)"
+            },
+            "id": {
+                "curseforge": "386134"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-ultimine-forge-2001.1.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6899/418/ftb-ultimine-forge-2001.1.7.jar",
+                    "id": "6899418",
+                    "parent_id": "386134",
+                    "hashes": {
+                        "sha1": "3cbefa29b387cebb85022cb0ff838fd54b67cf82",
+                        "md5": "79187bd77a9671a94d7cbf8a1aa20ec3"
+                    },
+                    "required_dependencies": [
+                        "404465",
+                        "419699"
+                    ],
+                    "size": 114945,
+                    "date_published": "2025-08-18T08:40:21.680Z"
                 }
             ]
         },
@@ -4253,6 +4250,45 @@
             ]
         },
         {
+            "pakku_id": "kj4MGtKKxqbqmBAb",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-addon-blood-magic"
+            },
+            "name": {
+                "curseforge": "KubeJS Addon - Blood Magic"
+            },
+            "id": {
+                "curseforge": "934206"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "KubeJS Blood Magic-1.0.2-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5492/965/KubeJS Blood Magic-1.0.2-1.20.1.jar",
+                    "id": "5492965",
+                    "parent_id": "934206",
+                    "hashes": {
+                        "sha1": "a17b10eddea3a5728c0ba25fd98263c3f0c7bebd",
+                        "md5": "acdeda9a094ff49c092a719db28f2e3f"
+                    },
+                    "required_dependencies": [
+                        "224791",
+                        "238086"
+                    ],
+                    "size": 11731,
+                    "date_published": "2024-07-01T17:08:30.023Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xWaC2W6KUacMANsP",
             "type": "MOD",
             "slug": {
@@ -4549,6 +4585,44 @@
                     "required_dependencies": [],
                     "size": 460882,
                     "date_published": "2025-09-04T02:28:45.837Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Wuvs0CmycKA4CaYk",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lychee"
+            },
+            "name": {
+                "curseforge": "Lychee (Neo/Forge)"
+            },
+            "id": {
+                "curseforge": "567403"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Lychee-1.20.1-Forge-5.1.22.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7015/928/Lychee-1.20.1-Forge-5.1.22.jar",
+                    "id": "7015928",
+                    "parent_id": "567403",
+                    "hashes": {
+                        "sha1": "0628d3202c1f9d096a4f0bb3fa5beadfa89159a8",
+                        "md5": "95d36aa719b09778b1070f4912af2a5b"
+                    },
+                    "required_dependencies": [],
+                    "size": 692289,
+                    "date_published": "2025-09-20T16:57:55.713Z"
                 }
             ]
         },
@@ -5039,6 +5113,43 @@
                     "required_dependencies": [],
                     "size": 30595,
                     "date_published": "2024-10-23T18:49:22.600Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "xs5rXUNkp8XBsljZ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "necronomicon"
+            },
+            "name": {
+                "curseforge": "Necronomicon API"
+            },
+            "id": {
+                "curseforge": "586157"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Necronomicon-Forge-1.6.0+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5772/681/Necronomicon-Forge-1.6.0+1.20.1.jar",
+                    "id": "5772681",
+                    "parent_id": "586157",
+                    "hashes": {
+                        "sha1": "2ad4ffa0fb087e4467c6f7496d456fc1ac949ebf",
+                        "md5": "a1f1433ea551925436e6b170ac2ff619"
+                    },
+                    "required_dependencies": [],
+                    "size": 33251,
+                    "date_published": "2024-10-01T04:09:07.960Z"
                 }
             ]
         },
@@ -6332,6 +6443,46 @@
             ]
         },
         {
+            "pakku_id": "XxM3PbWrpCFrVH3U",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "squat-grow"
+            },
+            "name": {
+                "curseforge": "Squat Grow (Shift / Twerk to grow plants)"
+            },
+            "id": {
+                "curseforge": "515698"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "squatgrow-forge-5.3.0+mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5150/173/squatgrow-forge-5.3.0+mc1.20.1.jar",
+                    "id": "5150173",
+                    "parent_id": "515698",
+                    "hashes": {
+                        "sha1": "a692be4b155a6149f108e6dcb79e5ad9d49ad722",
+                        "md5": "156f37d244c716714a03cdb2ab7d6b8b"
+                    },
+                    "required_dependencies": [
+                        "348521",
+                        "419699"
+                    ],
+                    "size": 33811,
+                    "date_published": "2024-03-02T01:32:35.857Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "zW9lmZA0ozgi1ZIQ",
             "type": "MOD",
             "slug": {
@@ -6972,6 +7123,49 @@
                     ],
                     "size": 825112,
                     "date_published": "2025-06-22T18:20:42.977Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TmJhnIokMyBRfuQk",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "yosby"
+            },
+            "name": {
+                "curseforge": "Your Options Shall Be Yours (YOSBY)"
+            },
+            "id": {
+                "curseforge": "569868"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "YOSBY-Forge-1.1.0.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4803/559/YOSBY-Forge-1.1.0.jar",
+                    "id": "4803559",
+                    "parent_id": "569868",
+                    "hashes": {
+                        "sha1": "e7765999fd4bfacf569a085450e3fc0d947bfc6c",
+                        "md5": "e1c6232a25d0e4ed9dad904cec1178fd"
+                    },
+                    "required_dependencies": [
+                        "586157"
+                    ],
+                    "size": 7064,
+                    "date_published": "2023-10-17T19:56:06.760Z"
                 }
             ]
         },
