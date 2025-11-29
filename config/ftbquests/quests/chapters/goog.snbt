@@ -5,7 +5,7 @@
 	group: ""
 	icon: "botania:mana_diamond"
 	id: "193A50A5106765C9"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -106,7 +106,10 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["3DBD24B4AC12CF51"]
+			dependencies: [
+				"3DBD24B4AC12CF51"
+				"159D13B40AD821F0"
+			]
 			id: "424032A84719B07F"
 			tasks: [{
 				id: "7C53A9A548F358C2"
@@ -1033,7 +1036,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -1063,7 +1066,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -9.0d
+			y: -8.0d
 		}
 		{
 			id: "0C3AF62FAAB5F318"
@@ -1072,8 +1075,8 @@
 				item: "minecraft:glass_bottle"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -8.0d
+			x: -1.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["68BC6757B6175740"]
@@ -1288,7 +1291,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["09BA5C10E5A06D48"]
@@ -1501,7 +1504,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7B12B27CCDD1FDF4"]
@@ -1710,7 +1713,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["47561B6D8ADAFC54"]
@@ -1721,7 +1724,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -2066,6 +2069,91 @@
 			title: "custom shooting star script?"
 			x: 2.5d
 			y: -9.0d
+		}
+		{
+			dependencies: ["0E6EB6115FA0B7BC"]
+			id: "3DE5E87B1600B49E"
+			tasks: [{
+				id: "3BC54BF940227EE5"
+				item: "ars_caelum:ritual_conjure_island_geode"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3DE5E87B1600B49E"]
+			id: "3BE6766B55E0CE66"
+			tasks: [
+				{
+					id: "4B13D935A519ABCF"
+					item: "hexcasting:charged_amethyst"
+					type: "item"
+				}
+				{
+					id: "2F9C2E273617FA4A"
+					item: "hexcasting:staff/oak"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"424032A84719B07F"
+				"237FFB506C1590FF"
+			]
+			id: "2612A1EE9D77B229"
+			tasks: [{
+				id: "564667FFB0B762D5"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6A27AF3E6A274902"]
+			hide_dependency_lines: true
+			id: "237FFB506C1590FF"
+			tasks: [
+				{
+					id: "6293E274B3DCBCC5"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "2EFC381234319EA1"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			id: "159D13B40AD821F0"
+			tasks: [
+				{
+					id: "6A789FAF24C90A3B"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "7077D68BF7A12C52"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -10.0d
 		}
 	]
 	title: "goog :)"
