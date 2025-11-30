@@ -51,29 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "splendid_slimes": {
-    "splendid_slime": true
-  },
-  "enigmaticgraves": {
-    "grave": true
-  },
-  "jade": {
-    "coordinates.rel": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "mod_name": true
-  },
-  "botania_editor": {
-    "botania_spreader": true,
-    "botania_spreader_advanced": true,
-    "botania_mana": true,
-    "botania_flower": true
-  },
-  "balm": {
-    "jade": true
-  },
   "ars_nouveau": {
     "mob_jar": true
   },
@@ -92,13 +69,25 @@
   "supplementaries": {
     "hat_stand": true
   },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": true
+  },
   "waystones": {
     "waystone": true
   },
-  "toms_peripherals": {
-    "modem_info": true,
-    "full_modem_info": true,
-    "wdt_info": true
+  "botania_editor": {
+    "botania_spreader": true,
+    "botania_spreader_advanced": true,
+    "botania_mana": true,
+    "botania_flower": true
+  },
+  "balm": {
+    "jade": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

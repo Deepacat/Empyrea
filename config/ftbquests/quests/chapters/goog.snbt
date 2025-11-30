@@ -1036,7 +1036,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -1065,7 +1065,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -8.0d
 		}
 		{
@@ -1075,8 +1075,8 @@
 				item: "minecraft:glass_bottle"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -9.0d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["68BC6757B6175740"]
@@ -1187,10 +1187,7 @@
 			y: -13.0d
 		}
 		{
-			dependencies: [
-				"42BBFA49DED56490"
-				"0656C49BAAF548B5"
-			]
+			dependencies: ["42BBFA49DED56490"]
 			dependency_requirement: "one_started"
 			id: "09BA5C10E5A06D48"
 			tasks: [
@@ -1230,24 +1227,6 @@
 			]
 			x: -1.0d
 			y: -13.0d
-		}
-		{
-			icon: "minecraft:anvil"
-			id: "0656C49BAAF548B5"
-			tasks: [
-				{
-					id: "728C55500DC20E5D"
-					item: "ars_nouveau:glyph_crush"
-					type: "item"
-				}
-				{
-					id: "606F678B1D53C188"
-					item: "minecraft:anvil"
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -14.0d
 		}
 		{
 			dependencies: ["0BD315736D521C37"]

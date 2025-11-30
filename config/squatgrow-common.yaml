@@ -16,8 +16,8 @@ requirements:
   durabilityDamage: 1
   enabled: true
   equipmentRequirement: {}
-  heldItemRequirement: []
+  heldItemRequirement: ['kubejs:watering_can']
   requiredEnchantment: ''
-  requiredItemTakesDamage: false
+  requiredItemTakesDamage: true
 sugarcaneMultiplier: 4
 useWhitelist: false

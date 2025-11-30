@@ -1862,6 +1862,45 @@
             ]
         },
         {
+            "pakku_id": "9OvZTcDVJ9FmOkkN",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cuisine-delight"
+            },
+            "name": {
+                "curseforge": "Cuisine Delight"
+            },
+            "id": {
+                "curseforge": "893541"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cuisinedelight-1.1.17.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6677/944/cuisinedelight-1.1.17.jar",
+                    "id": "6677944",
+                    "parent_id": "893541",
+                    "hashes": {
+                        "sha1": "b54a056daa1ab3fecaa19b6d4bd857dc6cbd84c0",
+                        "md5": "26599aadb85dcc8dbaff71ae3052b41b"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 846867,
+                    "date_published": "2025-06-21T08:45:27.553Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "uZ5CyeZUm41O5pWj",
             "type": "MOD",
             "slug": {
@@ -6439,6 +6478,43 @@
                     ],
                     "size": 87623828,
                     "date_published": "2025-11-24T20:12:57.033Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0VmDFpZbndahNq1u",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "spice-of-life-carrot-edition"
+            },
+            "name": {
+                "curseforge": "Spice of Life: Carrot Edition"
+            },
+            "id": {
+                "curseforge": "277616"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "solcarrot-1.20.1-1.15.1.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4888/575/solcarrot-1.20.1-1.15.1.jar",
+                    "id": "4888575",
+                    "parent_id": "277616",
+                    "hashes": {
+                        "sha1": "f7fa1fd0c633b10f98d7f0f97766b95aac1a2dc0",
+                        "md5": "3b143c8d252b51221b5e85724c00171c"
+                    },
+                    "required_dependencies": [],
+                    "size": 104185,
+                    "date_published": "2023-11-21T22:21:12.127Z"
                 }
             ]
         },
