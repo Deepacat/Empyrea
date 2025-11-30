@@ -73,8 +73,6 @@ global.meteorTick = (/** @type {Entity} */ entity) => {
         entity.level.getChunkAt(coordVec).setLoaded(false)
     })
 
-
-
     if (Utils.server.tickCount % 20 == 0) {
         Utils.server.tell(`${entity.stringUUID.slice(0, 3)}: ${Math.floor(entity.x)}, ${Math.floor(entity.y)}, ${Math.floor(entity.z)}`)
     }

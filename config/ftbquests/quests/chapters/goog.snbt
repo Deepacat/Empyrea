@@ -56,7 +56,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: -11.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6C8BA39A79C0EEA5"]
@@ -74,7 +74,7 @@
 				}
 			]
 			x: -10.0d
-			y: -11.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["798F38F766EF2F15"]
@@ -92,10 +92,13 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -11.0d
+			y: -12.0d
 		}
 		{
-			dependencies: ["6DF272F36ECB5AF8"]
+			dependencies: [
+				"6DF272F36ECB5AF8"
+				"4B0484A816CCEFE4"
+			]
 			id: "3DBD24B4AC12CF51"
 			tasks: [{
 				id: "3C07D09B0F82D740"
@@ -166,7 +169,7 @@
 		{
 			dependencies: [
 				"3DBD24B4AC12CF51"
-				"44C5BE65E3202BB6"
+				"7200860E52B32DBB"
 			]
 			id: "68BC6757B6175740"
 			tasks: [{
@@ -217,8 +220,8 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -9.0d
+			x: -5.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["241E7FE36C05010E"]
@@ -357,15 +360,14 @@
 		}
 		{
 			dependencies: ["567C19A36A3C434F"]
-			icon: "ars_nouveau:glyph_crush"
 			id: "465A86942DE99187"
 			tasks: [{
-				id: "00FA044347EBB193"
-				title: "crushing catalyst"
-				type: "checkmark"
+				id: "6E3AD5E61C48376C"
+				item: "kubejs:pulverizing_catalyst"
+				type: "item"
 			}]
-			x: -5.0d
-			y: -9.0d
+			x: -4.0d
+			y: -10.0d
 		}
 		{
 			id: "0CD1D8F170ABBFED"
@@ -1028,20 +1030,9 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["465A86942DE99187"]
-			id: "6A27AF3E6A274902"
-			tasks: [{
-				id: "3ABE499851126735"
-				item: "minecraft:gravel"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -9.0d
-		}
-		{
 			dependencies: [
-				"6A27AF3E6A274902"
 				"162C98E2A11197BB"
+				"465A86942DE99187"
 			]
 			dependency_requirement: "one_completed"
 			id: "6C9F8F8B0B09EE63"
@@ -1051,7 +1042,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -1066,7 +1057,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			id: "0C3AF62FAAB5F318"
@@ -1076,16 +1067,23 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["68BC6757B6175740"]
 			id: "0DDD550A4EB3ED88"
-			tasks: [{
-				id: "4821949ADF3B8C74"
-				item: "botania:fel_pumpkin"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4821949ADF3B8C74"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					id: "444CC4CCC33A963E"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: -12.0d
 		}
@@ -1102,6 +1100,7 @@
 		}
 		{
 			dependencies: ["0DE6EF24BACA5225"]
+			description: ["edited to use mesh instead of rods, rods later"]
 			id: "094827C6A4E99C9A"
 			tasks: [
 				{
@@ -1176,7 +1175,10 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["162C98E2A11197BB"]
+			dependencies: [
+				"162C98E2A11197BB"
+				"3B9E4D319B8F4EA4"
+			]
 			id: "1B72798AB15A037D"
 			tasks: [{
 				id: "64C88534C4B639E5"
@@ -1236,8 +1238,8 @@
 				item: "minecraft:red_mushroom"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -10.0d
+			x: 1.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["47E3293F30D8C9F3"]
@@ -1247,8 +1249,8 @@
 				item: "botania:rune_earth"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -9.0d
+			x: 1.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["313A6DBDBA3F373D"]
@@ -1258,8 +1260,8 @@
 				item: "botania:dirt_rod"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -8.0d
+			x: 1.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["567C19A36A3C434F"]
@@ -1269,8 +1271,8 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.0d
+			x: -5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["09BA5C10E5A06D48"]
@@ -1280,7 +1282,7 @@
 				item: "spectrum:pedestal_all_basic"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -13.0d
 		}
 		{
@@ -1291,7 +1293,7 @@
 				item: "spectrum:shimmerstone_gem"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -10.5d
 		}
 		{
@@ -1302,7 +1304,7 @@
 				item: "spectrum:vegetal"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: -12.0d
 		}
 		{
@@ -1317,7 +1319,7 @@
 				item: "spectrum:bottle_of_fading"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -12.0d
 		}
 		{
@@ -1402,7 +1404,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -0.5d
 			y: -15.0d
 		}
 		{
@@ -1431,7 +1433,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -0.5d
 			y: -16.0d
 		}
 		{
@@ -1473,17 +1475,6 @@
 			]
 			x: 6.0d
 			y: -11.0d
-		}
-		{
-			dependencies: ["47561B6D8ADAFC54"]
-			id: "74D65AA2B003AEC9"
-			tasks: [{
-				id: "2043C4B1EB725463"
-				item: "botania:rune_water"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -6.0d
 		}
 		{
 			dependencies: ["7B12B27CCDD1FDF4"]
@@ -1533,7 +1524,7 @@
 				item: "spectrum:stratine_fragments"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: -9.0d
 		}
 		{
@@ -1544,8 +1535,8 @@
 				item: "spectrum:quitoxic_reeds"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -11.0d
+			x: 0.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0A8A2AB5A59293C7"]
@@ -1580,7 +1571,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 8.0d
 			y: -13.0d
 		}
 		{
@@ -1598,7 +1589,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 4.5d
 			y: -14.0d
 		}
 		{
@@ -1607,13 +1598,20 @@
 				"22C949FABB55DE9C"
 			]
 			id: "3839CE8B0E38D407"
-			tasks: [{
-				id: "352444F40EB968B9"
-				item: "spectrum:bottle_of_failing"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -11.0d
+			tasks: [
+				{
+					id: "352444F40EB968B9"
+					item: "spectrum:bottle_of_failing"
+					type: "item"
+				}
+				{
+					id: "1DB02FA826C3E608"
+					item: "spectrum:neolith"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -1649,7 +1647,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -18.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["7FEE4F76560B91CB"]
@@ -1659,8 +1657,8 @@
 				item: "spectrum:liquid_crystal_bucket"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -12.0d
+			x: 5.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["50D82489E785C211"]
@@ -1684,28 +1682,6 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["47561B6D8ADAFC54"]
-			id: "1A7C966923F2ECBB"
-			tasks: [{
-				id: "4C38C63EB1973133"
-				item: "botania:rune_air"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["47561B6D8ADAFC54"]
-			id: "20F0412ABA8D6BAC"
-			tasks: [{
-				id: "1A9AD26C54E45146"
-				item: "botania:rune_mana"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -6.0d
-		}
-		{
 			dependencies: [
 				"5B667AAAC03F416C"
 				"1B9C3C1E487D9160"
@@ -1720,18 +1696,7 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["77BC8783600E1A2B"]
-			id: "388313BCBFACF45D"
-			tasks: [{
-				id: "524A28F5D231C2BA"
-				item: "minecraft:soul_sand"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["1BD6BAF89DC84DB6"]
+			dependencies: ["3839CE8B0E38D407"]
 			id: "77BC8783600E1A2B"
 			tasks: [
 				{
@@ -1745,30 +1710,22 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: -11.0d
-		}
-		{
-			dependencies: ["3839CE8B0E38D407"]
-			id: "1BD6BAF89DC84DB6"
-			tasks: [{
-				id: "541BB19A57070187"
-				item: "spectrum:neolith"
-				type: "item"
-			}]
 			x: 9.0d
-			y: -11.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["388313BCBFACF45D"]
+			dependencies: [
+				"1B9C3C1E487D9160"
+				"5C1897F1B0F94DF8"
+			]
 			id: "2D972DF7207CA8B1"
 			tasks: [{
 				id: "13A7EF6BEA17A660"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -8.5d
+			x: 7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -1784,8 +1741,8 @@
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -7.5d
+			x: -3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["35733D04135B10A6"]
@@ -1795,8 +1752,8 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -7.5d
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6CDF31D77CCB9000"]
@@ -1813,11 +1770,14 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -7.5d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["2B3747B5C54DEDE1"]
+			dependencies: [
+				"2B3747B5C54DEDE1"
+				"22C949FABB55DE9C"
+			]
 			id: "6DBEC7F17D5D5D09"
 			tasks: [
 				{
@@ -1831,13 +1791,13 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -7.5d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
 				"6DBEC7F17D5D5D09"
-				"2D972DF7207CA8B1"
+				"6D5B7BFF4E05B4AE"
 			]
 			id: "466A7C6DCB45CFA4"
 			tasks: [
@@ -1852,22 +1812,19 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: -7.5d
+			x: 11.0d
+			y: -7.0d
 		}
 		{
-			dependencies: [
-				"0B852D18CFEF9E10"
-				"1FA75761362BF804"
-			]
+			dependencies: ["1FA75761362BF804"]
 			id: "723FA65F41DA1EB7"
 			tasks: [{
 				id: "7E5C4BB45934823D"
 				item: "botania:rune_fire"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.0d
+			x: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["01937E6AE360390E"]
@@ -1877,41 +1834,35 @@
 				item: "botania:rune_earth"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -6.0d
+			x: -4.0d
+			y: -5.5d
 		}
 		{
-			dependencies: [
-				"6C99F9C52274941B"
-				"6A2F115C15907050"
-			]
+			dependencies: ["6EB50172F4B8B294"]
 			id: "4C4311938227CA8D"
 			tasks: [{
 				id: "00CE8757CED6C159"
 				item: "botania:rune_air"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.0d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
-			dependencies: [
-				"0FC2E70EDEF12CE8"
-				"282B675E29FA9812"
-			]
+			dependencies: ["7A6B7FFA3E139AE9"]
 			id: "2E1D2E7F07193ABA"
 			tasks: [{
 				id: "53CA765104DA5797"
 				item: "botania:rune_water"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
-				"4AA74E4BEA33D447"
 				"7E8B8BCD5C5E8EE2"
+				"59FEEB61C6D475A7"
 			]
 			id: "645DA84DC18BE9CE"
 			tasks: [{
@@ -1919,8 +1870,8 @@
 				item: "botania:rune_mana"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -6.0d
+			x: -1.0d
+			y: -5.5d
 		}
 		{
 			id: "1FA75761362BF804"
@@ -1929,18 +1880,8 @@
 				item: "minecraft:nether_wart"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
-		}
-		{
-			id: "0B852D18CFEF9E10"
-			tasks: [{
-				id: "3BEA4C433D9D4EE9"
-				item: "minecraft:netherrack"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.0d
+			x: -5.0d
+			y: -4.5d
 		}
 		{
 			id: "01937E6AE360390E"
@@ -1949,71 +1890,8 @@
 				item: "minecraft:red_mushroom"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.0d
-		}
-		{
-			id: "6A2F115C15907050"
-			tasks: [{
-				id: "30739E62C2E0F7B9"
-				item: "minecraft:feather"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -5.0d
-		}
-		{
-			id: "6C99F9C52274941B"
-			tasks: [{
-				id: "134E50CCFE66DAA6"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wool_carpets)"
-					}
-				}
-				title: "Any #minecraft:wool_carpets"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -4.0d
-		}
-		{
-			id: "282B675E29FA9812"
-			tasks: [{
-				id: "029E8771CA2AC56A"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -5.0d
-		}
-		{
-			id: "6E3B742A55CEB0A0"
-			tasks: [{
-				id: "3774E0A85BEC3F0B"
-				item: "minecraft:stone"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -4.0d
-		}
-		{
-			id: "0FC2E70EDEF12CE8"
-			tasks: [{
-				id: "789D950284EC8E59"
-				item: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: -4.0d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
 			id: "7E8B8BCD5C5E8EE2"
@@ -2022,18 +1900,8 @@
 				item: "botania:mana_pearl"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.0d
-		}
-		{
-			id: "4AA74E4BEA33D447"
-			tasks: [{
-				id: "6AE7FEFC9E0FCBF1"
-				item: "botania:manasteel_ingot"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -4.0d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
 			icon: "spectrum:glistering_shooting_star"
@@ -2046,7 +1914,7 @@
 				type: "observation"
 			}]
 			title: "custom shooting star script?"
-			x: 2.5d
+			x: 2.0d
 			y: -9.0d
 		}
 		{
@@ -2057,7 +1925,7 @@
 				item: "ars_caelum:ritual_conjure_island_geode"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: -15.0d
 		}
 		{
@@ -2075,13 +1943,13 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -2.5d
 			y: -15.0d
 		}
 		{
 			dependencies: [
 				"424032A84719B07F"
-				"237FFB506C1590FF"
+				"06D28A37E6B0F806"
 			]
 			id: "2612A1EE9D77B229"
 			tasks: [{
@@ -2093,31 +1961,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["6A27AF3E6A274902"]
-			hide_dependency_lines: true
-			id: "237FFB506C1590FF"
-			tasks: [
-				{
-					id: "6293E274B3DCBCC5"
-					item: "minecraft:flint"
-					type: "item"
-				}
-				{
-					id: "2EFC381234319EA1"
-					item: {
-						Count: 1
-						id: "farmersdelight:flint_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -7.0d
-			y: -8.0d
-		}
-		{
+			dependencies: ["4B0484A816CCEFE4"]
 			id: "159D13B40AD821F0"
 			tasks: [
 				{
@@ -2133,6 +1977,216 @@
 			]
 			x: -9.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["6B61940108C9301B"]
+			id: "6052F90EADC5D9F2"
+			tasks: [
+				{
+					id: "2ECA65C7CE74030C"
+					item: {
+						Count: 1
+						id: "kubejs:sifting_spade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23CAF693044D0107"
+					item: {
+						Count: 1
+						id: "kubejs:watering_can"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			id: "4B0484A816CCEFE4"
+			tasks: [{
+				id: "505A481A5CD9720F"
+				item: "botania:pebble"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.0d
+		}
+		{
+			id: "3B9E4D319B8F4EA4"
+			tasks: [
+				{
+					id: "04ED94CE96811F7A"
+					item: "occultism:datura"
+					type: "item"
+				}
+				{
+					id: "47144BC68C0DF8D6"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -13.0d
+		}
+		{
+			id: "06D28A37E6B0F806"
+			tasks: [
+				{
+					id: "1B6ACFB85F1CBD2E"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "3481739B9B80F148"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["77BC8783600E1A2B"]
+			id: "4BDD3594B851A07C"
+			tasks: [{
+				id: "1C7D3C7AE368F5AE"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["77BC8783600E1A2B"]
+			id: "5C1897F1B0F94DF8"
+			tasks: [{
+				id: "6E5C81D45531756B"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5680B7735E7B142F"]
+			id: "6D5B7BFF4E05B4AE"
+			subtitle: "Lifting the Temporal Anchor"
+			tasks: [
+				{
+					id: "37AC7B2AE98F57F8"
+					item: "spectrum:bottle_of_ruin"
+					type: "item"
+				}
+				{
+					id: "0FB10076C89CEB68"
+					item: "spectrum:bedrock_dust"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4BDD3594B851A07C"]
+			id: "5680B7735E7B142F"
+			tasks: [{
+				id: "7F1F1D91204663D5"
+				item: "spectrum:raw_azurite"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D5B7BFF4E05B4AE"]
+			id: "022C299D8AE8AC4E"
+			tasks: [{
+				dimension: "spectrum:deeper_down"
+				id: "14BD79B88A849571"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15FECCF2D792A83A"]
+			id: "339B6D98B0CBABAD"
+			tasks: [{
+				id: "4763132D762EB590"
+				item: "spectrum:potion_workshop"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["50D82489E785C211"]
+			id: "328870443AD1F73C"
+			tasks: [{
+				id: "268B2082004F4260"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			id: "0EF93B72D1C8484B"
+			tasks: [{
+				id: "5D49036883EE1615"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -16.0d
+		}
+		{
+			id: "7A6B7FFA3E139AE9"
+			tasks: [{
+				id: "67193ADD054A67D7"
+				item: "spectrum:mermaids_gem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "59FEEB61C6D475A7"
+			tasks: [{
+				id: "162F603F85FB6518"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["678160E35FB584F0"]
+			id: "3EB962111292D3BF"
+			tasks: [{
+				id: "3B254A25BC05628C"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			id: "6EB50172F4B8B294"
+			tasks: [{
+				id: "2BEB901D15ECDB2C"
+				item: "spectrum:shimmerstone_gem"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
 		}
 	]
 	title: "goog :)"
