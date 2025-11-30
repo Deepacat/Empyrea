@@ -3261,6 +3261,43 @@
             ]
         },
         {
+            "pakku_id": "FxBg774Qbkzi5TIK",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "forgery"
+            },
+            "name": {
+                "curseforge": "Forgery"
+            },
+            "id": {
+                "curseforge": "434087"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "forgery-3.6.5+1.20.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7051/720/forgery-3.6.5+1.20.jar",
+                    "id": "7051720",
+                    "parent_id": "434087",
+                    "hashes": {
+                        "sha1": "f2c7fb0ebafaa5120471fcafd6d5d06fb49aba41",
+                        "md5": "d675fee3fa6b2e1cd360505a7851d8e2"
+                    },
+                    "required_dependencies": [],
+                    "size": 1513755,
+                    "date_published": "2025-10-01T01:50:17.703Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "YJM3lRWgIplIkUU9",
             "type": "MOD",
             "slug": {
@@ -6555,6 +6592,43 @@
                     ],
                     "size": 33811,
                     "date_published": "2024-03-02T01:32:35.857Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "wT0YmZFJVUlomCqO",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "starbunclemania"
+            },
+            "name": {
+                "curseforge": "StarbuncleMania"
+            },
+            "id": {
+                "curseforge": "746215"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "starbunclemania-1.20.1-1.2.3.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5908/851/starbunclemania-1.20.1-1.2.3.0.jar",
+                    "id": "5908851",
+                    "parent_id": "746215",
+                    "hashes": {
+                        "sha1": "6ed97837f7cfe54bfba9c3766f481469250eacb9",
+                        "md5": "a17e4ee36f60f9c64ed2d3547c42c2b4"
+                    },
+                    "required_dependencies": [],
+                    "size": 372669,
+                    "date_published": "2024-11-16T19:39:48.430Z"
                 }
             ]
         },

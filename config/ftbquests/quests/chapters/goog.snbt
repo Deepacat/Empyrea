@@ -578,50 +578,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3F444A73A6C57B0F"
-				"06D1323003231E88"
-			]
-			id: "7190F69343F9B734"
-			tasks: [{
-				id: "7DFD175F6631B09A"
-				item: "embers:ember_bore"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -2.5d
-		}
-		{
-			id: "3F444A73A6C57B0F"
-			tasks: [{
-				id: "31F0234F7071834F"
-				title: "replace bedrock w like deepslate or sumn"
-				type: "checkmark"
-			}]
-			x: -9.5d
-			y: -2.5d
-		}
-		{
-			id: "06D1323003231E88"
-			tasks: [{
-				id: "376269B52E23061C"
-				item: "embers:caminite_blend"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -3.5d
-		}
-		{
-			id: "3982CE939E88B87C"
-			tasks: [{
-				id: "6135F08F3878F24F"
-				item: "embers:lead_ingot"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -3.5d
-		}
-		{
 			id: "747F13C39A682883"
 			tasks: [{
 				id: "78770405D7852C03"
@@ -759,28 +715,6 @@
 			}]
 			x: -17.0d
 			y: -16.5d
-		}
-		{
-			dependencies: ["2325410696C0FD78"]
-			id: "405A6FEED6CE82DE"
-			tasks: [{
-				id: "0B7329CC5FC44748"
-				item: "embers:lead_ingot"
-				type: "item"
-			}]
-			x: -20.0d
-			y: -20.0d
-		}
-		{
-			dependencies: ["2325410696C0FD78"]
-			id: "26FFA290FFF1D1DD"
-			tasks: [{
-				id: "3BF937B86DF99283"
-				item: "embers:silver_ingot"
-				type: "item"
-			}]
-			x: -19.0d
-			y: -20.0d
 		}
 		{
 			dependencies: ["2325410696C0FD78"]
@@ -1860,10 +1794,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"7E8B8BCD5C5E8EE2"
-				"59FEEB61C6D475A7"
-			]
+			dependencies: ["59FEEB61C6D475A7"]
 			id: "645DA84DC18BE9CE"
 			tasks: [{
 				id: "71F18FA2A0E009B5"
@@ -1891,16 +1822,6 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -4.5d
-		}
-		{
-			id: "7E8B8BCD5C5E8EE2"
-			tasks: [{
-				id: "16F0CD118DFBBBB5"
-				item: "botania:mana_pearl"
-				type: "item"
-			}]
-			x: -1.0d
 			y: -4.5d
 		}
 		{
@@ -2138,6 +2059,7 @@
 			y: -10.0d
 		}
 		{
+			dependencies: ["1A3B86810035A0CC"]
 			id: "0EF93B72D1C8484B"
 			tasks: [{
 				id: "5D49036883EE1615"
@@ -2165,7 +2087,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["678160E35FB584F0"]
