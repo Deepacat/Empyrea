@@ -7,6 +7,6 @@ ServerEvents.recipes(e => {
 
     e.shapeless('kubejs:sifting_spade', [
         Item.of('kubejs:sifting_spade'),
-        '2x botania:livingrock'
+        'botania:livingrock'
     ]).id('kubejs:repair/shapeless/sifting_spade')
 })
