@@ -4092,6 +4092,42 @@
             ]
         },
         {
+            "pakku_id": "e32XEZ5o0NZ7HdjL",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "just-enough-effect-descriptions-jeed"
+            },
+            "name": {
+                "curseforge": "Just Enough Effect Descriptions (JEED)"
+            },
+            "id": {
+                "curseforge": "532286"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jeed-1.20-2.2.5.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6172/935/jeed-1.20-2.2.5.jar",
+                    "id": "6172935",
+                    "parent_id": "532286",
+                    "hashes": {
+                        "sha1": "9f6b1884ad8b81c0e8796daf7871eeb54271f27b",
+                        "md5": "6792ef4a197457dcff0b4353e956a94d"
+                    },
+                    "required_dependencies": [],
+                    "size": 159288,
+                    "date_published": "2025-02-08T22:50:21.437Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "voJgK2YZNo3SZ5rO",
             "type": "MOD",
             "slug": {
@@ -4853,6 +4889,43 @@
                     ],
                     "size": 363044,
                     "date_published": "2025-08-07T16:58:30.237Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "lTLzbOplVmrmipah",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "moderately-enough-effect-descriptions-meed"
+            },
+            "name": {
+                "curseforge": "Moderately Enough Effect Descriptions (MEED)"
+            },
+            "id": {
+                "curseforge": "918638"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MEED-1.20.1-7.5.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7182/985/MEED-1.20.1-7.5.jar",
+                    "id": "7182985",
+                    "parent_id": "918638",
+                    "hashes": {
+                        "sha1": "de91288dc0a259c63715b1dfa21585a4a87e33af",
+                        "md5": "dcdf3fff9bd1c47484778b96605e25c0"
+                    },
+                    "required_dependencies": [],
+                    "size": 78805,
+                    "date_published": "2025-11-03T18:48:14.490Z"
                 }
             ]
         },
@@ -6592,6 +6665,42 @@
                     ],
                     "size": 33811,
                     "date_published": "2024-03-02T01:32:35.857Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "fYeXwDowdgaSjtD7",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "stackablepotions-forge"
+            },
+            "name": {
+                "curseforge": "StackablePotions [Forge]"
+            },
+            "id": {
+                "curseforge": "599436"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Stackable Potions-forge-1.20.1-1.0.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4627/634/Stackable Potions-forge-1.20.1-1.0.0.jar",
+                    "id": "4627634",
+                    "parent_id": "599436",
+                    "hashes": {
+                        "sha1": "dafaeba2507ffc8b301f62569044536e795b8404",
+                        "md5": "566e24cea1bf00dea8abd01a56bb398a"
+                    },
+                    "required_dependencies": [],
+                    "size": 10691,
+                    "date_published": "2023-07-06T06:52:05.483Z"
                 }
             ]
         },
