@@ -100,11 +100,27 @@
 				"4B0484A816CCEFE4"
 			]
 			id: "3DBD24B4AC12CF51"
-			tasks: [{
-				id: "3C07D09B0F82D740"
-				item: "botania:apothecary_default"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3C07D09B0F82D740"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "353227D30D239DBD"
+					item: {
+						Count: 1
+						id: "botania:water_bowl"
+						tag: {
+							Fluid: {
+								Amount: 1000
+								FluidName: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -11.0d
 		}
@@ -979,10 +995,7 @@
 			y: -10.0d
 		}
 		{
-			dependencies: [
-				"6C9F8F8B0B09EE63"
-				"0C3AF62FAAB5F318"
-			]
+			dependencies: ["0C3AF62FAAB5F318"]
 			dependency_requirement: "one_completed"
 			id: "7A6483D98091F503"
 			tasks: [{
@@ -990,17 +1003,24 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -9.0d
 		}
 		{
 			id: "0C3AF62FAAB5F318"
-			tasks: [{
-				id: "4A954C0694F6D5E7"
-				item: "minecraft:glass_bottle"
-				type: "item"
-			}]
-			x: -2.0d
+			tasks: [
+				{
+					id: "4A954C0694F6D5E7"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "1261DAF6FF58381D"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			x: -3.0d
 			y: -9.0d
 		}
 		{
@@ -1178,6 +1198,7 @@
 		{
 			dependencies: ["47E3293F30D8C9F3"]
 			id: "313A6DBDBA3F373D"
+			shape: "rsquare"
 			tasks: [{
 				id: "1EA06804D9DE3BEC"
 				item: "botania:rune_earth"
@@ -1621,6 +1642,7 @@
 				"1B9C3C1E487D9160"
 			]
 			id: "3633CBB030D49024"
+			shape: "rsquare"
 			tasks: [{
 				id: "640ABC3667F2E8D4"
 				item: "botania:rune_fire"
@@ -1925,6 +1947,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2C697C8B2F39FB3E"
+					item: {
+						Count: 1
+						id: "aiotbotania:livingrock_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			x: -6.0d
 			y: -9.0d
@@ -2050,6 +2083,7 @@
 		{
 			dependencies: ["50D82489E785C211"]
 			id: "328870443AD1F73C"
+			shape: "rsquare"
 			tasks: [{
 				id: "268B2082004F4260"
 				item: "botania:rune_water"
@@ -2061,6 +2095,7 @@
 		{
 			dependencies: ["1A3B86810035A0CC"]
 			id: "0EF93B72D1C8484B"
+			shape: "rsquare"
 			tasks: [{
 				id: "5D49036883EE1615"
 				item: "botania:rune_mana"
@@ -2092,6 +2127,7 @@
 		{
 			dependencies: ["678160E35FB584F0"]
 			id: "3EB962111292D3BF"
+			shape: "rsquare"
 			tasks: [{
 				id: "3B254A25BC05628C"
 				item: "botania:rune_air"
