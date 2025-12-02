@@ -14,11 +14,17 @@ function rndFrom(min, max) {
  * @param {Internal.BlockRightClickedEventJS} event 
  * @param {Number} amount 
  */
-function throwPebble(event, amount) {
+function throwPebble(event, amount, volMult) {
+    let soundType = event.block.blockState.soundType
     event.player.swing()
     event.block.popItemFromFace(
         Item.of('botania:pebble', rndFrom(amount[0], amount[1])),
         event.facing
+    )
+    event.level.playSound(
+        null, event.block.pos.x, event.block.pos.y, event.block.pos.z,
+        soundType.breakSound.location, 'blocks',
+        (soundType.volume * volMult), (soundType.pitch + (Math.random() * 0.2 - 0.1)) // stole formula from botania code
     )
 }
 
@@ -30,33 +36,23 @@ BlockEvents.rightClicked(e => {
         e.player.fake == true
     ) { return }
 
-    let volMult = 0.4 // default dig volume
-
     switch (e.item.id) {
         case 'kubejs:sifting_spade': {
             e.player.damageHeldItem(e.hand, 1, broken => { // damage spade
-                // play breaking noise if it breaks because it doesn't by default for some reason
+                // play tool break noise because it doesn't by default for some reason
                 e.level.playSound(null, e.block.pos.x, e.block.pos.y, e.block.pos.z, 'entity.item.break', 'players', 1, 1)
             })
-            throwPebble(e, [2, 5])
-            volMult = 0.6 // slightly louder dig volume
+            throwPebble(e, [2, 5], 0.6)
             break
         }
         case 'minecraft:air': {
-            throwPebble(e, [1, 2])
+            throwPebble(e, [1, 2], 0.4)
             break
         }
         case 'botania:pebble': {
-            throwPebble(e, [1, 2])
+            throwPebble(e, [1, 2], 0.4)
             break
         }
         default: break
     }
-
-    let soundType = e.block.blockState.soundType
-    e.level.playSound(
-        null, e.block.pos.x, e.block.pos.y, e.block.pos.z,
-        soundType.breakSound.location, 'blocks',
-        (soundType.volume * volMult), (soundType.pitch + (Math.random() * 0.2 - 0.1)) // stole formula from botania code
-    )
 })
