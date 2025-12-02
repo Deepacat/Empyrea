@@ -17,4 +17,16 @@ ServerEvents.recipes(e => {
         A: 'botania:livingrock',
         B: 'botania:livingwood_twig'
     }).id('kubejs:shaped/sifting_spade')
+
+    e.shaped('kubejs:pulverizing_catalyst', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'botania:livingrock',
+        B: 'botania:piston_relay',
+        C: '#forge:ingots/manasteel',
+        D: 'minecraft:grindstone',
+        E: 'minecraft:piston'
+    }).id('kubejs:shaped/pulverizing_catalyst')
 })
