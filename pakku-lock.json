@@ -2123,6 +2123,42 @@
             ]
         },
         {
+            "pakku_id": "dSXde2jvg8MKD6hs",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "dimensional-sync-fixes"
+            },
+            "name": {
+                "curseforge": "Dimensional Sync Fixes"
+            },
+            "id": {
+                "curseforge": "829521"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dimensionalsycnfixes-1.20.1-0.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4960/343/dimensionalsycnfixes-1.20.1-0.0.1.jar",
+                    "id": "4960343",
+                    "parent_id": "829521",
+                    "hashes": {
+                        "sha1": "9912745e0ec510cad4211ffc0c21eb2b81a51e9d",
+                        "md5": "b960de4daf0e9e2908ac7ca9b6fdbfb3"
+                    },
+                    "required_dependencies": [],
+                    "size": 3081,
+                    "date_published": "2023-12-16T07:23:27.893Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "219OHCnhooqsnOrL",
             "pakku_links": [
                 "zW9lmZA0ozgi1ZIQ"
@@ -3330,44 +3366,6 @@
                     "required_dependencies": [],
                     "size": 3065813,
                     "date_published": "2025-08-14T14:02:34.270Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "WqKo3O9l4qSwcMsS",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "forgiving-void"
-            },
-            "name": {
-                "curseforge": "Forgiving Void"
-            },
-            "id": {
-                "curseforge": "271009"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "forgivingvoid-forge-1.20.1-10.0.3.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7214/476/forgivingvoid-forge-1.20.1-10.0.3.jar",
-                    "id": "7214476",
-                    "parent_id": "271009",
-                    "hashes": {
-                        "sha1": "f5a37657eabf996da59b1caa07e8c9611ea90eeb",
-                        "md5": "da4099e5a4d5842927dc487efd0446df"
-                    },
-                    "required_dependencies": [
-                        "531761"
-                    ],
-                    "size": 69739,
-                    "date_published": "2025-11-12T14:59:55.020Z"
                 }
             ]
         },
@@ -5985,43 +5983,6 @@
                     "required_dependencies": [],
                     "size": 40716,
                     "date_published": "2023-08-10T00:58:32.497Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "TGtZ2mkhFaJXcaJ2",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "radium-reforged"
-            },
-            "name": {
-                "curseforge": "Radium Reforged"
-            },
-            "id": {
-                "curseforge": "570017"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5706/69/radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
-                    "id": "5706069",
-                    "parent_id": "570017",
-                    "hashes": {
-                        "sha1": "f5f5f792473bb7b85ec221f75c5afb3740afb13a",
-                        "md5": "3a46fb58e8ff12213e4dbc909f47a77d"
-                    },
-                    "required_dependencies": [],
-                    "size": 713454,
-                    "date_published": "2024-09-09T08:07:43.540Z"
                 }
             ]
         },
