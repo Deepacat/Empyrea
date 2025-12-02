@@ -1336,11 +1336,25 @@
 		{
 			dependencies: ["3DBD24B4AC12CF51"]
 			id: "7200860E52B32DBB"
-			tasks: [{
-				id: "340F2BBB44358B72"
-				item: "botania:endoflame"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "340F2BBB44358B72"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "43FE9A8420F93F0B"
+					item: {
+						Count: 1
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -11.0d
 		}
@@ -1906,18 +1920,11 @@
 		{
 			dependencies: ["4B0484A816CCEFE4"]
 			id: "159D13B40AD821F0"
-			tasks: [
-				{
-					id: "6A789FAF24C90A3B"
-					item: "minecraft:bone_meal"
-					type: "item"
-				}
-				{
-					id: "7077D68BF7A12C52"
-					item: "minecraft:wheat_seeds"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7077D68BF7A12C52"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
 			x: -9.0d
 			y: -10.0d
 		}
