@@ -1,4 +1,5 @@
 ServerEvents.recipes(e => {
+    // copy spectrums anvil crushing recipes to pulverizing catalyst infusing
     let recipeIter = 0
     e.forEachRecipe({ type: 'spectrum:anvil_crushing' }, recipe => {
         let anvilRecipeObj = JSON.parse(recipe.json)

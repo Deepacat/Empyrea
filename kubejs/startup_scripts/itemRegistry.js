@@ -1,6 +1,6 @@
 StartupEvents.registry('item', e => {
     e.create('kubejs:sifting_spade')
-        .maxDamage(128)
+        .maxDamage(256)
         .texture('quark:item/trowel')
         .color('#8e8e8e')
 
