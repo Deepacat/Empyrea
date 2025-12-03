@@ -223,8 +223,8 @@
 				item: "naturesaura:gold_fiber"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -5.0d
+			x: -18.5d
+			y: -7.5d
 		}
 		{
 			id: "4F3A9469A3F642BB"
@@ -233,8 +233,8 @@
 				item: "naturesaura:wood_stand"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -3.0d
+			x: -18.5d
+			y: -5.5d
 		}
 		{
 			id: "2E6D2D5EB68B05C4"
@@ -243,8 +243,8 @@
 				item: "naturesaura:gold_leaf"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -4.0d
+			x: -18.5d
+			y: -6.5d
 		}
 		{
 			id: "74B0F4752EBDF38F"
@@ -254,7 +254,7 @@
 				type: "item"
 			}]
 			x: -21.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["567C19A36A3C434F"]
@@ -414,7 +414,7 @@
 				type: "checkmark"
 			}]
 			x: -22.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			id: "3CB52A1DC1E551FF"
@@ -424,7 +424,7 @@
 				type: "checkmark"
 			}]
 			x: -21.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			id: "747F13C39A682883"
@@ -747,8 +747,8 @@
 				item: "ars_nouveau:drygmy_shard"
 				type: "item"
 			}]
-			x: -17.0d
-			y: -1.0d
+			x: -20.0d
+			y: -1.5d
 		}
 		{
 			id: "098A8670A848B84B"
@@ -757,8 +757,8 @@
 				item: "ars_nouveau:starbuncle_shards"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 0.0d
+			x: -20.0d
+			y: -0.5d
 		}
 		{
 			id: "638BFE39C0357E76"
@@ -767,8 +767,8 @@
 				item: "ars_nouveau:wixie_shards"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 1.0d
+			x: -20.0d
+			y: 0.5d
 		}
 		{
 			id: "649B1C389A6CACEE"
@@ -777,8 +777,8 @@
 				item: "ars_elemental:siren_shards"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 0.0d
+			x: -21.0d
+			y: -0.5d
 		}
 		{
 			id: "200054C9C0C18BEB"
@@ -787,8 +787,8 @@
 				item: "ars_nouveau:whirlisprig_shards"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -1.0d
+			x: -21.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1184,18 +1184,18 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 0.5d
 			y: -15.0d
 		}
 		{
-			dependencies: ["42BBFA49DED56490"]
+			dependencies: ["09BA5C10E5A06D48"]
 			id: "0E6EB6115FA0B7BC"
 			tasks: [{
 				id: "5C4D352BF5B0A2E2"
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -14.0d
 		}
 		{
@@ -1213,7 +1213,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 0.5d
 			y: -16.0d
 		}
 		{
@@ -1404,7 +1404,7 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -17.0d
 		}
 		{
@@ -1415,7 +1415,7 @@
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -17.0d
 		}
 		{
@@ -1426,7 +1426,7 @@
 				item: "ars_nouveau:glyph_crush"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -17.0d
 		}
 		{
@@ -1672,14 +1672,14 @@
 			y: -4.5d
 		}
 		{
-			icon: "spectrum:glistering_shooting_star"
+			dependencies: ["0A8A2AB5A59293C7"]
+			hide_dependency_lines: true
+			icon: "spectrum:deepslate_shimmerstone_ore"
 			id: "3B7F574E4D7B2B48"
 			tasks: [{
-				id: "52799E32E2741FC1"
-				observe_type: 5
-				timer: 0L
-				to_observe: "spectrum:shooting_star"
-				type: "observation"
+				id: "43989971C76BAB2B"
+				item: "kubejs:astral_attractor"
+				type: "item"
 			}]
 			title: "custom shooting star script?"
 			x: 2.0d
@@ -1693,7 +1693,7 @@
 				item: "ars_caelum:ritual_conjure_island_geode"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: -15.0d
 		}
 		{
@@ -1711,7 +1711,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -1.5d
 			y: -15.0d
 		}
 		{
@@ -1899,7 +1899,7 @@
 				item: "botania:rune_mana"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -16.0d
 		}
 		{
@@ -1951,8 +1951,8 @@
 				title: "ars mobs might spawn in normal biomes?"
 				type: "checkmark"
 			}]
-			x: -16.0d
-			y: 0.0d
+			x: -19.0d
+			y: -0.5d
 		}
 		{
 			id: "5112686EA9F4A4FA"
@@ -1971,7 +1971,7 @@
 				item: "malum:soulstone_ore"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -16.0d
 			y: -6.0d
 		}
 		{
@@ -1981,7 +1981,7 @@
 				item: "malum:brilliant_stone"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -16.0d
 			y: -7.0d
 		}
 		{
@@ -1991,7 +1991,7 @@
 				title: "malum ores idk if anything else is natural gen"
 				type: "checkmark"
 			}]
-			x: -13.0d
+			x: -15.0d
 			y: -6.5d
 		}
 	]

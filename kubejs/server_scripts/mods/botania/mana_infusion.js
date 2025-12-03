@@ -1,4 +1,16 @@
 ServerEvents.recipes(e => {
+    e.remove({ id: 'botania:mana_infusion/deepslate_to_tuff' })
+    e.remove({ id: 'botania:mana_infusion/calcite_to_deepslate' })
+    e.remove({ id: 'botania:mana_infusion/tuff_to_calcite' })
+
+    // otherstone to basalt
+    e.recipes.botania.mana_infusion('minecraft:basalt', 'occultism:otherstone', 300, 'botania:alchemy_catalyst')
+    // basalt/tuff/calcite cycle
+    e.recipes.botania.mana_infusion('minecraft:basalt', 'minecraft:calcite', 300, 'botania:alchemy_catalyst')
+    e.recipes.botania.mana_infusion('minecraft:tuff', 'minecraft:basalt', 300, 'botania:alchemy_catalyst')
+    e.recipes.botania.mana_infusion('minecraft:calcite', 'minecraft:tuff', 300, 'botania:alchemy_catalyst')
+
+
     // copy spectrums anvil crushing recipes to pulverizing catalyst infusing
     let recipeIter = 0
     e.forEachRecipe({ type: 'spectrum:anvil_crushing' }, recipe => {
