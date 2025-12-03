@@ -5376,6 +5376,45 @@
             ]
         },
         {
+            "pakku_id": "T6BsbCVZmZW0MsoW",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "observable"
+            },
+            "name": {
+                "curseforge": "Observable"
+            },
+            "id": {
+                "curseforge": "509575"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "observable-4.4.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5643/37/observable-4.4.2.jar",
+                    "id": "5643037",
+                    "parent_id": "509575",
+                    "hashes": {
+                        "sha1": "c8a0ae25512d0cedef478df411c87e43703ae237",
+                        "md5": "2cfd5a688bfb9574b914e07444071f03"
+                    },
+                    "required_dependencies": [
+                        "351264",
+                        "419699"
+                    ],
+                    "size": 470536,
+                    "date_published": "2024-08-19T06:49:09.183Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "pnqgUpdiNIxil1TG",
             "pakku_links": [
                 "Voh3GyLda4MByHHy"
@@ -7230,6 +7269,42 @@
                     ],
                     "size": 435496,
                     "date_published": "2025-03-17T12:36:07.270Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zIlNRffxU3Q9blnm",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "world-preview"
+            },
+            "name": {
+                "curseforge": "World Preview"
+            },
+            "id": {
+                "curseforge": "891429"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "world_preview-forge-1.20.1-1.3.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5686/690/world_preview-forge-1.20.1-1.3.1.jar",
+                    "id": "5686690",
+                    "parent_id": "891429",
+                    "hashes": {
+                        "sha1": "98067c700d31f1b716cfbd6ddbeefd772bbba5bb",
+                        "md5": "49e556d551c38f7578346f681d287bfa"
+                    },
+                    "required_dependencies": [],
+                    "size": 370743,
+                    "date_published": "2024-09-02T15:34:54.467Z"
                 }
             ]
         },

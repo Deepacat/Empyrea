@@ -106,7 +106,7 @@ global.attractorSpawnMeteor = (attractor) => {
 
         meteorEntity.setPosition(meteorSpawnPos.x, meteorSpawnPos.y, meteorSpawnPos.z)
 
-        let delta = getMotionVec({ x: meteorEntity.x, y: meteorEntity.y, z: meteorEntity.z }, attractor.blockPos).scale(5)
+        let delta = getMotionVec({ x: meteorEntity.x, y: meteorEntity.y, z: meteorEntity.z }, attractor.blockPos).scale(1.5)
         meteorEntity.setDeltaMovement(delta)
         meteorEntity.spawn()
 

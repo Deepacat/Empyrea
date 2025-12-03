@@ -139,29 +139,6 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["05468098F4EFF3DF"]
-			id: "241E7FE36C05010E"
-			tasks: [
-				{
-					id: "5E2649A18995C467"
-					item: "minecraft:amethyst_shard"
-					type: "item"
-				}
-				{
-					id: "71A9C4D5D2008E51"
-					item: "spectrum:citrine_shard"
-					type: "item"
-				}
-				{
-					id: "14EE5FA63DC479F2"
-					item: "spectrum:topaz_shard"
-					type: "item"
-				}
-			]
-			x: -22.5d
-			y: -5.5d
-		}
-		{
 			id: "6E45BB2C4E11EDFE"
 			tasks: [{
 				id: "17272880E3BC74A8"
@@ -240,35 +217,14 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["241E7FE36C05010E"]
-			id: "73A20AC8C1B84845"
-			tasks: [{
-				id: "5568268A1F3E9D98"
-				item: "spectrum:pedestal_basic_amethyst"
-				type: "item"
-			}]
-			x: -22.5d
-			y: -4.5d
-		}
-		{
-			id: "2540921A5DBE6FF8"
-			tasks: [{
-				id: "4B7CC06A7B0DDB98"
-				item: "spectrum:mermaids_gem"
-				type: "item"
-			}]
-			x: -21.0d
-			y: -5.0d
-		}
-		{
 			id: "5D2F14AB55277820"
 			tasks: [{
 				id: "4F36841733E0665B"
 				item: "naturesaura:gold_fiber"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -8.0d
+			x: -17.5d
+			y: -5.0d
 		}
 		{
 			id: "4F3A9469A3F642BB"
@@ -277,8 +233,8 @@
 				item: "naturesaura:wood_stand"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -6.0d
+			x: -17.5d
+			y: -3.0d
 		}
 		{
 			id: "2E6D2D5EB68B05C4"
@@ -287,18 +243,8 @@
 				item: "naturesaura:gold_leaf"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -7.0d
-		}
-		{
-			id: "253D3BA82DA3A48C"
-			tasks: [{
-				id: "40EEDAD090BF4B91"
-				item: "spectrum:quitoxic_reeds"
-				type: "item"
-			}]
-			x: -21.0d
-			y: -7.0d
+			x: -17.5d
+			y: -4.0d
 		}
 		{
 			id: "74B0F4752EBDF38F"
@@ -309,70 +255,6 @@
 			}]
 			x: -21.0d
 			y: -6.0d
-		}
-		{
-			id: "5F27F378750B9ACC"
-			tasks: [{
-				id: "1DC16792F96A3AA2"
-				item: "spectrum:shimmerstone_gem"
-				type: "item"
-			}]
-			x: -21.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["58F4D3CB74026F94"]
-			id: "7B22F12D676729DE"
-			tasks: [{
-				id: "2263900F817B27E9"
-				item: "spectrum:stratine_fragments"
-				type: "item"
-			}]
-			x: -21.0d
-			y: -4.0d
-		}
-		{
-			id: "58F4D3CB74026F94"
-			tasks: [{
-				id: "1EA9C4218DCF6E37"
-				item: {
-					Count: 1
-					id: "spectrum:molten_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -20.0d
-			y: -4.0d
-		}
-		{
-			id: "32B887ED7678AFB6"
-			tasks: [
-				{
-					id: "7DFB96544F9D32C3"
-					item: "ars_nouveau:red_archwood_sapling"
-					type: "item"
-				}
-				{
-					id: "6AA724AF1091B86A"
-					item: "ars_nouveau:blue_archwood_sapling"
-					type: "item"
-				}
-				{
-					id: "6577BF98AB128D34"
-					item: "ars_nouveau:purple_archwood_sapling"
-					type: "item"
-				}
-				{
-					id: "72B7197591FF44A3"
-					item: "ars_nouveau:green_archwood_sapling"
-					type: "item"
-				}
-			]
-			x: -14.5d
-			y: -1.0d
 		}
 		{
 			dependencies: ["567C19A36A3C434F"]
@@ -477,29 +359,12 @@
 			id: "3E06D61CB66724CF"
 			tasks: [{
 				id: "5DFE1FBADCE12420"
-				item: "embers_extended:molten_nightstone_bucket"
+				item: "starbunclemania:source_fluid_bucket"
 				type: "item"
 			}]
 			title: "replaxceme with source"
 			x: -17.0d
 			y: -11.0d
-		}
-		{
-			id: "05468098F4EFF3DF"
-			tasks: [
-				{
-					id: "1BEDCA8B5782AD1A"
-					item: "minecraft:calcite"
-					type: "item"
-				}
-				{
-					id: "36AB8BB383CBA0FB"
-					item: "minecraft:basalt"
-					type: "item"
-				}
-			]
-			x: -22.5d
-			y: -6.5d
 		}
 		{
 			id: "553C2E3135CD5B0C"
@@ -518,8 +383,8 @@
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 0.0d
+			x: -14.0d
+			y: -1.5d
 		}
 		{
 			id: "62392FFFD5A70B2E"
@@ -528,8 +393,8 @@
 				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 1.0d
+			x: -14.0d
+			y: -0.5d
 		}
 		{
 			id: "303ECDBCDD8AEE4E"
@@ -538,8 +403,8 @@
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 2.0d
+			x: -14.0d
+			y: 0.5d
 		}
 		{
 			id: "4BC73F021502CD1A"
@@ -548,50 +413,18 @@
 				title: "seed vault move to beneath??"
 				type: "checkmark"
 			}]
-			x: -21.0d
-			y: -3.0d
-		}
-		{
-			id: "088BEBEC607BBA3A"
-			tasks: [{
-				id: "54E8470961284392"
-				title: "i guesss void beneath :( structure still spawn?"
-				type: "checkmark"
-			}]
-			x: -21.0d
-			y: -2.0d
+			x: -22.0d
+			y: -6.0d
 		}
 		{
 			id: "3CB52A1DC1E551FF"
 			tasks: [{
 				id: "1D0C9A580E376FF0"
-				title: "homemade bedrock"
+				title: "some kinda homemade bedrock from dust ig"
 				type: "checkmark"
 			}]
 			x: -21.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["32B887ED7678AFB6"]
-			id: "3C9AFDA8D454CDB8"
-			tasks: [{
-				id: "665B25AB6F909C14"
-				item: "ars_nouveau:imbuement_chamber"
-				type: "item"
-			}]
-			x: -15.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3C9AFDA8D454CDB8"]
-			id: "6BBA28D88CF11EB1"
-			tasks: [{
-				id: "5DDD7770E746E8E3"
-				item: "ars_nouveau:source_gem"
-				type: "item"
-			}]
-			x: -15.5d
-			y: 0.0d
+			y: -5.0d
 		}
 		{
 			id: "747F13C39A682883"
@@ -908,28 +741,6 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["6BBA28D88CF11EB1"]
-			id: "35B5353EDA66AD66"
-			tasks: [{
-				id: "56E0F06DFF90A924"
-				item: "ars_nouveau:scribes_table"
-				type: "item"
-			}]
-			x: -14.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6BBA28D88CF11EB1"]
-			id: "4D47E3A5380206C1"
-			tasks: [{
-				id: "4558E37257CCFCEF"
-				item: "ars_nouveau:novice_spell_book"
-				type: "item"
-			}]
-			x: -14.5d
-			y: 1.0d
-		}
-		{
 			id: "612638F00369FD21"
 			tasks: [{
 				id: "51DD55A5E722F9FC"
@@ -966,8 +777,8 @@
 				item: "ars_elemental:siren_shards"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 2.0d
+			x: -18.0d
+			y: 0.0d
 		}
 		{
 			id: "200054C9C0C18BEB"
@@ -976,8 +787,8 @@
 				item: "ars_nouveau:whirlisprig_shards"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 3.0d
+			x: -18.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1904,10 +1715,7 @@
 			y: -15.0d
 		}
 		{
-			dependencies: [
-				"424032A84719B07F"
-				"06D28A37E6B0F806"
-			]
+			dependencies: ["424032A84719B07F"]
 			id: "2612A1EE9D77B229"
 			tasks: [{
 				id: "564667FFB0B762D5"
@@ -1915,7 +1723,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4B0484A816CCEFE4"]
@@ -1995,23 +1803,6 @@
 			]
 			x: -4.0d
 			y: -13.0d
-		}
-		{
-			id: "06D28A37E6B0F806"
-			tasks: [
-				{
-					id: "1B6ACFB85F1CBD2E"
-					item: "minecraft:gravel"
-					type: "item"
-				}
-				{
-					id: "3481739B9B80F148"
-					item: "minecraft:flint"
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: -8.0d
 		}
 		{
 			dependencies: ["77BC8783600E1A2B"]
@@ -2152,6 +1943,56 @@
 			}]
 			x: -3.0d
 			y: -4.5d
+		}
+		{
+			id: "57AA037B957C3054"
+			tasks: [{
+				id: "2C18D72E110AE744"
+				title: "ars mobs might spawn in normal biomes?"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			id: "5112686EA9F4A4FA"
+			tasks: [{
+				id: "127479A86613A641"
+				title: "bm should probably be gated behind something later"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			id: "15492D078BEDC34F"
+			tasks: [{
+				id: "6F0091FA6A81B047"
+				item: "malum:soulstone_ore"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			id: "673816C57443687E"
+			tasks: [{
+				id: "478B8841A31D55A1"
+				item: "malum:brilliant_stone"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			id: "629A0D32602CE6EB"
+			tasks: [{
+				id: "7AC39A54DE0374F7"
+				title: "malum ores idk if anything else is natural gen"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -6.5d
 		}
 	]
 	title: "goog :)"
