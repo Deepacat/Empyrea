@@ -45,22 +45,38 @@ const teleports = {
     }
 }
 
+// teleports
 PlayerEvents.tick(e => {
-    let p = e.player
-    let pDim = p.level.dimension
-    let pHeight = p.y
+    let lastTp = e.player.persistentData.getInt('last_tp')
+    if (lastTp == null) {
+        e.player.persistentData.putInt('last_tp', 0)
+    }
+
+    if (Utils.server.tickCount - lastTp < 20) { return }
 
     for (let teleport in teleports) {
         let c = teleports[teleport].condition
         if (
-            pDim == c.dimension &&
-            (c.belowY && pHeight < c.belowY) ||
-            (c.aboveY && pHeight > c.aboveY)
+            e.player.level.dimension == c.dimension &&
+            (c.belowY && e.player.y < c.belowY ||
+                c.aboveY && e.player.y > c.aboveY)
         ) {
             let target = teleports[teleport].target
-            p.setStatusMessage(target.text)
-            p.potionEffects.add('minecraft:darkness', 40, 0, true, false)
-            p.teleportTo(target.dimension, p.x, target.height, p.z, p.yaw, p.pitch)
+            e.player.setStatusMessage(target.text)
+            e.player.potionEffects.add('minecraft:darkness', 40, 0, true, false)
+            e.player.teleportTo(target.dimension, e.player.x, target.height, e.player.z, e.player.yaw, e.player.pitch)
+            e.player.persistentData.putInt('last_tp', Utils.server.tickCount)
+            e.player.persistentData.putBoolean('next_fall_immune', true)
         }
+    }
+})
+
+EntityEvents.hurt(e => {
+
+    let nextFallImmune = e.entity.persistentData.getInt('next_fall_immune')
+    if (nextFallImmune == null || nextFallImmune == false) { return }
+    if (e.source.type().msgId() == 'fall' && nextFallImmune == true) {
+        e.cancel()
+        e.entity.persistentData.putBoolean('next_fall_immune', false)
     }
 })
