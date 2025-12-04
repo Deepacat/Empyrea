@@ -281,6 +281,44 @@
             ]
         },
         {
+            "pakku_id": "1Ffu0XkoR2tWwNGm",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "animus"
+            },
+            "name": {
+                "curseforge": "Animus"
+            },
+            "id": {
+                "curseforge": "229664"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "animus-3.0.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7291/620/animus-3.0.4.jar",
+                    "id": "7291620",
+                    "parent_id": "229664",
+                    "hashes": {
+                        "sha1": "3375b15ad15fe24b1d3245756efdb32ca1d823df",
+                        "md5": "72906669e92c19e0f6fbe1dca6149f6a"
+                    },
+                    "required_dependencies": [
+                        "224791"
+                    ],
+                    "size": 1302041,
+                    "date_published": "2025-12-03T22:38:20.790Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3dFWoHCjAybmHy3B",
             "type": "MOD",
             "slug": {
@@ -2665,6 +2703,42 @@
             ]
         },
         {
+            "pakku_id": "2vNDvttEgsrsnRas",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "extreme-sound-muffler"
+            },
+            "name": {
+                "curseforge": "Extreme sound muffler - (Neo)Forge"
+            },
+            "id": {
+                "curseforge": "363363"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6526/566/ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar",
+                    "id": "6526566",
+                    "parent_id": "363363",
+                    "hashes": {
+                        "sha1": "1c7a54e1727f2ae4b1f18e1d7feb94a38e87d00f",
+                        "md5": "3727846f67248980ac39b92464c627f2"
+                    },
+                    "required_dependencies": [],
+                    "size": 267731,
+                    "date_published": "2025-05-13T17:40:31.427Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "GE87PLJnNomKDTQJ",
             "pakku_links": [
                 "sO9K2TORzcHQmeoK"
@@ -4047,6 +4121,45 @@
                     "required_dependencies": [],
                     "size": 7160405,
                     "date_published": "2024-10-06T18:58:45.910Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QHmDslIxhDIsnii4",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "journeymap-integration"
+            },
+            "name": {
+                "curseforge": "JourneyMap Integration"
+            },
+            "id": {
+                "curseforge": "525447"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jmi-forge-1.20.1-0.14-48.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5510/356/jmi-forge-1.20.1-0.14-48.jar",
+                    "id": "5510356",
+                    "parent_id": "525447",
+                    "hashes": {
+                        "sha1": "f2be323d589b953eaa303f8b74913831a5a9b77b",
+                        "md5": "9ca3febdf066b2dd900ab6c0c59852e1"
+                    },
+                    "required_dependencies": [
+                        "32274"
+                    ],
+                    "size": 69022,
+                    "date_published": "2024-07-07T11:46:16.467Z"
                 }
             ]
         },
