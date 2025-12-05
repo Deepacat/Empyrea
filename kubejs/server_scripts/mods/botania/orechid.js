@@ -12,4 +12,5 @@ ServerEvents.recipes(e => {
         .id('kubejs:botania/orechid/deepslate_topaz_ore')
     e.recipes.botania.orechid('spectrum:deepslate_citrine_ore', 'minecraft:calcite', 1)
         .id('kubejs:botania/orechid/deepslate_citrine_ore')
+
 })
