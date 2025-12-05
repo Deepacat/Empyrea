@@ -1172,29 +1172,29 @@
 		{
 			dependencies: ["0E6EB6115FA0B7BC"]
 			id: "180B08C171BEA1FA"
-			tasks: [
-				{
-					id: "24F75BDF51A52B81"
-					item: "ars_caelum:ritual_conjure_island_flourishing"
-					type: "item"
-				}
-				{
-					id: "1866CAC4387ED277"
-					item: "ars_nouveau:green_archwood_sapling"
-					type: "item"
-				}
-			]
-			x: 0.5d
+			tasks: [{
+				id: "24F75BDF51A52B81"
+				item: "ars_caelum:ritual_conjure_island_flourishing"
+				type: "item"
+			}]
+			x: 0.0d
 			y: -15.0d
 		}
 		{
 			dependencies: ["09BA5C10E5A06D48"]
 			id: "0E6EB6115FA0B7BC"
-			tasks: [{
-				id: "5C4D352BF5B0A2E2"
-				item: "ars_nouveau:ritual_brazier"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5C4D352BF5B0A2E2"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "2407155AFC2122AD"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -14.0d
 		}
@@ -1213,7 +1213,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: -16.0d
 		}
 		{
@@ -1394,28 +1394,21 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"16A9212873B52707"
-				"1A3B86810035A0CC"
-			]
-			id: "19876E7A0B8E3453"
-			tasks: [{
-				id: "3617754DF57DF940"
-				item: "ars_nouveau:scribes_table"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -17.0d
-		}
-		{
 			dependencies: ["1A3B86810035A0CC"]
-			id: "16A9212873B52707"
-			tasks: [{
-				id: "69CDF8C38CFB1E1C"
-				item: "ars_nouveau:novice_spell_book"
-				type: "item"
-			}]
-			x: 0.0d
+			id: "19876E7A0B8E3453"
+			tasks: [
+				{
+					id: "3617754DF57DF940"
+					item: "ars_nouveau:scribes_table"
+					type: "item"
+				}
+				{
+					id: "0B01F4A8EF2DD411"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+			]
+			x: 0.5d
 			y: -17.0d
 		}
 		{
@@ -1426,8 +1419,8 @@
 				item: "ars_nouveau:glyph_crush"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -17.0d
+			x: 1.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["7FEE4F76560B91CB"]
@@ -1686,15 +1679,15 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["0E6EB6115FA0B7BC"]
+			dependencies: ["1A3B86810035A0CC"]
 			id: "3DE5E87B1600B49E"
 			tasks: [{
 				id: "3BC54BF940227EE5"
 				item: "ars_caelum:ritual_conjure_island_geode"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -15.0d
+			x: -1.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3DE5E87B1600B49E"]
@@ -1711,8 +1704,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -15.0d
+			x: -2.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["424032A84719B07F"]
@@ -1879,7 +1872,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["50D82489E785C211"]
+			dependencies: [
+				"50D82489E785C211"
+				"15FECCF2D792A83A"
+			]
 			id: "328870443AD1F73C"
 			shape: "rsquare"
 			tasks: [{
@@ -1993,6 +1989,35 @@
 			}]
 			x: -15.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["1A3B86810035A0CC"]
+			id: "38AA8F0C530F62EA"
+			tasks: [
+				{
+					id: "6B190FD2C2445BAC"
+					item: "starbunclemania:source_condenser"
+					type: "item"
+				}
+				{
+					id: "3C3864FCE9494290"
+					item: "starbunclemania:source_fluid_bucket"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["38AA8F0C530F62EA"]
+			id: "36D9C4417A7B4316"
+			tasks: [{
+				id: "21AF79D5175A1695"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -18.0d
 		}
 	]
 	title: "goog :)"
