@@ -6427,44 +6427,6 @@
             ]
         },
         {
-            "pakku_id": "8dfWdl4RovO8bd7u",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "skyblock-builder"
-            },
-            "name": {
-                "curseforge": "Skyblock Builder"
-            },
-            "id": {
-                "curseforge": "446691"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "SkyblockBuilder-1.20.1-5.1.28.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7207/347/SkyblockBuilder-1.20.1-5.1.28.jar",
-                    "id": "7207347",
-                    "parent_id": "446691",
-                    "hashes": {
-                        "sha1": "e57a15c932a68d6106da929a8c39f678672708a5",
-                        "md5": "37e795d73415018a94a49a028a6e42bf"
-                    },
-                    "required_dependencies": [
-                        "412525"
-                    ],
-                    "size": 447235,
-                    "date_published": "2025-11-10T17:53:29.987Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "Voh3GyLda4MByHHy",
             "type": "MOD",
             "slug": {
