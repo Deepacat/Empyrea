@@ -1,17 +1,11 @@
 ServerEvents.recipes(e => {
     // amethyst/topaz/citrine ores from calcite
-    e.recipes.botania.orechid('spectrum:amethyst_ore', 'minecraft:calcite', 5)
+    e.recipes.botania.orechid('spectrum:amethyst_ore', 'minecraft:calcite', 3)
         .id('kubejs:botania/orechid/amethyst_ore')
-    e.recipes.botania.orechid('spectrum:topaz_ore', 'minecraft:calcite', 5)
+    e.recipes.botania.orechid('spectrum:topaz_ore', 'minecraft:calcite', 1)
         .id('kubejs:botania/orechid/topaz_ore')
-    e.recipes.botania.orechid('spectrum:citrine_ore', 'minecraft:calcite', 5)
+    e.recipes.botania.orechid('spectrum:citrine_ore', 'minecraft:calcite', 1)
         .id('kubejs:botania/orechid/citrine_ore')
-    e.recipes.botania.orechid('spectrum:deepslate_amethyst_ore', 'minecraft:calcite', 1)
-        .id('kubejs:botania/orechid/deepslate_amethyst_ore')
-    e.recipes.botania.orechid('spectrum:deepslate_topaz_ore', 'minecraft:calcite', 1)
-        .id('kubejs:botania/orechid/deepslate_topaz_ore')
-    e.recipes.botania.orechid('spectrum:deepslate_citrine_ore', 'minecraft:calcite', 1)
-        .id('kubejs:botania/orechid/deepslate_citrine_ore')
 
     // magic ores from sourcestone
     e.recipes.botania.orechid('malum:deepslate_soulstone_ore', 'ars_nouveau:sourcestone', 1)
