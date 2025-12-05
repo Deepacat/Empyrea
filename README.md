@@ -1,4 +1,4 @@
-### Contributing to this modpack setup guide
+### Dev environment setup guide
 [install pakku](https://juraj-hrivnak.github.io/Pakku/installing-pakku.html) (or use java -jar pakku.jar in minecraft folder, but pakku jar could be outdated)
 [git](https://git-scm.com/)
 
@@ -9,5 +9,10 @@
 5. Also in the terminal, run `pakku fetch` to download existing mods in repo from pakku manifest. If pakku is not locally installed use `java -jar pakku.jar fetch` instead
 6. Copy the contents inside of `(instancename)\minecraft\.pakku\"prism-overrides"` and `"overrides"`into your `(instancename)` folder
 7. You now have a functioning repo/game instance to run, modify and commit from
+
+Use `pakku sync` and commit changes to the `pakku-lock.json` file to update your mod edits
+
+To pull changes without committing all files, you should run `git stash`, `git pull`, then `git stash pop`. 
+It is also recommended after pulling changes you run `pakku fetch` to retrieve any pulled mod changes.
 
 for more IMPORTANT info on panpack template, read [panpack readme](https://github.com/Deepacat/Empyrea/blob/dev/panpackREADME.md)
