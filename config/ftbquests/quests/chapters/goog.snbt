@@ -815,25 +815,20 @@
 		{
 			dependencies: ["162C98E2A11197BB"]
 			id: "4E035B13EF5A5031"
-			tasks: [
-				{
-					id: "204F00C052719701"
-					item: "minecraft:heart_of_the_sea"
-					type: "item"
-				}
-				{
-					id: "39BAAED2C9CA0F53"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-			]
+			subtitle: "A heart once deep, lifted above"
+			tasks: [{
+				id: "204F00C052719701"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "Sea of the sky"
 			x: -2.0d
 			y: -11.0d
 		}
 		{
 			dependencies: [
-				"50D82489E785C211"
 				"09BA5C10E5A06D48"
+				"50D82489E785C211"
 			]
 			id: "0BD315736D521C37"
 			tasks: [{
@@ -1562,7 +1557,7 @@
 				item: "ars_caelum:ritual_conjure_island_geode"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: -16.0d
 		}
 		{
@@ -1580,7 +1575,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -3.0d
 			y: -17.0d
 		}
 		{
@@ -2124,7 +2119,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -3.5d
 			y: -15.0d
 		}
 	]
