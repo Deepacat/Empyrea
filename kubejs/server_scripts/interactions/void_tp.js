@@ -79,7 +79,7 @@ EntityEvents.hurt(e => {
     let nextFallImmune = e.entity.persistentData.getInt('next_fall_immune')
     if (nextFallImmune == null || nextFallImmune == false) { return }
     if (e.source.type().msgId() == 'fall' && nextFallImmune == true) {
-        e.cancel()
         e.entity.persistentData.putBoolean('next_fall_immune', false)
+        e.cancel()
     }
 })
