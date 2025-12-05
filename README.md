@@ -1,5 +1,6 @@
 ### Dev environment setup guide
-[install pakku](https://juraj-hrivnak.github.io/Pakku/installing-pakku.html) (or use java -jar pakku.jar in minecraft folder, but pakku jar could be outdated)
+[install pakku](https://juraj-hrivnak.github.io/Pakku/installing-pakku.html) (or use `java -jar pakku.jar` in minecraft folder, but pakku jar could be outdated and java could be setup wrong)
+
 [git](https://git-scm.com/)
 
 1. Create a prism launcher instance for minecraft 1.20.1, on forge 47.4.0
