@@ -804,11 +804,18 @@
 		{
 			dependencies: ["4E035B13EF5A5031"]
 			id: "50D82489E785C211"
-			tasks: [{
-				id: "66F1B5F6D1D4EEA7"
-				item: "spectrum:mermaids_gem"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66F1B5F6D1D4EEA7"
+					item: "spectrum:mermaids_gem"
+					type: "item"
+				}
+				{
+					id: "186B796B7B141AF8"
+					item: "spectrum:mud_bucket"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -11.0d
 		}
@@ -823,20 +830,6 @@
 			}]
 			title: "Sea of the sky"
 			x: -2.0d
-			y: -11.0d
-		}
-		{
-			dependencies: [
-				"09BA5C10E5A06D48"
-				"50D82489E785C211"
-			]
-			id: "0BD315736D521C37"
-			tasks: [{
-				id: "7EEB7761FE2B06BA"
-				item: "spectrum:mud_bucket"
-				type: "item"
-			}]
-			x: 0.0d
 			y: -11.0d
 		}
 		{
@@ -896,7 +889,7 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["0BD315736D521C37"]
+			dependencies: ["40B1C5AE1D3FEC90"]
 			id: "47E3293F30D8C9F3"
 			tasks: [{
 				id: "2F48623911F7D611"
@@ -1190,7 +1183,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["0BD315736D521C37"]
+			dependencies: ["40B1C5AE1D3FEC90"]
 			id: "15FECCF2D792A83A"
 			tasks: [{
 				id: "3060D14BFB4E4E39"
@@ -1308,7 +1301,10 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["50D82489E785C211"]
+			dependencies: [
+				"09BA5C10E5A06D48"
+				"50D82489E785C211"
+			]
 			id: "40B1C5AE1D3FEC90"
 			tasks: [{
 				id: "01E1A3D9AA18583A"
@@ -1325,8 +1321,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -12.0d
+			x: 0.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -1362,7 +1358,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["1B9C3C1E487D9160"]
+			dependencies: [
+				"1B9C3C1E487D9160"
+				"7F8CDDFB08CA7A1A"
+			]
 			id: "2D972DF7207CA8B1"
 			tasks: [{
 				id: "13A7EF6BEA17A660"
@@ -1732,10 +1731,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"50D82489E785C211"
-				"15FECCF2D792A83A"
-			]
+			dependencies: ["15FECCF2D792A83A"]
 			id: "328870443AD1F73C"
 			shape: "rsquare"
 			tasks: [{
@@ -2064,7 +2060,7 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: -12.0d
 		}
 		{
