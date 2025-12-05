@@ -45,6 +45,10 @@ const teleports = {
     }
 }
 
+PlayerEvents.loggedIn(e => {
+    e.player.persistentData.putInt('last_tp', Utils.server.tickCount)
+})
+
 // teleports
 PlayerEvents.tick(e => {
     let lastTp = e.player.persistentData.getInt('last_tp')
@@ -72,7 +76,6 @@ PlayerEvents.tick(e => {
 })
 
 EntityEvents.hurt(e => {
-
     let nextFallImmune = e.entity.persistentData.getInt('next_fall_immune')
     if (nextFallImmune == null || nextFallImmune == false) { return }
     if (e.source.type().msgId() == 'fall' && nextFallImmune == true) {

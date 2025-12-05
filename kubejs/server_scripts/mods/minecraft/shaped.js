@@ -19,4 +19,14 @@ ServerEvents.recipes(e => {
         C: 'ars_nouveau:arcane_core',
         D: 'occultism:otherstone'
     }).id('kubejs:minecraft/shaped/enchanting_table')
+
+    e.shaped('minecraft:nautilus_shell', [
+        ' A ',
+        'BCB',
+        ' A '
+    ], {
+        A: 'minecraft:pufferfish',
+        B: 'minecraft:tropical_fish',
+        C: 'botania:rune_mana'
+    }).id('kubejs:minecraft/shaped/nautilus_shell')
 })
