@@ -14,6 +14,9 @@ ServerEvents.recipes(e => {
     e.recipes.botania.mana_infusion('minecraft:calcite', 'minecraft:tuff', 300, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/tuff_to_calcite')
 
+    e.recipes.botania.mana_infusion('spectrum:mermaids_gem', 'minecraft:heart_of_the_sea', 10000, 'botania:alchemy_catalyst')
+        .id('kubejs:botania/mana_infusion/heart_to_mermaids_gem')
+
     // copy spectrums anvil crushing recipes to pulverizing catalyst infusing
     let recipeIter = 0
     e.forEachRecipe({ type: 'spectrum:anvil_crushing' }, recipe => {

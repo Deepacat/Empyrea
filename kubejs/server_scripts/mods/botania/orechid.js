@@ -18,7 +18,7 @@ ServerEvents.recipes(e => {
         .id('kubejs:botania/orechid/deepslate_soulstone_ore')
     e.recipes.botania.orechid('malum:brilliant_deepslate', 'ars_nouveau:sourcestone', 1)
         .id('kubejs:botania/orechid/brilliant_deepslate')
-    e.recipes.botania.orechid('malum:natural_quartz_ore', 'ars_nouveau:sourcestone', 1)
+    e.recipes.botania.orechid('malum:natural_quartz_ore', 'ars_nouveau:sourcestone', 2)
         .id('kubejs:botania/orechid/natural_quartz_ore')
     e.recipes.botania.orechid('eidolon:deep_silver_ore', 'ars_nouveau:sourcestone', 1)
         .id('kubejs:botania/orechid/deep_silver_ore')
