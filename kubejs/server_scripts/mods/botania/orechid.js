@@ -13,4 +13,18 @@ ServerEvents.recipes(e => {
     e.recipes.botania.orechid('spectrum:deepslate_citrine_ore', 'minecraft:calcite', 1)
         .id('kubejs:botania/orechid/deepslate_citrine_ore')
 
+    // magic ores from sourcestone
+    e.recipes.botania.orechid('malum:deepslate_soulstone_ore', 'ars_nouveau:sourcestone', 1)
+        .id('kubejs:botania/orechid/deepslate_soulstone_ore')
+    e.recipes.botania.orechid('malum:brilliant_deepslate', 'ars_nouveau:sourcestone', 1)
+        .id('kubejs:botania/orechid/brilliant_deepslate')
+    e.recipes.botania.orechid('malum:natural_quartz_ore', 'ars_nouveau:sourcestone', 1)
+        .id('kubejs:botania/orechid/natural_quartz_ore')
+    e.recipes.botania.orechid('eidolon:deep_silver_ore', 'ars_nouveau:sourcestone', 1)
+        .id('kubejs:botania/orechid/deep_silver_ore')
+    e.recipes.botania.orechid('eidolon:deep_lead_ore', 'ars_nouveau:sourcestone', 1)
+        .id('kubejs:botania/orechid/deep_lead_ore')
+    e.recipes.botania.orechid('spectrum:deepslate_azurite_ore', 'ars_nouveau:sourcestone', 1)
+        .id('kubejs:botania/orechid/deepslate_azurite_ore')
+
 })

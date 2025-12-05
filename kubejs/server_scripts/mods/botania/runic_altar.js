@@ -7,5 +7,14 @@ ServerEvents.recipes(e => {
         'botania:manasteel_pick',
         'botania:manasteel_axe',
         'botania:manasteel_shovel',
-    ])
+    ], 25000).id('kubejs:mods/botania/runic_altar/novice_spell_book')
+
+    e.remove({ id: 'botania:runic_altar/mana' })
+    e.recipes.botania.runic_altar('botania:rune_mana', [
+        '#kubejs:rare_mana',
+        'botania:manasteel_ingot',
+        'botania:quartz_mana',
+        'botania:mana_string',
+        'ars_nouveau:source_gem',
+    ], 3000).id('kubejs:mods/botania/runic_altar/mana')
 })

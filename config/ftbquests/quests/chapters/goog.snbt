@@ -286,8 +286,8 @@
 				item: "minecraft:deepslate"
 				type: "item"
 			}]
-			x: -17.0d
-			y: -10.0d
+			x: -16.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["553C2E3135CD5B0C"]
@@ -428,23 +428,20 @@
 		}
 		{
 			id: "747F13C39A682883"
-			tasks: [{
-				id: "78770405D7852C03"
-				item: "minecraft:stone"
-				type: "item"
-			}]
-			x: -16.0d
-			y: -19.0d
-		}
-		{
-			id: "2325410696C0FD78"
-			tasks: [{
-				id: "40ED8963A52FECD5"
-				item: "minecraft:deepslate"
-				type: "item"
-			}]
-			x: -19.5d
-			y: -19.0d
+			tasks: [
+				{
+					id: "78770405D7852C03"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "67599930EBD6D2A1"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+			]
+			x: -20.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -454,8 +451,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -19.0d
+			x: -19.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -465,8 +462,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: -15.5d
-			y: -20.0d
+			x: -20.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -476,8 +473,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -20.0d
+			x: -21.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -487,8 +484,8 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: -17.0d
-			y: -19.0d
+			x: -21.5d
+			y: -18.0d
 		}
 		{
 			id: "0241E72C7F16B121"
@@ -497,8 +494,8 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: -21.5d
-			y: -15.5d
+			x: -17.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -508,8 +505,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -18.0d
+			x: -21.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -519,8 +516,8 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			x: -15.5d
-			y: -18.0d
+			x: -20.0d
+			y: -17.0d
 		}
 		{
 			id: "37DF71047572E454"
@@ -529,107 +526,8 @@
 				item: "minecraft:calcite"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -15.5d
-		}
-		{
-			dependencies: ["37DF71047572E454"]
-			id: "051E2E77ADC88BA9"
-			tasks: [{
-				id: "4AD3F7A7D3251FF8"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
-			x: -18.5d
-			y: -15.5d
-		}
-		{
-			dependencies: ["37DF71047572E454"]
-			id: "49C1450D23BD883B"
-			tasks: [{
-				id: "7643F1990952F76A"
-				item: "spectrum:citrine_shard"
-				type: "item"
-			}]
-			x: -16.5d
-			y: -15.5d
-		}
-		{
-			dependencies: ["37DF71047572E454"]
-			id: "6F170BEB77E476BF"
-			tasks: [{
-				id: "0B710BE5E609CF86"
-				item: "spectrum:topaz_shard"
-				type: "item"
-			}]
 			x: -17.0d
-			y: -16.5d
-		}
-		{
-			dependencies: ["2325410696C0FD78"]
-			id: "5262916876647A83"
-			tasks: [{
-				id: "0CB0F4EF919A7E9E"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			x: -20.5d
-			y: -19.0d
-		}
-		{
-			dependencies: ["2325410696C0FD78"]
-			id: "3B7DF8EA44915763"
-			tasks: [{
-				id: "77A7FCA2C147E7A1"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
-			x: -20.0d
 			y: -18.0d
-		}
-		{
-			dependencies: ["2325410696C0FD78"]
-			id: "2966B6C53E79F59C"
-			tasks: [{
-				id: "73206C7E4B06691F"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			x: -18.5d
-			y: -19.0d
-		}
-		{
-			dependencies: ["2325410696C0FD78"]
-			id: "43033397F22C1E70"
-			tasks: [{
-				id: "46B121D03FCA989A"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			x: -19.0d
-			y: -18.0d
-		}
-		{
-			dependencies: ["0241E72C7F16B121"]
-			id: "203698A78460B785"
-			tasks: [{
-				id: "74E802F406BCAAFC"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			x: -22.0d
-			y: -16.5d
-		}
-		{
-			dependencies: ["0241E72C7F16B121"]
-			id: "1290EA17192821C8"
-			tasks: [{
-				id: "2BA1E38D8DA83BD7"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
-			x: -21.0d
-			y: -16.5d
 		}
 		{
 			id: "56F798792F6E55E7"
@@ -638,8 +536,8 @@
 				item: "spectrum:blackslag"
 				type: "item"
 			}]
-			x: -23.0d
-			y: -19.0d
+			x: -13.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["56F798792F6E55E7"]
@@ -649,8 +547,8 @@
 				item: "spectrum:blackslag_topaz_ore"
 				type: "item"
 			}]
-			x: -23.5d
-			y: -20.0d
+			x: -14.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["56F798792F6E55E7"]
@@ -660,8 +558,8 @@
 				item: "spectrum:blackslag_amethyst_ore"
 				type: "item"
 			}]
-			x: -22.5d
-			y: -20.0d
+			x: -13.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["56F798792F6E55E7"]
@@ -671,8 +569,8 @@
 				item: "spectrum:blackslag_citrine_ore"
 				type: "item"
 			}]
-			x: -24.0d
-			y: -19.0d
+			x: -14.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["56F798792F6E55E7"]
@@ -682,8 +580,8 @@
 				item: "spectrum:blackslag_azurite_ore"
 				type: "item"
 			}]
-			x: -22.0d
-			y: -19.0d
+			x: -12.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["56F798792F6E55E7"]
@@ -693,8 +591,8 @@
 				item: "spectrum:blackslag_shimmerstone_ore"
 				type: "item"
 			}]
-			x: -22.0d
-			y: -18.0d
+			x: -12.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["56F798792F6E55E7"]
@@ -704,8 +602,8 @@
 				item: "spectrum:blackslag_moonstone_ore"
 				type: "item"
 			}]
-			x: -24.0d
-			y: -18.0d
+			x: -14.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["56F798792F6E55E7"]
@@ -715,8 +613,8 @@
 				item: "spectrum:blackslag_onyx_ore"
 				type: "item"
 			}]
-			x: -23.0d
-			y: -18.0d
+			x: -13.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["0241E72C7F16B121"]
@@ -726,8 +624,8 @@
 				item: "malum:blazing_quartz_ore"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -15.5d
+			x: -16.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["0241E72C7F16B121"]
@@ -737,8 +635,8 @@
 				item: "spectrum:stratine_ore"
 				type: "item"
 			}]
-			x: -22.5d
-			y: -15.5d
+			x: -18.0d
+			y: -14.5d
 		}
 		{
 			id: "612638F00369FD21"
@@ -818,11 +716,18 @@
 			y: -9.0d
 		}
 		{
+			icon: "minecraft:glass_bottle"
 			id: "0C3AF62FAAB5F318"
 			tasks: [
 				{
 					id: "4A954C0694F6D5E7"
-					item: "minecraft:glass_bottle"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
 					type: "item"
 				}
 				{
@@ -1170,36 +1075,18 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["0E6EB6115FA0B7BC"]
-			id: "180B08C171BEA1FA"
-			tasks: [{
-				id: "24F75BDF51A52B81"
-				item: "ars_caelum:ritual_conjure_island_flourishing"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -15.0d
-		}
-		{
 			dependencies: ["09BA5C10E5A06D48"]
 			id: "0E6EB6115FA0B7BC"
-			tasks: [
-				{
-					id: "5C4D352BF5B0A2E2"
-					item: "ars_nouveau:ritual_brazier"
-					type: "item"
-				}
-				{
-					id: "2407155AFC2122AD"
-					item: "ars_nouveau:green_archwood_sapling"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2407155AFC2122AD"
+				item: "ars_nouveau:green_archwood_sapling"
+				type: "item"
+			}]
 			x: 0.0d
 			y: -14.0d
 		}
 		{
-			dependencies: ["180B08C171BEA1FA"]
+			dependencies: ["0E6EB6115FA0B7BC"]
 			id: "1A3B86810035A0CC"
 			tasks: [
 				{
@@ -1214,7 +1101,7 @@
 				}
 			]
 			x: 0.0d
-			y: -16.0d
+			y: -15.0d
 		}
 		{
 			id: "5DE4B62F6F3B087B"
@@ -1394,7 +1281,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["1A3B86810035A0CC"]
+			dependencies: [
+				"1A3B86810035A0CC"
+				"0EF93B72D1C8484B"
+			]
 			id: "19876E7A0B8E3453"
 			tasks: [
 				{
@@ -1408,19 +1298,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: -1.0d
 			y: -17.0d
-		}
-		{
-			dependencies: ["19876E7A0B8E3453"]
-			id: "4C5867A824675F76"
-			tasks: [{
-				id: "637934A3A718B8F7"
-				item: "ars_nouveau:glyph_crush"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -18.0d
 		}
 		{
 			dependencies: ["7FEE4F76560B91CB"]
@@ -1488,10 +1367,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"1B9C3C1E487D9160"
-				"5C1897F1B0F94DF8"
-			]
+			dependencies: ["1B9C3C1E487D9160"]
 			id: "2D972DF7207CA8B1"
 			tasks: [{
 				id: "13A7EF6BEA17A660"
@@ -1679,14 +1555,14 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["1A3B86810035A0CC"]
+			dependencies: ["341B6F30F35171D4"]
 			id: "3DE5E87B1600B49E"
 			tasks: [{
 				id: "3BC54BF940227EE5"
 				item: "ars_caelum:ritual_conjure_island_geode"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -16.0d
 		}
 		{
@@ -1704,8 +1580,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -16.0d
+			x: -2.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["424032A84719B07F"]
@@ -1809,17 +1685,6 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["77BC8783600E1A2B"]
-			id: "5C1897F1B0F94DF8"
-			tasks: [{
-				id: "6E5C81D45531756B"
-				item: "minecraft:soul_sand"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -11.0d
-		}
-		{
 			dependencies: ["5680B7735E7B142F"]
 			id: "6D5B7BFF4E05B4AE"
 			subtitle: "Lifting the Temporal Anchor"
@@ -1887,7 +1752,10 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["1A3B86810035A0CC"]
+			dependencies: [
+				"3CC975EF567EFC1F"
+				"1A3B86810035A0CC"
+			]
 			id: "0EF93B72D1C8484B"
 			shape: "rsquare"
 			tasks: [{
@@ -1895,8 +1763,8 @@
 				item: "botania:rune_mana"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -16.0d
+			x: 1.0d
+			y: -17.0d
 		}
 		{
 			id: "7A6B7FFA3E139AE9"
@@ -2005,8 +1873,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -17.0d
+			x: 1.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["38AA8F0C530F62EA"]
@@ -2016,8 +1884,248 @@
 				item: "minecraft:deepslate"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6E59CA69F3590ABB"]
+			id: "4A84D5C9065C646B"
+			tasks: [{
+				id: "4C57C8378CEEE89B"
+				item: "malum:natural_quartz_ore"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["37DF71047572E454"]
+			id: "3021F7848B497979"
+			tasks: [{
+				id: "7DEFE9775675840C"
+				item: "spectrum:topaz_ore"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["37DF71047572E454"]
+			id: "4D6E09D829F39669"
+			tasks: [{
+				id: "6B7AE6F47FFEE82A"
+				item: "spectrum:citrine_ore"
+				type: "item"
+			}]
+			x: -16.0d
 			y: -18.0d
+		}
+		{
+			dependencies: ["37DF71047572E454"]
+			id: "58875374016DACF8"
+			tasks: [{
+				id: "03EADB6E97A40D31"
+				item: "spectrum:amethyst_ore"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6E59CA69F3590ABB"]
+			id: "31A7A8CAF5FDEB68"
+			tasks: [{
+				id: "1D38703983C77128"
+				item: "malum:deepslate_soulstone_ore"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["6E59CA69F3590ABB"]
+			id: "74D6F0A61A3FF894"
+			tasks: [{
+				id: "5D97DF2C87AA9898"
+				item: "malum:brilliant_deepslate"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["6E59CA69F3590ABB"]
+			id: "030F7E95BF4DEF13"
+			tasks: [{
+				id: "2A148767131C69CE"
+				item: "eidolon:deep_silver_ore"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["6E59CA69F3590ABB"]
+			id: "7884B3D01EA1C87C"
+			tasks: [{
+				id: "57C0F5BAB84822AE"
+				item: "eidolon:deep_lead_ore"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["56F798792F6E55E7"]
+			id: "5E230EA89BE0B4DD"
+			tasks: [{
+				id: "183F964C16EE9D00"
+				item: "spectrum:blackslag_malachite_ore"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0241E72C7F16B121"]
+			id: "55B9C28B59403CBB"
+			tasks: [{
+				id: "6E20732FD9266FDB"
+				item: "occultism:iesnium_ore"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0241E72C7F16B121"]
+			id: "3FD8876D47028589"
+			tasks: [{
+				id: "42994DB812CBC1CF"
+				item: "minecraft:nether_quartz_ore"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0241E72C7F16B121"]
+			id: "65F5B0A391532E89"
+			tasks: [{
+				id: "68F4EA5E3A4D362B"
+				item: "minecraft:nether_gold_ore"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -15.5d
+		}
+		{
+			id: "4152A5C8E54BBCA4"
+			tasks: [{
+				id: "6EAC4D1ABD1F6709"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -21.5d
+		}
+		{
+			id: "3165CEEF159B17F1"
+			tasks: [{
+				id: "067B15BE94C7D6BF"
+				item: "spectrum:paltaeria_ore"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["6E59CA69F3590ABB"]
+			id: "65DD88A0D94BD607"
+			tasks: [{
+				id: "41F12108CA043261"
+				item: "spectrum:deepslate_azurite_ore"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -20.5d
+		}
+		{
+			id: "6E59CA69F3590ABB"
+			tasks: [{
+				id: "5964C51245211AB6"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["55E286E3500102CE"]
+			description: ["piglin trade, fishing, bastion loot"]
+			id: "7F8CDDFB08CA7A1A"
+			tasks: [{
+				id: "63BFA569FC7AD820"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["38AA8F0C530F62EA"]
+			id: "3CC975EF567EFC1F"
+			tasks: [{
+				id: "52523054FFAF6755"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["1A3B86810035A0CC"]
+			id: "341B6F30F35171D4"
+			tasks: [{
+				id: "5AD0590D881B9CB4"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["341B6F30F35171D4"]
+			id: "200303F8CB390F31"
+			tasks: [
+				{
+					id: "13A7C056C87530E7"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "62DF1CC8348CFDE9"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "4558DDCE3E3E8326"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "777318F4F9383B38"
+					item: "ars_elemental:yellow_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "16D8D35C5E33DEDA"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -15.0d
 		}
 	]
 	title: "goog :)"

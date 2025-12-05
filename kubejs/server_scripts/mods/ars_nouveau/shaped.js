@@ -9,4 +9,5 @@ ServerEvents.recipes(e => {
         C: '#kubejs:rare_mana',
         D: '#forge:ingots/gold'
     }).id('kubejs:ars_nouveau/shaped/ritual_brazier')
+
 })

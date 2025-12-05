@@ -15,7 +15,7 @@ ServerEvents.recipes(e => {
         'DDD'
     ], {
         A: 'ars_nouveau:novice_spell_book',
-        B: 'botania:mana_diamond',
+        B: '#kubejs:rare_mana',
         C: 'ars_nouveau:arcane_core',
         D: 'occultism:otherstone'
     }).id('kubejs:minecraft/shaped/enchanting_table')
