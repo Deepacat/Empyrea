@@ -1,4 +1,4 @@
-# .Minecraft
+# Minecraft root
 /local/
 /saves/
 /mods/
@@ -12,32 +12,30 @@
 /modernfix/
 /fancymenu_data/
 /ESM/
-/journeymap/
-/xaero/
-/XaeroWaypoints*
 /shaderpacks
 /debug
 /asm
 /patchouli_data.json
 /ds_private_storage.json
 /cherishedworlds-favorites.dat
-/.mixin.out/
+/journeymap/
 /everbook/
+/.mixin.out/
+
 /icon.png
 /options.txt
 /rhino.local.properties
 /usercache.json
 /usernamecache.json
 /emi.json
-/servers.dat
-/servers.dat_old
-/hs_err*
+servers.dat
+servers.dat_old
+hs_err*
 
-example.js
-
-# Pakku
+# Pakku files
 /build/
 /.pakku/shelf
+
 /!.pakku/
 /!pakku.jar
 /!pakku.json
@@ -53,23 +51,21 @@ example.js
 !/.vscode/*.code-workspace
 /.vscode/*
 
-# ProbeJS
+# KubeJS/ProbeJS generated files
 /kubejs/probe/
 /kubejs/config/probejs.json
 /kubejs/config/probe-settings.json
 /kubejs/*/jsconfig.json
+/kubejs/**/example.js
 
-# Client configs (with exceptions below)
-/config/**/*client.*
+# Ignored Client configs (with exceptions below)
+/config/*client*
+/config/**/*client*
+/config/**/client*
 
-!/config/defaultsettings/**
-!/config/sophisticatedstorage-client.toml
-!/config/**/darkmodeeverywhere-client.toml
-!/config/create-client.toml
-!/config/botania-client.toml
-!/config/defaultsettings/Default/options.txt
+!/config/yosby/**
 
-# Configs (generaly ones that tend to edit the date on launch)
+# Ignored Configs (generaly ones that tend to edit the date on launch)
 /config/fml.toml
 /config/jei/world/local/*
 /config/fabric/indigo-renderer.properties
@@ -102,6 +98,7 @@ example.js
 /defaultconfigs/ftbultimine/ftbultimine-*.snbt
 /config/defaultsettings.json
 /config/embeddium-options.json
+/config/minimap.txt
 /config/crash_assistant/modlist.json
 /config/tunnelyrefab.json
 

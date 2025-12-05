@@ -1,0 +1,32 @@
+{
+  "dimmed": false,
+  "prefersReducedMotion": false,
+  "hideFloaties": false,
+  "showAllDots": false,
+  "keyDocs": false,
+  "uppercaseSig": false,
+  "noHexicalWalk": true,
+  "noHexicalEvoke": true,
+  "tooltipRenderSigs": true,
+  "shortcutHints": true,
+  "idle": {
+    "tooltip": "DESCRIPTIVE"
+  },
+  "mouseDraw": {
+    "tooltip": "DESCRIPTIVE"
+  },
+  "keyboardDraw": {
+    "allow": true,
+    "tooltip": "DESCRIPTIVE",
+    "keyHint": true,
+    "ghost": true
+  },
+  "autoComplete": {
+    "allow": true,
+    "tooltip": "DESCRIPTIVE",
+    "count": 7
+  },
+  "debug": false,
+  "knownWorldPatterns": [],
+  "patternAliases": { }
+}
