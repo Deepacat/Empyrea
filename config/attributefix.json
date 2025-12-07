@@ -275,6 +275,17 @@
         "value": 1024
       }
     },
+    "animus:unarmed_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "hexcasting:scry_sight": {
       "enabled": false,
       "min": {

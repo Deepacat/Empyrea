@@ -139,6 +139,35 @@
 		#Default: 64
 		#Range: -1 ~ 256
 		solVerticalRange = 64
+		#Disallow items enhanced by the Imperfect Ritual of Enhancement from being processed by the Ritual of Unmaking
+		#When true, items with the AnimusEnhanced tag will be skipped
+		#Default: true
+		unmakingDisallowEnhanced = true
+		#Enable player-like kills for Ritual of Culling when raw demon will is available
+		#When enabled and raw will is present, mobs are killed as if the ritual owner killed them
+		#This enables player-only drops like blaze rods from blazes
+		#Default: true
+		cullingPlayerKillDrops = true
+		#Chance (0.0 to 1.0) to consume 1 raw demon will when killing a mob with player-like kill
+		#Only applies when cullingPlayerKillDrops is enabled
+		#Default: 0.1 (10% chance)
+		#Range: 0.0 ~ 1.0
+		cullingWillConsumeChance = 0.1
+
+		#Ritual of Endless Greed - Collects mob drops into a container
+		[animus.rituals.endlessGreed]
+			#Horizontal range in blocks for Ritual of Endless Greed effect area
+			#Range: 1 ~ 32
+			range = 7
+			#Vertical range in blocks for Ritual of Endless Greed effect area
+			#Range: 1 ~ 32
+			verticalRange = 5
+			#LP cost per item collected by Ritual of Endless Greed
+			#Range: 0 ~ 100
+			lpPerItem = 1
+			#Base LP cost per refresh cycle (20 ticks) for Ritual of Endless Greed
+			#Range: 0 ~ 1000
+			refreshCost = 5
 
 	[animus.sigils]
 		#LP cost for Sigil of Consumption per block
@@ -188,6 +217,19 @@
 		#Number of blocks to replace per tick with Sigil of Equivalency (lower = less lag)
 		#Range: 1 ~ 100
 		sigilEquivalencyBlocksPerTick = 5
+
+		#Sigil of the Monk - unarmed combat enhancement
+		[animus.sigils.monk]
+			#Bonus unarmed damage when Sigil of the Monk is active
+			#This damage is added when attacking with empty hands
+			#Default: 10
+			#Range: 0.0 ~ 100.0
+			unarmedDamage = 10.0
+			#LP cost per second while Sigil of the Monk is active
+			#Default: 100 (5 LP per tick × 20 ticks)
+			#Set to 0 to disable LP drain
+			#Range: 0 ~ 10000
+			lpPerSecond = 100
 
 	[animus.hurtCooldown]
 		#How will the Hurt Cooldown (iframes) be affected
