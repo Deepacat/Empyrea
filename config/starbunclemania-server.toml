@@ -5,7 +5,7 @@
 	fluid_to_source = []
 	#Source cost to make a bucket of liquid source.
 	#Range: > 1
-	source_condense_cost = 1000
+	source_condense_cost = 10000
 	#Transfer rate of the fluid starbuncles
 	#Range: > 1
 	starbucket_ratio = 1000
