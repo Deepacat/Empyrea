@@ -1,5 +1,5 @@
 {
-	"type": "spectrum:fishing",
+  "type": "spectrum:fishing",
   "pools": [
     {
       "rolls": 1,

@@ -1,9 +1,15 @@
 {
-	"type": "spectrum:fishing",
+  "type": "spectrum:fishing",
   "pools": [
     {
       "rolls": 1,
       "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "spectrum:gameplay/fishing/liquid_crystal/fish",
+          "weight": 40,
+          "quality": -1
+        },
         {
           "type": "minecraft:loot_table",
           "name": "spectrum:gameplay/fishing/liquid_crystal/junk",
@@ -15,12 +21,6 @@
           "name": "spectrum:gameplay/fishing/liquid_crystal/treasure",
           "weight": 5,
           "quality": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "spectrum:gameplay/fishing/liquid_crystal/fish",
-          "weight": 80,
-          "quality": -1
         }
       ]
     }

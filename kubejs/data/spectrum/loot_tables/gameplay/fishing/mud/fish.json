@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 60,
+          "weight": 20,
           "name": "spectrum:crawfish"
         },
         {

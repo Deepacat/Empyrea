@@ -6,6 +6,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "name": "spectrum:gameplay/fishing/mud/fish",
+          "weight": 40,
+          "quality": -1
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "spectrum:gameplay/fishing/mud/junk",
           "weight": 10,
           "quality": -2
@@ -15,12 +21,6 @@
           "name": "spectrum:gameplay/fishing/mud/treasure",
           "weight": 5,
           "quality": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "spectrum:gameplay/fishing/mud/fish",
-          "weight": 80,
-          "quality": -1
         }
       ]
     }

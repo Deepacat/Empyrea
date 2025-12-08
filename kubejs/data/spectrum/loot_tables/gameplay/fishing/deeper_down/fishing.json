@@ -1,9 +1,15 @@
 {
-	"type": "spectrum:fishing",
+  "type": "spectrum:fishing",
   "pools": [
     {
       "rolls": 1,
       "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "spectrum:gameplay/fishing/deeper_down/fish",
+          "weight": 40,
+          "quality": -1
+        },
         {
           "type": "minecraft:loot_table",
           "name": "spectrum:gameplay/fishing/deeper_down/junk",
@@ -15,12 +21,6 @@
           "name": "spectrum:gameplay/fishing/deeper_down/treasure",
           "weight": 5,
           "quality": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "spectrum:gameplay/fishing/deeper_down/fish",
-          "weight": 80,
-          "quality": -1
         }
       ]
     }
