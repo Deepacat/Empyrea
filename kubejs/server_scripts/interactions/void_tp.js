@@ -79,7 +79,10 @@ EntityEvents.hurt(e => {
     let nextFallImmune = e.entity.persistentData.getInt('next_fall_immune')
     if (nextFallImmune == null || nextFallImmune == false) { return }
     if (e.source.type().msgId() == 'fall' && nextFallImmune == true) {
-        e.entity.persistentData.putBoolean('next_fall_immune', false)
+        // delays the fall damage removal since some occurences cause 2 damage events at once (e.g. falling on farmland)
+        e.entity.server.scheduleInTicks(2, () => { 
+            e.entity.persistentData.putBoolean('next_fall_immune', false)
+        })
         e.cancel()
     }
 })
