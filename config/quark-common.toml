@@ -772,7 +772,7 @@
 	"Blossom Trees" = true
 	"Chorus Vegetation" = true
 	Corundum = true
-	"Fairy Rings" = true
+	"Fairy Rings" = false
 	"Fallen Logs" = true
 	"Glimmering Weald" = true
 	"Monster Box" = true
@@ -1552,12 +1552,12 @@
 					"Is Blacklist" = false
 
 [client]
-	"Auto Walk Keybind" = true
-	"Back Button Keybind" = true
+	"Auto Walk Keybind" = false
+	"Back Button Keybind" = false
 	"Buckets Show Inhabitants" = true
 	Camera = true
 	"Chest Searching" = true
-	"Elytra Indicator" = true
+	"Elytra Indicator" = false
 	"Greener Grass" = true
 	"Improved Tooltips" = true
 	"Long Range Pick Block" = true
@@ -1607,12 +1607,12 @@
 			B = [0.0, 0.0, 1.22]
 
 	[client.improved_tooltips]
-		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Attribute Tooltips" = false
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
-		"Map Tooltips" = true
-		"Enchanting Tooltips" = true
-		"Fuel Time Tooltips" = true
+		"Map Tooltips" = false
+		"Enchanting Tooltips" = false
+		"Fuel Time Tooltips" = false
 		"Shulker Box Use Colors" = true
 		"Shulker Box Require Shift" = false
 		"Map Require Shift" = false
@@ -1679,7 +1679,7 @@
 	"Spawner Replacer" = false
 	#Allows placing variant blocks automatically via a selector menu triggered from a keybind
 	"Variant Selector" = false
-	"Villager Rerolling Rework" = false
+	"Villager Rerolling Rework" = true
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
@@ -1724,7 +1724,7 @@
 		"Nerf Mending" = true
 		#Makes Mending II still work even if mending is nerfed.
 		#If you want Mending II, disable the sanity check on Ancient Tomes and add minecraft:mending to the tomes.
-		"No Nerf for Mending II" = false
+		"No Nerf for Mending II" = true
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
 		#Makes Iron Golems not drop Iron Ingots
@@ -1832,7 +1832,7 @@
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
 		"Super Op Mode" = false
-		"Enable Ravager Hide" = true
+		"Enable Ravager Hide" = false
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5
@@ -1848,7 +1848,7 @@
 		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil", "minecraft:iron_horse_armor", "minecraft:chainmail_helmet", "minecraft:chainmail_boots", "minecraft:chainmail_leggings", "minecraft:chainmail_chestplate", "#minecraft:cauldrons"]
 		#Block/Item IDs to force-disable magnetism on, regardless of their crafting recipe
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook", "minecraft:map"]
-		"Use Pre End Recipe" = false
+		"Use Pre End Recipe" = true
 		#When true magnets will never push something that pistons cant push. Disable to have further control. This allows iron rods to break obsidian for example
 		"Use Piston Logic" = true
 		#Allows magnets to push and pull entities in the 'affected_by_magnets' tag (edit it with datapack). Turning off can reduce lag

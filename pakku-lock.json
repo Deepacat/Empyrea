@@ -4649,6 +4649,48 @@
             ]
         },
         {
+            "pakku_id": "MMVcew2rxUm3Ulyf",
+            "pakku_links": [
+                "279OR3ysZhjRCX2M"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "magical-psi-revival"
+            },
+            "name": {
+                "curseforge": "Magical Psi: Revival"
+            },
+            "id": {
+                "curseforge": "1320084"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MagicalPsiRevival-1.20.1-1.1.0.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7054/436/MagicalPsiRevival-1.20.1-1.1.0.4.jar",
+                    "id": "7054436",
+                    "parent_id": "1320084",
+                    "hashes": {
+                        "sha1": "79e7f8f4cedbaa655dfe1d0e553a6355082a8acd",
+                        "md5": "396e4bc75621ffb374556605bb783499"
+                    },
+                    "required_dependencies": [
+                        "241665"
+                    ],
+                    "size": 794332,
+                    "date_published": "2025-10-01T17:26:30.677Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ti8i2UODpdATU2yP",
             "type": "MOD",
             "slug": {
@@ -4873,6 +4915,43 @@
                     "required_dependencies": [],
                     "size": 2239600,
                     "date_published": "2025-10-09T15:38:41.673Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "4xVsg7Gd69FdcYxP",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "modular-routers"
+            },
+            "name": {
+                "curseforge": "Modular Routers"
+            },
+            "id": {
+                "curseforge": "250294"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "modular-routers-12.1.1+mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5056/687/modular-routers-12.1.1+mc1.20.1.jar",
+                    "id": "5056687",
+                    "parent_id": "250294",
+                    "hashes": {
+                        "sha1": "037b801a55ca30952b98c427a77ac206cb1248c3",
+                        "md5": "68187d330fe8a883782b211bc50dfb74"
+                    },
+                    "required_dependencies": [],
+                    "size": 1163834,
+                    "date_published": "2024-01-24T15:15:35.100Z"
                 }
             ]
         },
@@ -5481,6 +5560,42 @@
             ]
         },
         {
+            "pakku_id": "nodXVQYLGd4lR396",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "platform"
+            },
+            "name": {
+                "curseforge": "Platform"
+            },
+            "id": {
+                "curseforge": "997634"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Platform-forge-1.20.1-1.2.11.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7227/584/Platform-forge-1.20.1-1.2.11.3.jar",
+                    "id": "7227584",
+                    "parent_id": "997634",
+                    "hashes": {
+                        "sha1": "cea96c84a359f202f89622626a7625c41572804a",
+                        "md5": "59135c5d24bcb664824f0c846b239246"
+                    },
+                    "required_dependencies": [],
+                    "size": 512498,
+                    "date_published": "2025-11-16T06:31:51.623Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sO9K2TORzcHQmeoK",
             "type": "MOD",
             "slug": {
@@ -5706,6 +5821,85 @@
                     ],
                     "size": 2365466,
                     "date_published": "2024-04-01T14:08:56.003Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "279OR3ysZhjRCX2M",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "psi"
+            },
+            "name": {
+                "curseforge": "Psi"
+            },
+            "id": {
+                "curseforge": "241665"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Psi-1.20.1-102.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6472/34/Psi-1.20.1-102.jar",
+                    "id": "6472034",
+                    "parent_id": "241665",
+                    "hashes": {
+                        "sha1": "fb45df310579991d8fab2db1b3c6fb5326940bef",
+                        "md5": "e557b074b9714e4677968d23db0c3ee8"
+                    },
+                    "required_dependencies": [],
+                    "size": 2218117,
+                    "date_published": "2025-04-27T22:16:06.200Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "BQutGwfiKCuh440o",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "psionic-utilities"
+            },
+            "name": {
+                "curseforge": "Psionic Utilities"
+            },
+            "id": {
+                "curseforge": "611991"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "psionicutilities-1.20-1.4.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20.6",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6549/76/psionicutilities-1.20-1.4.jar",
+                    "id": "6549076",
+                    "parent_id": "611991",
+                    "hashes": {
+                        "sha1": "3850f8d846e5bc20a4391d5e115d9ebd32aeb6de",
+                        "md5": "e4e6e1db4e2b9c183d5dff18c51ce760"
+                    },
+                    "required_dependencies": [
+                        "241665"
+                    ],
+                    "size": 36495,
+                    "date_published": "2025-05-20T00:51:05.633Z"
                 }
             ]
         },
@@ -6916,6 +7110,44 @@
                     ],
                     "size": 203357,
                     "date_published": "2024-10-03T20:45:16.117Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "LsJ0v74736lLzYMD",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "vanillabackport"
+            },
+            "name": {
+                "curseforge": "Vanilla Backport"
+            },
+            "id": {
+                "curseforge": "417430"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "vanillabackport-forge-1.20.1-1.1.5.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7227/619/vanillabackport-forge-1.20.1-1.1.5.1.jar",
+                    "id": "7227619",
+                    "parent_id": "417430",
+                    "hashes": {
+                        "sha1": "77551f2c12f9ad1db0bcc4c2819e0914b0111326",
+                        "md5": "747eebae16a8c255aa4d88c90389134c"
+                    },
+                    "required_dependencies": [
+                        "997634"
+                    ],
+                    "size": 28004226,
+                    "date_published": "2025-11-16T06:53:38.667Z"
                 }
             ]
         },
