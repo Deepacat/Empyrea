@@ -16,6 +16,11 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "name": "spectrum:quitoxic_reeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "minecraft:leather"
         },
         {

@@ -1286,7 +1286,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -1.5d
 			y: -17.0d
 		}
 		{
@@ -1721,17 +1721,6 @@
 		}
 		{
 			dependencies: ["15FECCF2D792A83A"]
-			id: "339B6D98B0CBABAD"
-			tasks: [{
-				id: "4763132D762EB590"
-				item: "spectrum:potion_workshop"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["15FECCF2D792A83A"]
 			id: "328870443AD1F73C"
 			shape: "rsquare"
 			tasks: [{
@@ -1754,7 +1743,7 @@
 				item: "botania:rune_mana"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -17.0d
 		}
 		{
@@ -2064,14 +2053,14 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["38AA8F0C530F62EA"]
+			dependencies: ["1A3B86810035A0CC"]
 			id: "3CC975EF567EFC1F"
 			tasks: [{
 				id: "52523054FFAF6755"
 				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -17.0d
 		}
 		{

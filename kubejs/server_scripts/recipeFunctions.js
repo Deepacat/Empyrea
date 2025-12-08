@@ -10,6 +10,7 @@ function insideBlock(e, post, inputs, insideBlock) {
     recipe.block_in = insideBlock
     recipe.item_in = inputs
     recipe.post = post
+    recipe.max_repeats = 16
     const r = e.custom(recipe)
 
     return {
