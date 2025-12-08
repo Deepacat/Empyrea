@@ -4649,9 +4649,9 @@
             ]
         },
         {
-            "pakku_id": "MMVcew2rxUm3Ulyf",
+            "pakku_id": "qlhOmA5tlcsHy9TF",
             "pakku_links": [
-                "279OR3ysZhjRCX2M"
+                "3yFxbtqZIqac3Ar5"
             ],
             "type": "MOD",
             "slug": {
@@ -5825,7 +5825,7 @@
             ]
         },
         {
-            "pakku_id": "279OR3ysZhjRCX2M",
+            "pakku_id": "3yFxbtqZIqac3Ar5",
             "type": "MOD",
             "slug": {
                 "curseforge": "psi"
@@ -5862,6 +5862,9 @@
         },
         {
             "pakku_id": "BQutGwfiKCuh440o",
+            "pakku_links": [
+                "3yFxbtqZIqac3Ar5"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "psionic-utilities"
@@ -6272,6 +6275,42 @@
                     "required_dependencies": [],
                     "size": 1798244,
                     "date_published": "2025-02-12T21:26:47.347Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "izEiN6Zvh6yc5Dlp",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "schematicannon"
+            },
+            "name": {
+                "curseforge": "Schematicannon"
+            },
+            "id": {
+                "curseforge": "1350154"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "schematicannon-1.20.1-1.0.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7018/42/schematicannon-1.20.1-1.0.0.jar",
+                    "id": "7018042",
+                    "parent_id": "1350154",
+                    "hashes": {
+                        "sha1": "199d141585c1b42f9e44845113be6e882247b482",
+                        "md5": "4ddbdcd030dd2fd65986dbd6aaf366ce"
+                    },
+                    "required_dependencies": [],
+                    "size": 2697399,
+                    "date_published": "2025-09-21T07:55:28.683Z"
                 }
             ]
         },
