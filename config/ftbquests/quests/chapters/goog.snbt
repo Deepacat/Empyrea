@@ -49,6 +49,13 @@
 			y: -1.0d
 		}
 		{
+			description: [
+				"island starts with a few root blocks you can break for living roots"
+				""
+				"this material is limited, use them wisely"
+				""
+				"the root can also be used as bonemeal for grass or a quick sapling"
+			]
 			id: "6C8BA39A79C0EEA5"
 			tasks: [{
 				id: "7CE79BE3AED90FFF"
@@ -60,6 +67,7 @@
 		}
 		{
 			dependencies: ["6C8BA39A79C0EEA5"]
+			description: ["can be made into saplings or fertilizer to create mystical flowers"]
 			id: "798F38F766EF2F15"
 			tasks: [
 				{
@@ -164,6 +172,7 @@
 				"3DBD24B4AC12CF51"
 				"7200860E52B32DBB"
 			]
+			description: ["orechid converts nearby stone and mana to ores"]
 			id: "68BC6757B6175740"
 			tasks: [{
 				id: "4F55699C3437A5E1"
@@ -716,6 +725,7 @@
 			y: -9.0d
 		}
 		{
+			description: ["a bottle and cauldron can be used to get another water bucket"]
 			icon: "minecraft:glass_bottle"
 			id: "0C3AF62FAAB5F318"
 			tasks: [
@@ -741,6 +751,7 @@
 		}
 		{
 			dependencies: ["68BC6757B6175740"]
+			description: ["2 iron bars with a fel pumpkin on top creates a fel blaze, which only drops blaze powder"]
 			id: "0DDD550A4EB3ED88"
 			tasks: [
 				{
@@ -803,6 +814,11 @@
 		}
 		{
 			dependencies: ["4E035B13EF5A5031"]
+			description: [
+				"mermaids gem can be replanted"
+				""
+				"fluid mud lets you generate dirt with water contact like a cobble gen"
+			]
 			id: "50D82489E785C211"
 			tasks: [
 				{
@@ -821,14 +837,13 @@
 		}
 		{
 			dependencies: ["162C98E2A11197BB"]
+			description: [""]
 			id: "4E035B13EF5A5031"
-			subtitle: "A heart once deep, lifted above"
 			tasks: [{
 				id: "204F00C052719701"
 				item: "minecraft:heart_of_the_sea"
 				type: "item"
 			}]
-			title: "Sea of the sky"
 			x: -2.0d
 			y: -11.0d
 		}
@@ -837,6 +852,7 @@
 				"162C98E2A11197BB"
 				"3B9E4D319B8F4EA4"
 			]
+			description: ["can be used in orechid for gemstones"]
 			id: "1B72798AB15A037D"
 			tasks: [{
 				id: "64C88534C4B639E5"
@@ -849,6 +865,7 @@
 		{
 			dependencies: ["42BBFA49DED56490"]
 			dependency_requirement: "one_started"
+			description: ["click paint brush on pedestal to start craft"]
 			id: "09BA5C10E5A06D48"
 			tasks: [
 				{
@@ -867,6 +884,7 @@
 		}
 		{
 			dependencies: ["1B72798AB15A037D"]
+			description: ["spectrums 3 gemstones"]
 			id: "42BBFA49DED56490"
 			tasks: [
 				{
@@ -890,6 +908,15 @@
 		}
 		{
 			dependencies: ["40B1C5AE1D3FEC90"]
+			description: [
+				"needed for earth rune"
+				""
+				"mushrooms slowly grow on nearby blocks"
+				""
+				"can be planted in the dark"
+				""
+				"doesn't reqiure dark on mycelium, podzol, or nylium"
+			]
 			id: "47E3293F30D8C9F3"
 			tasks: [{
 				id: "2F48623911F7D611"
@@ -913,6 +940,7 @@
 		}
 		{
 			dependencies: ["313A6DBDBA3F373D"]
+			description: ["places dirt for mana"]
 			id: "0AE5DF218DF547BF"
 			tasks: [{
 				id: "0FD9AFBBCB64F534"
@@ -931,10 +959,11 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["09BA5C10E5A06D48"]
+			description: ["upgraded pedstal requires a structure, see book page"]
 			id: "0A8A2AB5A59293C7"
 			tasks: [{
 				id: "6FB682657C412E10"
@@ -1064,6 +1093,7 @@
 		}
 		{
 			dependencies: ["09BA5C10E5A06D48"]
+			description: ["can be made in pedestal"]
 			id: "0E6EB6115FA0B7BC"
 			tasks: [{
 				id: "2407155AFC2122AD"
@@ -1093,41 +1123,22 @@
 		}
 		{
 			id: "5DE4B62F6F3B087B"
-			tasks: [
-				{
-					id: "4098196E7FD32DFD"
-					item: "minecraft:slime_ball"
-					type: "item"
-				}
-				{
-					id: "2AE0720D73636D48"
-					item: "minecraft:magma_cream"
-					type: "item"
-				}
-				{
-					id: "257AD47B6631A3B6"
-					item: "minecraft:magma_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "257AD47B6631A3B6"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["55E286E3500102CE"]
 			id: "1B9C3C1E487D9160"
-			tasks: [
-				{
-					id: "1C44F7D12BE2B68B"
-					item: "minecraft:blaze_rod"
-					type: "item"
-				}
-				{
-					id: "095D19E37D5B7F15"
-					item: "minecraft:wither_skeleton_skull"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1C44F7D12BE2B68B"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
 			x: 6.0d
 			y: -11.0d
 		}
@@ -1184,6 +1195,7 @@
 		}
 		{
 			dependencies: ["40B1C5AE1D3FEC90"]
+			description: ["can be mud fished"]
 			id: "15FECCF2D792A83A"
 			tasks: [{
 				id: "3060D14BFB4E4E39"
@@ -1244,7 +1256,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 4.0d
 			y: -14.0d
 		}
 		{
@@ -1297,7 +1309,7 @@
 				item: "spectrum:liquid_crystal_bucket"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -14.0d
 		}
 		{
@@ -1305,6 +1317,7 @@
 				"09BA5C10E5A06D48"
 				"50D82489E785C211"
 			]
+			description: ["can fish in mud and retrieve mobs"]
 			id: "40B1C5AE1D3FEC90"
 			tasks: [{
 				id: "01E1A3D9AA18583A"
@@ -1358,10 +1371,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"1B9C3C1E487D9160"
-				"7F8CDDFB08CA7A1A"
-			]
+			dependencies: ["7F8CDDFB08CA7A1A"]
 			id: "2D972DF7207CA8B1"
 			tasks: [{
 				id: "13A7EF6BEA17A660"
@@ -1369,7 +1379,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -11.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -1385,7 +1395,7 @@
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -7.0d
 		}
 		{
@@ -1396,7 +1406,7 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -7.0d
 		}
 		{
@@ -1414,7 +1424,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.0d
 			y: -7.0d
 		}
 		{
@@ -1460,47 +1470,59 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["1FA75761362BF804"]
+			dependencies: [
+				"1FA75761362BF804"
+				"47561B6D8ADAFC54"
+			]
 			id: "723FA65F41DA1EB7"
 			tasks: [{
 				id: "7E5C4BB45934823D"
 				item: "botania:rune_fire"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: -5.5d
 		}
 		{
-			dependencies: ["01937E6AE360390E"]
+			dependencies: [
+				"01937E6AE360390E"
+				"47561B6D8ADAFC54"
+			]
 			id: "64106799A72E404E"
 			tasks: [{
 				id: "76378BA94BC9BF7E"
 				item: "botania:rune_earth"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: -5.5d
 		}
 		{
-			dependencies: ["6EB50172F4B8B294"]
+			dependencies: [
+				"6EB50172F4B8B294"
+				"47561B6D8ADAFC54"
+			]
 			id: "4C4311938227CA8D"
 			tasks: [{
 				id: "00CE8757CED6C159"
 				item: "botania:rune_air"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -5.5d
 		}
 		{
-			dependencies: ["7A6B7FFA3E139AE9"]
+			dependencies: [
+				"7A6B7FFA3E139AE9"
+				"47561B6D8ADAFC54"
+			]
 			id: "2E1D2E7F07193ABA"
 			tasks: [{
 				id: "53CA765104DA5797"
 				item: "botania:rune_water"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: -5.5d
 		}
 		{
@@ -1511,7 +1533,7 @@
 				item: "botania:rune_mana"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -5.5d
 		}
 		{
@@ -1521,7 +1543,7 @@
 				item: "minecraft:nether_wart"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: -4.5d
 		}
 		{
@@ -1531,7 +1553,7 @@
 				item: "minecraft:red_mushroom"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: -4.5d
 		}
 		{
@@ -1582,6 +1604,7 @@
 		}
 		{
 			dependencies: ["424032A84719B07F"]
+			description: ["can be used with pure daisy to get more dirt early on"]
 			id: "2612A1EE9D77B229"
 			tasks: [{
 				id: "564667FFB0B762D5"
@@ -1593,6 +1616,13 @@
 		}
 		{
 			dependencies: ["4B0484A816CCEFE4"]
+			description: [
+				"many different seeds drop from grass"
+				""
+				"you can get grass by bonemealing grass blocks"
+				""
+				"floral fertilizer works for grass"
+			]
 			id: "159D13B40AD821F0"
 			tasks: [{
 				id: "7077D68BF7A12C52"
@@ -1604,6 +1634,13 @@
 		}
 		{
 			dependencies: ["6B61940108C9301B"]
+			description: [
+				"sifting spade digs up more pebbles, repairable in crafting with living rock"
+				""
+				"watering can lets you sneak grow nearby crops, repairable with water bowl"
+				""
+				"living rock shears are a cheaper alternative when you need leaves or grass"
+			]
 			id: "6052F90EADC5D9F2"
 			tasks: [
 				{
@@ -1644,6 +1681,7 @@
 			y: -9.0d
 		}
 		{
+			description: ["sneak right clicking dirt and similar blocks yields pebbles to make stone from"]
 			id: "4B0484A816CCEFE4"
 			tasks: [{
 				id: "505A481A5CD9720F"
@@ -1756,7 +1794,7 @@
 				item: "spectrum:mermaids_gem"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: -4.5d
 		}
 		{
@@ -1766,7 +1804,7 @@
 				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -4.5d
 		}
 		{
@@ -1788,7 +1826,7 @@
 				item: "spectrum:shimmerstone_gem"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -4.5d
 		}
 		{
@@ -2045,13 +2083,20 @@
 		}
 		{
 			dependencies: ["55E286E3500102CE"]
-			description: ["piglin trade, fishing, bastion loot"]
+			description: [""]
 			id: "7F8CDDFB08CA7A1A"
-			tasks: [{
-				id: "63BFA569FC7AD820"
-				item: "minecraft:soul_sand"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "63BFA569FC7AD820"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "7235DE6A5B4FDEED"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: -12.0d
 		}
@@ -2109,6 +2154,17 @@
 			]
 			x: -4.0d
 			y: -15.0d
+		}
+		{
+			dependencies: ["22C949FABB55DE9C"]
+			id: "46C6E58FB664FE45"
+			tasks: [{
+				id: "3EBA6E3C76AA7336"
+				item: "spectrum:potion_workshop"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.0d
 		}
 	]
 	title: "goog :)"
