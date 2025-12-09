@@ -65,7 +65,7 @@ hs_err*
 
 !/config/yosby/**
 
-# Ignored Configs (generaly ones that tend to edit the date on launch)
+# Ignored Configs, mostly extra clientside or generated configs
 /config/fml.toml
 /config/jei/world/local/*
 /config/fabric/indigo-renderer.properties
@@ -101,6 +101,7 @@ hs_err*
 /config/minimap.txt
 /config/crash_assistant/modlist.json
 /config/tunnelyrefab.json
+/config/hexcessible.json
 
 # Linux
 *~

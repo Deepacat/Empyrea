@@ -1,9 +1,9 @@
 {
-  "dimmed": false,
+  "dimmed": true,
   "prefersReducedMotion": false,
   "hideFloaties": false,
   "showAllDots": false,
-  "keyDocs": false,
+  "keyDocs": true,
   "uppercaseSig": false,
   "noHexicalWalk": true,
   "noHexicalEvoke": true,
@@ -16,17 +16,17 @@
     "tooltip": "DESCRIPTIVE"
   },
   "keyboardDraw": {
-    "allow": true,
+    "allow": false,
     "tooltip": "DESCRIPTIVE",
     "keyHint": true,
     "ghost": true
   },
   "autoComplete": {
-    "allow": true,
+    "allow": false,
     "tooltip": "DESCRIPTIVE",
     "count": 7
   },
   "debug": false,
-  "knownWorldPatterns": [],
+  "knownWorldPatterns": [ ],
   "patternAliases": { }
 }
