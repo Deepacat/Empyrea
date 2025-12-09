@@ -1535,7 +1535,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0A8A2AB5A59293C7"]
+			dependencies: [
+				"0A8A2AB5A59293C7"
+				"0EF93B72D1C8484B"
+			]
 			hide_dependency_lines: true
 			icon: "spectrum:deepslate_shimmerstone_ore"
 			id: "3B7F574E4D7B2B48"
@@ -1556,7 +1559,7 @@
 				item: "ars_caelum:ritual_conjure_island_geode"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -16.0d
 		}
 		{
@@ -1574,7 +1577,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -4.0d
 			y: -17.0d
 		}
 		{
@@ -2104,7 +2107,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -4.0d
 			y: -15.0d
 		}
 	]

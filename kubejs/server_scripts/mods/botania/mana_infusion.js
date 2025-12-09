@@ -1,4 +1,8 @@
 ServerEvents.recipes(e => {
+    // magical infusion
+    e.recipes.botania.mana_infusion('malum:natural_quartz', 'botania:quartz_mana', 500)
+        .id('kubejs:botania/mana_infusion/mana_quartz_natural')
+
     e.remove({ id: 'botania:mana_infusion/deepslate_to_tuff' })
     e.remove({ id: 'botania:mana_infusion/calcite_to_deepslate' })
     e.remove({ id: 'botania:mana_infusion/tuff_to_calcite' })
@@ -18,7 +22,7 @@ ServerEvents.recipes(e => {
         .id('kubejs:botania/mana_infusion/kelp_to_bamboo')
     e.recipes.botania.mana_infusion('minecraft:kelp', 'minecraft:bamboo', 250, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/bamboo_to_kelp')
-    // misc reversion/crushing
+    // misc alchemy reversion/crushing 
     e.recipes.botania.mana_infusion('spectrum:mermaids_gem', 'minecraft:heart_of_the_sea', 10000, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/heart_to_mermaids_gem')
     e.recipes.botania.mana_infusion('hexcasting:amethyst_dust', 'minecraft:amethyst_shard', 200, 'botania:alchemy_catalyst')

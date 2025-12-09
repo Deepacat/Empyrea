@@ -14,6 +14,7 @@ ServerEvents.recipes(e => {
         '#kubejs:rare_mana',
         'botania:manasteel_ingot',
         'botania:quartz_mana',
+        'botania:mana_glass',
         'botania:mana_string',
         'ars_nouveau:source_gem',
     ], 3000).id('kubejs:mods/botania/runic_altar/mana')
