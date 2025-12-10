@@ -79,7 +79,6 @@ EntityEvents.hurt(e => {
     let nextFallImmune = e.entity.persistentData.getInt('next_fall_immune')
     if (nextFallImmune == null || nextFallImmune == false) { return }
     if (e.source.type().msgId() == 'fall' && nextFallImmune == true) {
-        e.entity.level.server.tell(e.source.type().msgId())
         // delays the fall damage removal since some occurences cause 2 damage events at once (e.g. falling on farmland)
         e.entity.server.scheduleInTicks(2, () => {
             e.entity.persistentData.putBoolean('next_fall_immune', false)
@@ -91,6 +90,8 @@ EntityEvents.hurt(e => {
 PlayerEvents.tick(e => {
     if (Utils.server.tickCount % 20 !== 0) return
     if (e.player.persistentData.getBoolean('next_fall_immune') && e.player.onGround()) {
-        e.player.persistentData.putBoolean('next_fall_immune', false)
+        e.entity.server.scheduleInTicks(2, () => {
+            e.entity.persistentData.putBoolean('next_fall_immune', false)
+        })
     }
 })
