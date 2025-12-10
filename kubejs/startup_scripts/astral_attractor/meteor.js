@@ -157,13 +157,16 @@ global.attractorSpawnMeteor = (attractor) => {
 StartupEvents.registry('entity_type', event => {
     /** @type {Internal.ProjectileEntityJSBuilder} */
     let meteor = event.create('meteor', 'entityjs:projectile')
-        .textureLocation(e => { return 'spectrum:textures/item/shimmerstone_gem.png' })
         .isAttackable(false)
         .mobCategory('misc')
         .sized(2, 2)
-        .renderOffset(0, 0, 0)
-        .renderScale(2, 2, 2)
         .noItem()
+
+    if (global.meteorRenderer) {
+        meteor.render(global.meteorRenderer)
+            .renderType(_ => global.CUTOUT_MIPPED)
+            .renderScale(0, 0, 0);
+    }
 
     // Meteor entity action functions
     meteor.tick(entity => { global.meteorTick(entity) })
@@ -171,24 +174,3 @@ StartupEvents.registry('entity_type', event => {
     meteor.onAddedToWorld(entity => { global.meteorOnAddedToWorld(entity) })
     meteor.onHitBlock(ctx => { global.meteorOnHitBlock(ctx) })
 })
-
-// Meteor spawner block registry
-StartupEvents.registry("block", (e) => {
-    e.create("kubejs:astral_attractor", "cardinal")
-        .tagBlock("minecraft:mineable/pickaxe")
-        .tagBlock("minecraft:needs_stone_tool")
-        .defaultCutout()
-        .soundType("copper")
-        .item(item => {
-            item.tooltip(Text.gray("Allures shimmering clusters to home in on it's position"))
-        })
-        .textureAll('awawatextureme')
-        // .model("minecraft:block/furnace")
-        .blockEntity(blockInfo => {
-            blockInfo.serverTick(20, 0, (entity) => {
-                global.attractorSpawnMeteor(entity)
-            })
-        })
-})
-
-
