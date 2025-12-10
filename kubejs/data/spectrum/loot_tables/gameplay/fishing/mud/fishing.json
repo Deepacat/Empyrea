@@ -7,7 +7,7 @@
         {
           "type": "minecraft:loot_table",
           "name": "spectrum:gameplay/fishing/mud/fish",
-          "weight": 40,
+          "weight": 15,
           "quality": -1
         },
         {

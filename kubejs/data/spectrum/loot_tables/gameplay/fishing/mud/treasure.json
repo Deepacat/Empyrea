@@ -23,7 +23,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:slime_ball"
+					"name": "minecraft:slime_ball",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",

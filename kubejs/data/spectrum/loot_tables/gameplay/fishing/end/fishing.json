@@ -7,7 +7,7 @@
         {
           "type": "minecraft:loot_table",
           "name": "spectrum:gameplay/fishing/end/junk",
-          "weight": 10,
+          "weight": 15,
           "quality": -2
         },
         {
