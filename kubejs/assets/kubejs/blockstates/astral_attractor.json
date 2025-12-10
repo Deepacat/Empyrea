@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "meteor_spawned=true": {
+      "model": "minecraft:block/furnace"
+    },
+    "meteor_spawned=false": {
+      "model": "minecraft:block/furnace_on"
+    }
+  }
+}
