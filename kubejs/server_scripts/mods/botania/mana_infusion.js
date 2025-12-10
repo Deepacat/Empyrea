@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     // magical infusion
-    e.recipes.botania.mana_infusion('malum:natural_quartz', 'botania:quartz_mana', 500)
+    e.recipes.botania.mana_infusion('botania:quartz_mana', 'malum:natural_quartz', 500)
         .id('kubejs:botania/mana_infusion/mana_quartz_natural')
 
     e.remove({ id: 'botania:mana_infusion/deepslate_to_tuff' })

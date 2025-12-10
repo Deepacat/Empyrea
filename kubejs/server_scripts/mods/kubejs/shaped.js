@@ -29,4 +29,17 @@ ServerEvents.recipes(e => {
         D: 'minecraft:grindstone',
         E: 'minecraft:piston'
     }).id('kubejs:shaped/pulverizing_catalyst')
+
+    e.shaped('kubejs:astral_attractor', [
+        'ABA',
+        'CDC',
+        'EFE'
+    ], {
+        A: 'spectrum:polished_calcite_pillar',
+        B: 'botania:lens_magnet',
+        C: 'spectrum:amethyst_storage_block',
+        D: 'botania:sextant',
+        E: 'spectrum:notched_polished_basalt',
+        F: 'botania:rune_mana'
+    }).id('kubejs:shaped/astral_attractor')
 })
