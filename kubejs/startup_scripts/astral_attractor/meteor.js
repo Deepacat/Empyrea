@@ -108,51 +108,6 @@ global.meteorTick = (/** @type {Internal.Entity} */ entity) => {
     // }
 }
 
-/** @param {Internal.BlockEntity} attractor */
-global.attractorSpawnMeteor = (attractor) => {
-    try {
-        let heightMapPos = attractor.level.getHeightmapPos("motion_blocking", attractor.blockPos)
-        if (heightMapPos.below().y != attractor.blockPos.y) { return } // check if any blocks above
-        let dayTime = attractor.level.dayTime()
-        if (dayTime % 24000 < 13000) { return } // check if night time
-
-        let rnd = rndFrom(0, 1000)
-        if (rnd != 0) { return } // 1 in 1000 every second
-
-        /** @type {Internal.Entity} */
-        let meteorEntity = attractor.level // create the meteor entity
-            .createEntity("kubejs:meteor")
-
-        let rndPos = Object.assign(
-            { y: attractor.blockPos.y + 300 },
-            rndPerimeter(attractor.blockPos.x, attractor.blockPos.z, 128)
-        )
-
-        // let chunkCoords = { x: Math.floor(rndPos.x / 16), z: Math.floor(rndPos.z / 16) }
-        // let coordVec = Vec3d(rndPos.x, rndPos.y, rndPos.z)
-
-        // console.log(`blockpos: ${rndPos.x}, ${rndPos.y}, ${rndPos.z}`)
-        // console.log(`chunkpos: ${chunkCoords.x}, ${chunkCoords.z}`)
-        // console.log(level.getChunkAt(coordVec).getFullStatus())
-
-        let meteorSpawnPos = rndPos
-
-        meteorEntity.setPosition(meteorSpawnPos.x, meteorSpawnPos.y, meteorSpawnPos.z)
-
-        let attractorVec = new Vec3d(attractor.blockPos.x + 0.5, attractor.blockPos.y + 0.5, attractor.blockPos.z + 0.5)
-
-        let delta = getMotionVec(meteorEntity.getPos(), attractorVec).scale(2)
-        meteorEntity.setDeltaMovement(delta)
-        meteorEntity.spawn()
-
-        // // debug spawn position
-        Utils.server.tell(`spawning emetor at ${meteorSpawnPos.x}, ${meteorSpawnPos.y}, ${meteorSpawnPos.z}`)
-
-        // save movement data to nbt so it can be reset constantly
-        meteorEntity.mergeNbt({ BalmData: { delta: { x: delta.x(), y: delta.y(), z: delta.z() } } })
-    } catch (e) { console.log(e) }
-}
-
 // Meteor entity registry 
 StartupEvents.registry('entity_type', event => {
     /** @type {Internal.ProjectileEntityJSBuilder} */
