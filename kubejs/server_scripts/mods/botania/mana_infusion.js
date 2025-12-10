@@ -27,6 +27,10 @@ ServerEvents.recipes(e => {
         .id('kubejs:botania/mana_infusion/heart_to_mermaids_gem')
     e.recipes.botania.mana_infusion('hexcasting:amethyst_dust', 'minecraft:amethyst_shard', 200, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/amethyst_to_dust')
+    e.recipes.botania.mana_infusion('waystones:warp_stone', '#waystones:waystones', 5000, 'botania:alchemy_catalyst')
+        .id('kubejs:botania/mana_infusion/waystone_to_warp_stone')
+    e.recipes.botania.mana_infusion('waystones:warp_stone', '#waystones:sharestones', 5000, 'botania:alchemy_catalyst')
+        .id('kubejs:botania/mana_infusion/sharestone_to_warp_stone')
 
     // copy spectrums anvil crushing recipes to pulverizing catalyst infusing
     let recipeIter = 0
