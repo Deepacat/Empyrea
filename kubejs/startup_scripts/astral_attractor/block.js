@@ -12,7 +12,6 @@ global.attractorTick = (attractor) => {
         if (dayTime % 24000 < 13000) { return } // check if night time
 
         let rnd = rndFrom(0, 1000)
-        Utils.server.tell(`${rnd}`)
         if (rnd != 0) { return } // 1 in 1000 every second
 
         /** @type {Internal.Entity} */
@@ -35,7 +34,6 @@ global.attractorTick = (attractor) => {
 
         // save movement data to nbt so it can be reset constantly
         meteorEntity.mergeNbt({ BalmData: { delta: { x: delta.x(), y: delta.y(), z: delta.z() } } })
-        meteorEntity.mergeNbt({ BalmData: { target: { x: attractor.blockPos.x, y: attractor.blockPos.y, z: attractor.blockPos.z  } } })
     } catch (e) { console.log(e) }
 }
 
