@@ -18,4 +18,14 @@ ServerEvents.recipes(e => {
         'botania:mana_string',
         'ars_nouveau:source_gem',
     ], 3000).id('kubejs:mods/botania/runic_altar/mana')
+
+    e.remove({ id: 'botania:runic_altar/air'})
+    e.recipes.botania.runic_altar('botania:rune_air', [
+        'ars_nouveau:air_essence',
+        'spectrum:shimmerstone_gem',
+        'minecraft:feather',
+        'minecraft:string',
+        '#minecraft:wool_carpets',
+        'botania:mana_powder'
+    ], 6000).id('kubejs:mods/botania/runic_altar/air')
 })
