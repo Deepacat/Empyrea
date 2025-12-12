@@ -7,4 +7,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'botania:mana_infusion/cod_to_salmon' })
     e.remove({ id: 'botania:mana_infusion/salmon_to_tropical_fish' })
     e.remove({ id: 'botania:mana_infusion/tropical_fish_to_pufferfish' })
+
+    // mesh to obsidian
+    e.remove({ id: 'botania:pure_daisy/obsidian'})
 })

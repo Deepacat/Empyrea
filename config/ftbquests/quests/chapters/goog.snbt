@@ -1979,8 +1979,8 @@
 				item: "eidolon:deep_silver_ore"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -21.5d
+			x: -17.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["6E59CA69F3590ABB"]
@@ -1990,7 +1990,7 @@
 				item: "eidolon:deep_lead_ore"
 				type: "item"
 			}]
-			x: -17.5d
+			x: -18.0d
 			y: -20.5d
 		}
 		{
@@ -2007,11 +2007,18 @@
 		{
 			dependencies: ["0241E72C7F16B121"]
 			id: "55B9C28B59403CBB"
-			tasks: [{
-				id: "6E20732FD9266FDB"
-				item: "occultism:iesnium_ore"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6E20732FD9266FDB"
+					item: "occultism:iesnium_ore"
+					type: "item"
+				}
+				{
+					id: "5DD59B6D103EC584"
+					item: "occultism:iesnium_ore_natural"
+					type: "item"
+				}
+			]
 			x: -16.5d
 			y: -13.5d
 		}
@@ -2065,7 +2072,7 @@
 				item: "spectrum:deepslate_azurite_ore"
 				type: "item"
 			}]
-			x: -16.5d
+			x: -16.0d
 			y: -20.5d
 		}
 		{
@@ -2184,6 +2191,17 @@
 			}]
 			x: 2.5d
 			y: -18.5d
+		}
+		{
+			dependencies: ["6E59CA69F3590ABB"]
+			id: "1424385F5FA8F636"
+			tasks: [{
+				id: "6E9A9092DC474FBE"
+				item: "malum:cthonic_gold_ore"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -21.5d
 		}
 	]
 	title: "goog :)"
