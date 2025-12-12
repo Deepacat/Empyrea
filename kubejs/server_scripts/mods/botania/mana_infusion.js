@@ -10,18 +10,20 @@ ServerEvents.recipes(e => {
     // otherstone to basalt
     e.recipes.botania.mana_infusion('minecraft:basalt', 'occultism:otherstone', 300, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/otherstone_to_basalt')
-    // basalt/tuff/calcite cycle
-    e.recipes.botania.mana_infusion('minecraft:basalt', 'minecraft:calcite', 300, 'botania:alchemy_catalyst')
-        .id('kubejs:botania/mana_infusion/calcite_to_basalt')
-    e.recipes.botania.mana_infusion('minecraft:tuff', 'minecraft:basalt', 300, 'botania:alchemy_catalyst')
-        .id('kubejs:botania/mana_infusion/basalt_to_tuff')
-    e.recipes.botania.mana_infusion('minecraft:calcite', 'minecraft:tuff', 300, 'botania:alchemy_catalyst')
-        .id('kubejs:botania/mana_infusion/tuff_to_calcite')
+    // basalt>calcite>tuff cycle
+    e.recipes.botania.mana_infusion('minecraft:calcite', 'minecraft:basalt', 250, 'botania:alchemy_catalyst')
+        .id('kubejs:botania/mana_infusion/basalt_to_calcite')
+    e.recipes.botania.mana_infusion('minecraft:tuff', 'minecraft:calcite', 250, 'botania:alchemy_catalyst')
+        .id('kubejs:botania/mana_infusion/calcite_to_tuff')
+    e.recipes.botania.mana_infusion('minecraft:basalt', 'minecraft:tuff', 250, 'botania:alchemy_catalyst')
+        .id('kubejs:botania/mana_infusion/tuff_to_basalt')
+
     // kelp bamboo cycle
     e.recipes.botania.mana_infusion('minecraft:bamboo', 'minecraft:kelp', 250, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/kelp_to_bamboo')
     e.recipes.botania.mana_infusion('minecraft:kelp', 'minecraft:bamboo', 250, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/bamboo_to_kelp')
+
     // misc alchemy reversion/crushing 
     e.recipes.botania.mana_infusion('spectrum:mermaids_gem', 'minecraft:heart_of_the_sea', 10000, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/heart_to_mermaids_gem')
