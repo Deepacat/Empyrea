@@ -2,12 +2,12 @@
 [moon]
 	#How long does it take for the Moon to complete its orbit in ticks.
 	#Range: 1 ~ 9223372036854775807
-	orbit_period = 708734
+	orbit_period = 192000
 
 [earth]
 	#How long does it take for the Earth to complete its orbit in ticks.
 	#Range: 0 ~ 9223372036854775807
-	orbit_period = 8765812
+	orbit_period = 720000
 
 [stars]
 	#What stars to use

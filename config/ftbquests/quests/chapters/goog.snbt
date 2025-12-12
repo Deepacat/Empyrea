@@ -1245,18 +1245,11 @@
 		{
 			dependencies: ["7FEE4F76560B91CB"]
 			id: "49E15E617AA3D920"
-			tasks: [
-				{
-					id: "2880BDFDF25D0CDA"
-					item: "minecraft:spyglass"
-					type: "item"
-				}
-				{
-					id: "5DE45A72BB7BDB5A"
-					item: "spectrum:stardust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5DE45A72BB7BDB5A"
+				item: "spectrum:stardust"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -14.0d
 		}
@@ -1527,7 +1520,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["59FEEB61C6D475A7"]
+			dependencies: [
+				"59FEEB61C6D475A7"
+				"47561B6D8ADAFC54"
+			]
 			id: "645DA84DC18BE9CE"
 			tasks: [{
 				id: "71F18FA2A0E009B5"
@@ -2166,6 +2162,28 @@
 			}]
 			x: 7.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["3CC975EF567EFC1F"]
+			id: "6B7F6D654B0F223E"
+			tasks: [{
+				id: "5505367FB1957EA4"
+				item: "malum:natural_quartz"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["3CC975EF567EFC1F"]
+			id: "165ED17086075785"
+			tasks: [{
+				id: "0B4B6A9D8235CC07"
+				item: "malum:raw_soulstone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -18.5d
 		}
 	]
 	title: "goog :)"
