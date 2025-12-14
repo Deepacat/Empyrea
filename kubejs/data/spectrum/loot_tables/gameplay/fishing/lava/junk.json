@@ -32,6 +32,12 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "quark:soul_bead",
+					"functions": [ { "function": "minecraft:set_count", "count": { "min": 2, "max": 4 } } ],
+					"conditions": [ { "condition": "minecraft:location_check", "predicate": { "dimension": "minecraft:the_nether" } } ]
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:magma_cream"
 				},
 				{
