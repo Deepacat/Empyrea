@@ -959,7 +959,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["09BA5C10E5A06D48"]
@@ -1272,7 +1272,7 @@
 				}
 			]
 			x: 8.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -1362,7 +1362,7 @@
 				}
 			]
 			x: 9.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["7F8CDDFB08CA7A1A"]
@@ -1389,8 +1389,8 @@
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -7.0d
+			x: -0.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["35733D04135B10A6"]
@@ -1400,8 +1400,8 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -7.0d
+			x: 2.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6CDF31D77CCB9000"]
@@ -1418,14 +1418,11 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -7.0d
+			x: 5.0d
+			y: -7.5d
 		}
 		{
-			dependencies: [
-				"2B3747B5C54DEDE1"
-				"22C949FABB55DE9C"
-			]
+			dependencies: ["2B3747B5C54DEDE1"]
 			id: "6DBEC7F17D5D5D09"
 			tasks: [
 				{
@@ -1439,8 +1436,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -7.0d
+			x: 8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -1461,7 +1458,7 @@
 				}
 			]
 			x: 11.0d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -1474,8 +1471,8 @@
 				item: "botania:rune_fire"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.5d
+			x: 1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1488,8 +1485,8 @@
 				item: "botania:rune_earth"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1502,8 +1499,8 @@
 				item: "botania:rune_air"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1516,8 +1513,8 @@
 				item: "botania:rune_water"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.5d
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1530,28 +1527,32 @@
 				item: "botania:rune_mana"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
+			dependencies: ["5B667AAAC03F416C"]
+			hide_dependency_lines: true
 			id: "1FA75761362BF804"
 			tasks: [{
 				id: "13A2430459FCECF4"
 				item: "minecraft:nether_wart"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.5d
+			x: 1.5d
+			y: -5.0d
 		}
 		{
+			dependencies: ["47E3293F30D8C9F3"]
+			hide_dependency_lines: true
 			id: "01937E6AE360390E"
 			tasks: [{
 				id: "2CB28C2CC9101ADF"
 				item: "minecraft:red_mushroom"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.5d
+			x: 0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1714,7 +1715,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5680B7735E7B142F"]
@@ -1733,7 +1734,7 @@
 				}
 			]
 			x: 11.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4BDD3594B851A07C"]
@@ -1744,7 +1745,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["6D5B7BFF4E05B4AE"]
@@ -1755,7 +1756,7 @@
 				type: "dimension"
 			}]
 			x: 12.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["15FECCF2D792A83A"]
@@ -1785,24 +1786,28 @@
 			y: -17.0d
 		}
 		{
+			dependencies: ["50D82489E785C211"]
+			hide_dependency_lines: true
 			id: "7A6B7FFA3E139AE9"
 			tasks: [{
 				id: "67193ADD054A67D7"
 				item: "spectrum:mermaids_gem"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
+			dependencies: ["1A3B86810035A0CC"]
+			hide_dependency_lines: true
 			id: "59FEEB61C6D475A7"
 			tasks: [{
 				id: "162F603F85FB6518"
 				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: -2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["678160E35FB584F0"]
@@ -1817,14 +1822,16 @@
 			y: -10.5d
 		}
 		{
+			dependencies: ["678160E35FB584F0"]
+			hide_dependency_lines: true
 			id: "6EB50172F4B8B294"
 			tasks: [{
 				id: "2BEB901D15ECDB2C"
 				item: "spectrum:shimmerstone_gem"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
 			id: "57AA037B957C3054"
