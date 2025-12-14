@@ -25,7 +25,7 @@
     "minecraft:the_nether": {
       "type": "minecraft:the_nether",
       "generator": {
-        "type": "botania:skyblock",
+        "type": "minecraft:noise",
         "biome_source": {
           "type": "minecraft:multi_noise",
           "preset": "minecraft:nether"
@@ -36,7 +36,7 @@
     "spectrum:deeper_down": {
       "type": "spectrum:deeper_down",
       "generator": {
-        "type": "botania:skyblock",
+        "type": "minecraft:noise",
         "biome_source": {
           "type": "minecraft:multi_noise",
           "preset": "spectrum:deeper_down"
