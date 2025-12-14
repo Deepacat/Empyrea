@@ -13,7 +13,7 @@ const teleports = {
     nether_to_ow: { // teleport back to overworld from nether void
         condition: {
             dimension: "minecraft:the_nether",
-            belowY: 0
+            belowY: -3
         },
         target: {
             dimension: "minecraft:overworld",
@@ -25,7 +25,7 @@ const teleports = {
     end_to_ow: { // teleport back to overworld from end void
         condition: {
             dimension: "minecraft:the_end",
-            belowY: 0
+            belowY: -3
         },
         target: {
             dimension: "minecraft:overworld",
