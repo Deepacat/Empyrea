@@ -21,7 +21,6 @@
 /journeymap/
 /everbook/
 /.mixin.out/
-
 /icon.png
 /options.txt
 /rhino.local.properties
@@ -95,7 +94,6 @@ hs_err*
 /config/ichunutil/themes/
 /config/gtceu.yaml
 /config/konkrete/locals*
-/defaultconfigs/ftbultimine/ftbultimine-*.snbt
 /config/defaultsettings.json
 /config/embeddium-options.json
 /config/minimap.txt
