@@ -1,0 +1,30 @@
+{
+  "key.craftingtweaks.decompress_all": {
+    "keyCode": 75,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.craftingtweaks.compress_all": {
+    "keyCode": 74,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "quark.keybind.sort_player": {
+    "keyCode": 82,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "keybind.sophisticatedcore.sort": {
+    "keyCode": 82,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  }
+}

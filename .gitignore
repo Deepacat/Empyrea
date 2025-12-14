@@ -100,6 +100,7 @@ hs_err*
 /config/crash_assistant/modlist.json
 /config/tunnelyrefab.json
 /config/hexcessible.json
+/config/keymap*
 
 # Linux
 *~
