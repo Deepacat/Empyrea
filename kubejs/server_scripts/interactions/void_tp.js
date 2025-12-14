@@ -68,16 +68,12 @@ PlayerEvents.tick(e => {
             e.player.level.dimension == c.dimension &&
             (c.belowY !== undefined && (e.player.y < c.belowY))
         ) {
-            e.player.tell(`attempting to teleport to ${teleport}`)
             let target = teleport.target
             e.player.setStatusMessage(target.text)
             e.player.potionEffects.add('minecraft:darkness', 40, 0, true, false)
 
             let tpx = target.spawnpoint ? e.player.nbt.getInt('SpawnX') : e.player.x
             let tpz = target.spawnpoint ? e.player.nbt.getInt('SpawnZ') : e.player.z
-
-            console.log(e.player.nbt.getInt('spawnX'), e.player.nbt.getInt('spawnZ'))
-            console.log(tpx, tpz)
 
             e.player.teleportTo(target.dimension, tpx, target.height, tpz, e.player.yaw, e.player.pitch)
             e.player.persistentData.putInt('last_tp', Utils.server.tickCount)
