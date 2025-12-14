@@ -1,4 +1,5 @@
 LootJS.modifiers(e => {
+    // only let astral attractor drop if it does not have the meteor spawned blockstate
     e.addBlockLootModifier('kubejs:astral_attractor')
         .removeLoot('kubejs:astral_attractor')
         .apply(ctx => {
