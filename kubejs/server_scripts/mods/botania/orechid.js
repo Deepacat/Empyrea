@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     // amethyst/topaz/citrine ores from calcite
-    e.recipes.botania.orechid('spectrum:amethyst_ore', 'minecraft:calcite', 3) // spectrum amethyst ore
+    e.recipes.botania.orechid('spectrum:amethyst_ore', 'minecraft:calcite', 1) // spectrum amethyst ore
         .id('kubejs:botania/orechid/amethyst_ore')
     e.recipes.botania.orechid('spectrum:topaz_ore', 'minecraft:calcite', 1) // spectrum topaz ore
         .id('kubejs:botania/orechid/topaz_ore')
@@ -23,5 +23,5 @@ ServerEvents.recipes(e => {
     e.recipes.botania.orechid('spectrum:deepslate_azurite_ore', 'ars_nouveau:sourcestone', 1) // spectrum azurite
         .id('kubejs:botania/orechid/deepslate_azurite_ore')
 
-
+    // orechid ignem netherrack ores
 })
