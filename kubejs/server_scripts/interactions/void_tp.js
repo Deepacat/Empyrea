@@ -1,5 +1,5 @@
 const teleports = {
-    ow_up: {
+    ow_up: { // teleport back to top of overworld
         condition: {
             dimension: "minecraft:overworld",
             belowY: -67
@@ -10,7 +10,7 @@ const teleports = {
             text: "You blink and appear in the sky...",
         }
     },
-    nether_to_ow: {
+    nether_to_ow: { // teleport back to overworld from nether void
         condition: {
             dimension: "minecraft:the_nether",
             belowY: 0
@@ -18,10 +18,11 @@ const teleports = {
         target: {
             dimension: "minecraft:overworld",
             height: 320,
+            spawnpoint: true,
             text: "You feel a weight lifting as you return to the overworld...",
         }
     },
-    end_to_ow: {
+    end_to_ow: { // teleport back to overworld from end void
         condition: {
             dimension: "minecraft:the_end",
             belowY: 0
@@ -29,10 +30,11 @@ const teleports = {
         target: {
             dimension: "minecraft:overworld",
             height: 320,
+            spawnpoint: true,
             text: "You feel ..",
         }
     },
-    beneath_to_ow: {
+    beneath_to_ow: { // teleport back to overworld from deeper down/beneath void
         condition: {
             dimension: "spectrum:deeper_down",
             belowY: -320
@@ -40,6 +42,7 @@ const teleports = {
         target: {
             dimension: "minecraft:overworld",
             height: 320,
+            spawnpoint: true,
             text: "You feel your soul being pulled to the above...",
         }
     }
@@ -58,23 +61,32 @@ PlayerEvents.tick(e => {
 
     if (Utils.server.tickCount - lastTp < 20) { return }
 
-    for (let teleport in teleports) {
-        let c = teleports[teleport].condition
+    for (let [k, teleport] of Object.entries(teleports)) {
+        let c = teleport.condition
+
         if (
             e.player.level.dimension == c.dimension &&
-            (c.belowY && e.player.y < c.belowY ||
-                c.aboveY && e.player.y > c.aboveY)
+            (c.belowY !== undefined && (e.player.y < c.belowY))
         ) {
-            let target = teleports[teleport].target
+            e.player.tell(`attempting to teleport to ${teleport}`)
+            let target = teleport.target
             e.player.setStatusMessage(target.text)
             e.player.potionEffects.add('minecraft:darkness', 40, 0, true, false)
-            e.player.teleportTo(target.dimension, e.player.x, target.height, e.player.z, e.player.yaw, e.player.pitch)
+
+            let tpx = target.spawnpoint ? e.player.nbt.getInt('SpawnX') : e.player.x
+            let tpz = target.spawnpoint ? e.player.nbt.getInt('SpawnZ') : e.player.z
+
+            console.log(e.player.nbt.getInt('spawnX'), e.player.nbt.getInt('spawnZ'))
+            console.log(tpx, tpz)
+
+            e.player.teleportTo(target.dimension, tpx, target.height, tpz, e.player.yaw, e.player.pitch)
             e.player.persistentData.putInt('last_tp', Utils.server.tickCount)
             e.player.persistentData.putBoolean('next_fall_immune', true)
         }
     }
 })
 
+// Fall damage cancelling
 EntityEvents.hurt(e => {
     let nextFallImmune = e.entity.persistentData.getInt('next_fall_immune')
     if (nextFallImmune == null || nextFallImmune == false) { return }
