@@ -27,6 +27,7 @@
 /usercache.json
 /usernamecache.json
 /emi.json
+/schematics/
 servers.dat
 servers.dat_old
 hs_err*
