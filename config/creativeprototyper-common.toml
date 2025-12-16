@@ -1,0 +1,24 @@
+
+#Common configuration settings for Creative Prototyper
+[scanning]
+	#Default radius (in blocks) to scan around the Creative Table
+	#Range: 1 ~ 128
+	defaultScanRadius = 16
+	#Maximum allowed scan radius (for server performance)
+	#Range: 1 ~ 256
+	maxScanRadius = 64
+	#Number of block entities to process per tick during scanning
+	#Range: 1 ~ 100
+	blockEntitiesPerTick = 10
+
+#Block placement settings
+[placement]
+	#Number of blocks to place per tick in the creative dimension
+	#Range: 1 ~ 1000
+	blocksPerTick = 250
+
+#Block restrictions
+[restrictions]
+	#List of blocks that cannot be placed in the creative dimension
+	bannedBlocks = ["minecraft:ender_chest"]
+
