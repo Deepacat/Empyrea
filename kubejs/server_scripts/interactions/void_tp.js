@@ -88,7 +88,8 @@ EntityEvents.hurt(e => {
     if (nextFallImmune == null || nextFallImmune == false) { return }
     if (e.source.type().msgId() == 'fall' && nextFallImmune == true) {
         // delays the fall damage removal since some occurences cause 2 damage events at once (e.g. falling on farmland)
-        e.entity.server.scheduleInTicks(2, () => {
+        e.entity.server.scheduleInTicks(5, () => {
+            // e.player.tell(`fall dmg removed fall immune`)
             e.entity.persistentData.putBoolean('next_fall_immune', false)
         })
         e.cancel()
@@ -97,9 +98,12 @@ EntityEvents.hurt(e => {
 
 PlayerEvents.tick(e => {
     if (Utils.server.tickCount % 20 !== 0) return
-    if (e.player.persistentData.getBoolean('next_fall_immune') && e.player.onGround()) {
-        e.entity.server.scheduleInTicks(2, () => {
-            e.entity.persistentData.putBoolean('next_fall_immune', false)
-        })
+    if (
+        e.player.persistentData.getBoolean('next_fall_immune') &&
+        e.player.getMotionY().toFixed(3) == -0.078 &&
+        e.player.onGround()
+    ) {
+        // e.player.tell(`tick removed fall immune`)
+        e.entity.persistentData.putBoolean('next_fall_immune', false)
     }
 })
