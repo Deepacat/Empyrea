@@ -11,7 +11,8 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:netherrack",
-					"functions": [ { "function": "minecraft:set_count", "count": { "min": 1, "max": 8 } } ],
+					"weight": 2,
+					"functions": [ { "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } } ],
 					"conditions": [ { "condition": "minecraft:location_check", "predicate": { "dimension": "minecraft:the_nether" } } ]
 				},
 				{

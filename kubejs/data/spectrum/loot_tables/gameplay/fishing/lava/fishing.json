@@ -7,13 +7,13 @@
         {
           "type": "minecraft:loot_table",
           "name": "spectrum:gameplay/fishing/lava/junk",
-          "weight": 10,
+          "weight": 5,
           "quality": -2
         },
         {
           "type": "minecraft:loot_table",
           "name": "spectrum:gameplay/fishing/lava/treasure",
-          "weight": 5,
+          "weight": 1,
           "quality": 2
         }
       ]
