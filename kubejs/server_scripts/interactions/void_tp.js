@@ -89,7 +89,6 @@ EntityEvents.hurt(e => {
     if (e.source.type().msgId() == 'fall' && nextFallImmune == true) {
         // delays the fall damage removal since some occurences cause 2 damage events at once (e.g. falling on farmland)
         e.entity.server.scheduleInTicks(5, () => {
-            // e.player.tell(`fall dmg removed fall immune`)
             e.entity.persistentData.putBoolean('next_fall_immune', false)
         })
         e.cancel()
@@ -103,7 +102,6 @@ PlayerEvents.tick(e => {
         e.player.getMotionY().toFixed(3) == -0.078 &&
         e.player.onGround()
     ) {
-        // e.player.tell(`tick removed fall immune`)
         e.entity.persistentData.putBoolean('next_fall_immune', false)
     }
 })

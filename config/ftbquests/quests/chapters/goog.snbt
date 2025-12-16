@@ -1467,6 +1467,7 @@
 			dependencies: [
 				"1FA75761362BF804"
 				"47561B6D8ADAFC54"
+				"019F2287A8367247"
 			]
 			id: "723FA65F41DA1EB7"
 			tasks: [{
@@ -1481,6 +1482,7 @@
 			dependencies: [
 				"01937E6AE360390E"
 				"47561B6D8ADAFC54"
+				"5E686E07AA0A6859"
 			]
 			id: "64106799A72E404E"
 			tasks: [{
@@ -1495,6 +1497,7 @@
 			dependencies: [
 				"6EB50172F4B8B294"
 				"47561B6D8ADAFC54"
+				"4F4C32C11DFB9069"
 			]
 			id: "4C4311938227CA8D"
 			tasks: [{
@@ -1509,6 +1512,7 @@
 			dependencies: [
 				"7A6B7FFA3E139AE9"
 				"47561B6D8ADAFC54"
+				"30D10FA6F8EB88D3"
 			]
 			id: "2E1D2E7F07193ABA"
 			tasks: [{
@@ -1523,6 +1527,7 @@
 			dependencies: [
 				"59FEEB61C6D475A7"
 				"47561B6D8ADAFC54"
+				"1AC64A66FB1ED0EA"
 			]
 			id: "645DA84DC18BE9CE"
 			tasks: [{
@@ -2212,6 +2217,56 @@
 			}]
 			x: -18.0d
 			y: -21.5d
+		}
+		{
+			id: "30D10FA6F8EB88D3"
+			tasks: [{
+				id: "29AEC5EAC53E79AE"
+				item: "spectrum:quitoxic_powder"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "4F4C32C11DFB9069"
+			tasks: [{
+				id: "1CB2F3A731AFFB7B"
+				item: "ars_nouveau:air_essence"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "1AC64A66FB1ED0EA"
+			tasks: [{
+				id: "63BC402A5B08E392"
+				item: "malum:natural_quartz"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			id: "019F2287A8367247"
+			tasks: [{
+				id: "1AB8135AF4591F1E"
+				item: "minecraft:nether_brick"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "5E686E07AA0A6859"
+			tasks: [{
+				id: "4F1A1387C0326167"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
 		}
 	]
 	title: "goog :)"

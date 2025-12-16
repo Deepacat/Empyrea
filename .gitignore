@@ -28,9 +28,10 @@
 /usernamecache.json
 /emi.json
 /schematics/
-servers.dat
-servers.dat_old
-hs_err*
+/servers.dat
+/servers.dat_old
+/hs_err*
+/malum_extra.json
 
 # Pakku files
 /build/
