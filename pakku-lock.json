@@ -2010,6 +2010,47 @@
             ]
         },
         {
+            "pakku_id": "qp0sJ6OH05pJoHD5",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "current-game-music-track"
+            },
+            "name": {
+                "curseforge": "Current Game Music Track"
+            },
+            "id": {
+                "curseforge": "933960"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "currentgamemusictrack-1.20.1-2.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6225/91/currentgamemusictrack-1.20.1-2.4.jar",
+                    "id": "6225091",
+                    "parent_id": "933960",
+                    "hashes": {
+                        "sha1": "d4370a14e0a2e4dc09fb2771391204362f4bb1b3",
+                        "md5": "43d4077303af9d4f364eaa0013ddffd3"
+                    },
+                    "required_dependencies": [
+                        "342584"
+                    ],
+                    "size": 35548,
+                    "date_published": "2025-02-23T10:51:36.580Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "gvPw4ZEYg6QUemU9",
             "type": "MOD",
             "slug": {
@@ -5531,44 +5572,6 @@
             ]
         },
         {
-            "pakku_id": "vfTwl2g9KuTCDT5a",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "curseforge": "oculus"
-            },
-            "name": {
-                "curseforge": "Oculus"
-            },
-            "id": {
-                "curseforge": "581495"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "oculus-mc1.20.1-1.8.0.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6020/952/oculus-mc1.20.1-1.8.0.jar",
-                    "id": "6020952",
-                    "parent_id": "581495",
-                    "hashes": {
-                        "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
-                        "md5": "1dd891634ac21591b5a692471f112572"
-                    },
-                    "required_dependencies": [],
-                    "size": 2851119,
-                    "date_published": "2024-12-24T23:33:51.040Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "JB9U1AYrSMayRG4G",
             "type": "MOD",
             "slug": {
@@ -7927,6 +7930,43 @@
                     "required_dependencies": [],
                     "size": 99231,
                     "date_published": "2025-10-06T00:26:50.060Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nlcrrL5Q8yImV9jQ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ichunutil"
+            },
+            "name": {
+                "curseforge": "iChunUtil"
+            },
+            "id": {
+                "curseforge": "229060"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "iChunUtil-1.20.1-Forge-1.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6000/481/iChunUtil-1.20.1-Forge-1.0.3.jar",
+                    "id": "6000481",
+                    "parent_id": "229060",
+                    "hashes": {
+                        "sha1": "6e7f110cb4ef9c22bf557cd54248546548d56c66",
+                        "md5": "829d7caf55b2d266d7a901289f772f9a"
+                    },
+                    "required_dependencies": [],
+                    "size": 692753,
+                    "date_published": "2024-12-18T01:06:34.143Z"
                 }
             ]
         },
