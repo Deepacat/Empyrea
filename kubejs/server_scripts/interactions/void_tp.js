@@ -88,20 +88,24 @@ EntityEvents.hurt(e => {
     if (nextFallImmune == null || nextFallImmune == false) { return }
     if (e.source.type().msgId() == 'fall' && nextFallImmune == true) {
         // delays the fall damage removal since some occurences cause 2 damage events at once (e.g. falling on farmland)
-        e.entity.server.scheduleInTicks(5, () => {
+        e.entity.server.scheduleInTicks(1, () => {
             e.entity.persistentData.putBoolean('next_fall_immune', false)
+            e.level.playSound(null, e.player.x, e.player.y, e.player.z, 'botania:bellows', 'players', 1, 0.5)
         })
         e.cancel()
     }
 })
 
+// Fall damage immunity removal
 PlayerEvents.tick(e => {
-    if (Utils.server.tickCount % 20 !== 0) return
-    if (
-        e.player.persistentData.getBoolean('next_fall_immune') &&
-        e.player.getMotionY().toFixed(3) == -0.078 &&
+    if (Utils.server.tickCount % 20 !== 0) { return }
+    if (e.player.persistentData.getBoolean('next_fall_immune') == false) { return }
+    // hopefully a good enough check to tell if on ground and not moving LOL
+    // might be able to store the removal by jumping but whatever
+    if (e.player.getMotionY().toFixed(3) == -0.078 &&
         e.player.onGround()
     ) {
         e.entity.persistentData.putBoolean('next_fall_immune', false)
+        e.level.playSound(null, e.player.x, e.player.y, e.player.z, 'botania:bellows', 'players', 1, 0.5)
     }
 })
