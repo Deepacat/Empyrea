@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spectrum"
+	group: "60ECDD4782CBCF7F"
+	icon: {
+		Count: 1
+		id: "spectrum:paintbrush"
+		tag: {
+			Color: "spectrum:magenta"
+		}
+	}
+	id: "56D1A6FD7E90602A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4451BB42ACB5C113"
+			tasks: [{
+				id: "5E7CE9BAC896F34C"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4451BB42ACB5C113"]
+			id: "45F0B452405BA514"
+			tasks: [{
+				id: "3DF701F32EDD2E0F"
+				item: "spectrum:topaz_shard"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4451BB42ACB5C113"]
+			id: "52999A0B54A27E94"
+			tasks: [{
+				id: "0CD25FA39096CD4F"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4451BB42ACB5C113"]
+			id: "474DB5FFE9FF6608"
+			tasks: [{
+				id: "3FCA64249A82E424"
+				item: "spectrum:citrine_shard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"52999A0B54A27E94"
+				"474DB5FFE9FF6608"
+				"45F0B452405BA514"
+			]
+			dependency_requirement: "one_completed"
+			id: "265A7ABDA4E76418"
+			tasks: [
+				{
+					id: "7EBFA7F165C5D6E7"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(spectrum:pedestal_basic_topaz)item(spectrum:pedestal_basic_amethyst)item(spectrum:pedestal_basic_citrine))"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "fancytoasts:textures/gui/icons/looking.png"
+						}
+					}
+					id: "270111FCEF482615"
+					observe_type: 1
+					timer: 0L
+					to_observe: "spectrum:pedestals"
+					type: "observation"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["265A7ABDA4E76418"]
+			id: "6FD700D3F068A4F6"
+			tasks: [{
+				id: "3CCACBE10B14A208"
+				item: "spectrum:paintbrush"
+				type: "item"
+			}]
+			title: "Rise, Artist"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6FD700D3F068A4F6"]
+			icon: "spectrum:pedestal_all_basic"
+			id: "64383EEBF82F4D91"
+			tasks: [
+				{
+					id: "5B0282DC92F83796"
+					observe_type: 0
+					timer: 0L
+					to_observe: "spectrum:pedestal_all_basic"
+					type: "observation"
+				}
+				{
+					advancement: "spectrum:build_basic_pedestal_structure"
+					criterion: ""
+					id: "5A68A5C364A54990"
+					type: "advancement"
+				}
+			]
+			title: "Upgrading the pedestal"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64383EEBF82F4D91"]
+			id: "7FBCA9EF64A3055B"
+			tasks: [{
+				id: "159DB00D842D3A51"
+				item: "kubejs:astral_attractor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["64383EEBF82F4D91"]
+			id: "1AFAB894158F61C5"
+			tasks: [{
+				id: "3EC855A95F3CE447"
+				item: "ars_nouveau:green_archwood_sapling"
+				title: "Arcane Tree"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FBCA9EF64A3055B"]
+			id: "2CCD74DAA6B8A638"
+			tasks: [{
+				id: "738A518B6D891F5E"
+				item: "spectrum:shimmerstone_gem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2CCD74DAA6B8A638"]
+			id: "36F834BBCB377992"
+			tasks: [{
+				id: "4CEED0F2063F4D09"
+				item: "spectrum:bottle_of_fading"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["265A7ABDA4E76418"]
+			id: "2D3163D4BBB6D227"
+			tasks: [{
+				id: "6C35CCE6C049D905"
+				item: "spectrum:mermaids_gem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D3163D4BBB6D227"]
+			id: "6286625B3AB1A83B"
+			tasks: [{
+				id: "5A9758DF6DCE468E"
+				item: "spectrum:mud_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D3163D4BBB6D227"]
+			id: "73BCC8D939182B59"
+			tasks: [{
+				id: "44DB821F5ACB2BFB"
+				item: {
+					Count: 1
+					id: "spectrum:lagoon_rod"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:lure"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36F834BBCB377992"]
+			id: "4EEEAF36CDD60F45"
+			tasks: [{
+				id: "41E671E0C121CB82"
+				item: "spectrum:vegetal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4EEEAF36CDD60F45"]
+			id: "7B5E2AE59113F710"
+			tasks: [{
+				icon: "spectrum:orange_sapling"
+				id: "41612104037E5706"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(spectrum:colored_saplings)"
+					}
+				}
+				title: "Growing a Spectrum"
+				type: "item"
+			}]
+			title: "Blossoming Colors"
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7B5E2AE59113F710"]
+			id: "020FF39CDF795CC5"
+			tasks: [
+				{
+					id: "08B2DB8C32471FE7"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(spectrum:pigments)"
+						}
+					}
+					title: "Pigments"
+					type: "item"
+				}
+				{
+					id: "41324DD8593593C3"
+					observe_type: 1
+					timer: 0L
+					to_observe: "spectrum:colored_leaves"
+					type: "observation"
+				}
+			]
+			title: "Vials of pure color"
+			x: -0.5d
+			y: 10.0d
+		}
+	]
+	title: "Spectrum"
+}

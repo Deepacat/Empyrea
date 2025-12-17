@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "60ECDD4782CBCF7F", title: "proggy" }]
+	chapter_groups: [
+		{ id: "60ECDD4782CBCF7F", title: "Magics" }
+		{ id: "4A1900BF0483C4C6", title: "olgd" }
+	]
 }

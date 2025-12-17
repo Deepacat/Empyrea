@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "uhhhhhhhhhhhh"
-	group: ""
+	group: "4A1900BF0483C4C6"
 	icon: "botania:life_essence"
 	id: "0F11BAD7C1F42364"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

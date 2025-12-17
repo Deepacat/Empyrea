@@ -1,0 +1,445 @@
+{
+	autofocus_id: "552500441CD9C6FC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "60ECDD4782CBCF7F"
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "1BE22631AB82E1BA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["10BB30EC89B9AFED"]
+			id: "552500441CD9C6FC"
+			tasks: [
+				{
+					id: "20CEFC9A1DE7D092"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "3441C4D24B3CFB86"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "007DDFC251AFEB6A"
+			tasks: [{
+				id: "4E26EF0B8800C58B"
+				item: "ars_nouveau:green_archwood_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"007DDFC251AFEB6A"
+				"411017EC0C60D93C"
+			]
+			id: "10BB30EC89B9AFED"
+			tasks: [{
+				id: "4963A0B78B96B943"
+				item: "ars_nouveau:archwood_planks"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["651C5EBC49210393"]
+			id: "03940018CAC14210"
+			tasks: [
+				{
+					id: "4E11594E61C27E96"
+					item: "starbunclemania:source_condenser"
+					type: "item"
+				}
+				{
+					id: "4B3B4F406ED22F13"
+					item: "starbunclemania:source_fluid_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["552500441CD9C6FC"]
+			id: "651C5EBC49210393"
+			tasks: [{
+				id: "3E85DCF372D47D7E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ars_nouveau:agronomic_sourcelink)item(ars_nouveau:volcanic_sourcelink)item(ars_nouveau:alchemical_sourcelink)item(ars_nouveau:vitalic_sourcelink)item(ars_nouveau:mycelial_sourcelink))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Sourcelinks"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["552500441CD9C6FC"]
+			id: "71B1E0A94B333A56"
+			tasks: [{
+				id: "4A9D0A0A4CF0CCC0"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ars_nouveau:air_essence)item(ars_nouveau:earth_essence)item(ars_nouveau:fire_essence)item(ars_nouveau:manipulation_essence)item(ars_nouveau:water_essence)item(ars_nouveau:abjuration_essence)item(ars_nouveau:abjuration_essence)item(ars_nouveau:conjuration_essence))"
+					}
+				}
+				title: "Ars Essences"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["71B1E0A94B333A56"]
+			id: "3F8CCEC3388335E2"
+			tasks: [{
+				id: "6EB3EF613379E73D"
+				item: "ars_nouveau:air_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["71B1E0A94B333A56"]
+			id: "2895215734735B7A"
+			tasks: [{
+				id: "396039B6FF219A23"
+				item: "ars_nouveau:conjuration_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["71B1E0A94B333A56"]
+			id: "3F2C873C7F118EAD"
+			tasks: [{
+				id: "7587E9C2E506D1B2"
+				item: "ars_nouveau:abjuration_essence"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["71B1E0A94B333A56"]
+			id: "662171D69A64EC1C"
+			tasks: [{
+				id: "4BB55863DD2A3694"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["71B1E0A94B333A56"]
+			id: "4F018B64BFE805D3"
+			tasks: [{
+				id: "7077852F626A4A12"
+				item: "ars_nouveau:fire_essence"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["71B1E0A94B333A56"]
+			id: "4C8DCC82DDE56492"
+			tasks: [{
+				id: "363E082EC8B4B41D"
+				item: "ars_nouveau:manipulation_essence"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["71B1E0A94B333A56"]
+			id: "305258D12AE2CC57"
+			tasks: [{
+				id: "01113EC5F48B3806"
+				item: "ars_nouveau:water_essence"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["305258D12AE2CC57"]
+			id: "76A1F5936950806C"
+			tasks: [{
+				id: "1DE5390BB8CED774"
+				item: "starbunclemania:fluid_jar"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F8CCEC3388335E2"]
+			id: "2FCFCD09865B6B86"
+			tasks: [{
+				id: "5498C410D0E2843C"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4F018B64BFE805D3"]
+			id: "6232FA5338FAB2BC"
+			tasks: [{
+				id: "1ED77BC30BBC51F2"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4C8DCC82DDE56492"]
+			id: "35293B8139EAAE15"
+			tasks: [
+				{
+					id: "7D6B5EDB8BA11042"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "58687FBCD6DCB623"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "05C8C32297BDBE0E"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "644B1D4A482C51D3"
+					item: "ars_elemental:yellow_archwood_sapling"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2895215734735B7A"]
+			id: "7D432556FFE70A20"
+			tasks: [{
+				id: "18878CC58DD8A677"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3F2C873C7F118EAD"]
+			id: "578D7CFC19DF20CD"
+			tasks: [{
+				id: "1A60434C34B63CC3"
+				item: "ars_caelum:ritual_mana_regeneration"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["662171D69A64EC1C"]
+			id: "2F7B4CA440C10083"
+			tasks: [
+				{
+					id: "5612F26F0CB7DD60"
+					item: "ars_nouveau:ritual_forestation"
+					type: "item"
+				}
+				{
+					id: "1441E79938601AC8"
+					item: "ars_nouveau:ritual_flowering"
+					type: "item"
+				}
+				{
+					id: "11BFF98B10882965"
+					item: "ars_elemental:ritual_attraction"
+					type: "item"
+				}
+				{
+					id: "38DB18413DF44743"
+					item: "ars_nouveau:ritual_overgrowth"
+					type: "item"
+				}
+				{
+					id: "2CB66942B797E6D8"
+					item: "ars_nouveau:ritual_harvest"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["03940018CAC14210"]
+			id: "2250E3E95CF7AE52"
+			tasks: [{
+				id: "330DC436827D0B46"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["651C5EBC49210393"]
+			id: "423D51958B535E50"
+			tasks: [
+				{
+					id: "5B9B6B06731F1D62"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "0EFEFF2EA76F7817"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["552500441CD9C6FC"]
+			id: "5AEB8C2D2340C53B"
+			tasks: [{
+				id: "6818EFB570A1A5FB"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["552500441CD9C6FC"]
+			id: "321EE9257772B73D"
+			tasks: [{
+				id: "61DB7B37B0ACE6C8"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["321EE9257772B73D"]
+			id: "3053EE76A6CD4BAC"
+			tasks: [{
+				id: "762F7F0572C20E8E"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3053EE76A6CD4BAC"]
+			id: "71E4424BC328CB12"
+			tasks: [
+				{
+					id: "21496DC03F5E2431"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					id: "042B3ACD233057B6"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "6DBAE550CBC7E865"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"23A6CF5DBA06A3E1"
+				"5AEB8C2D2340C53B"
+			]
+			id: "369B13EF271CC861"
+			tasks: [{
+				id: "292E849F48F2B3EE"
+				item: "ars_nouveau:glyph_crush"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["552500441CD9C6FC"]
+			id: "23A6CF5DBA06A3E1"
+			tasks: [{
+				id: "4B0C222D40CD4BBB"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23A6CF5DBA06A3E1"]
+			id: "502A6E86E10598BD"
+			tasks: [{
+				id: "6673CF5275BEE45F"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["502A6E86E10598BD"]
+			id: "67D66153C3469C62"
+			tasks: [{
+				id: "0AE4D812E30D4893"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "411017EC0C60D93C"
+			tasks: [{
+				id: "4CE27897CB25649F"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+	]
+	title: "Ars Nouveau"
+}
