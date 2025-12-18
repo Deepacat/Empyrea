@@ -9,7 +9,7 @@
 	quest_links: [{
 		id: "3B0091952C039BB3"
 		linked_quest: "14720C584F5D8C58"
-		x: -8.0d
+		x: -7.5d
 		y: 0.0d
 	}]
 	quests: [
@@ -25,7 +25,7 @@
 				item: "botania:rune_water"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -40,7 +40,7 @@
 				item: "botania:rune_fire"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -55,7 +55,7 @@
 				item: "botania:rune_earth"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -70,7 +70,7 @@
 				item: "botania:rune_air"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -85,7 +85,7 @@
 				item: "botania:rune_mana"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -205,7 +205,7 @@
 				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: -1.0d
 		}
 		{
@@ -215,7 +215,7 @@
 				item: "malum:natural_quartz"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: -2.0d
 		}
 		{
@@ -225,7 +225,7 @@
 				item: "spectrum:shimmerstone_gem"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: -1.0d
 		}
 		{
@@ -235,7 +235,7 @@
 				item: "ars_nouveau:air_essence"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: -2.0d
 		}
 		{
@@ -245,7 +245,7 @@
 				item: "spectrum:quitoxic_powder"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -255,7 +255,7 @@
 				item: "spectrum:mermaids_gem"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -265,7 +265,7 @@
 				item: "minecraft:red_mushroom"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -275,7 +275,7 @@
 				item: "minecraft:amethyst_block"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -292,7 +292,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -302,7 +302,7 @@
 				item: "minecraft:nether_brick"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -330,7 +330,7 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
@@ -725,7 +725,7 @@
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -15.0d
 			y: 0.0d
 		}
 		{
@@ -736,7 +736,7 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -13.5d
 			y: 0.0d
 		}
 		{
@@ -747,7 +747,7 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -10.5d
 			y: 0.0d
 		}
 		{
@@ -765,7 +765,7 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -783,7 +783,7 @@
 					type: "item"
 				}
 			]
-			x: -12.5d
+			x: -12.0d
 			y: 0.0d
 		}
 		{
@@ -917,6 +917,7 @@
 			y: -7.5d
 		}
 		{
+			dependencies: ["7B66A26747259A76"]
 			description: [
 				"&dExtrapolated bucket &7-&r Voids picked up fluids"
 				""
