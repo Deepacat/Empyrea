@@ -1,6 +1,8 @@
 {
-  "modularrouters": {
-    "router": true
+  "wizards_reborn": {
+    "numerical": true,
+    "crystal_growth": true,
+    "salt_campfire": true
   },
   "minecraft": {
     "item_storage.show_name_amount": 5,
@@ -54,6 +56,26 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": true
+  },
+  "botania_editor": {
+    "botania_spreader": true,
+    "botania_spreader_advanced": true,
+    "botania_mana": true,
+    "botania_flower": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "modularrouters": {
+    "router": true
+  },
   "ars_nouveau": {
     "mob_jar": true
   },
@@ -72,25 +94,8 @@
   "supplementaries": {
     "hat_stand": true
   },
-  "jade": {
-    "coordinates.rel": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "mod_name": true
-  },
   "waystones": {
     "waystone": true
-  },
-  "botania_editor": {
-    "botania_spreader": true,
-    "botania_spreader_advanced": true,
-    "botania_mana": true,
-    "botania_flower": true
-  },
-  "balm": {
-    "jade": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

@@ -128,6 +128,42 @@
             ]
         },
         {
+            "pakku_id": "tFvOK7v1vZoNSw3d",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "akashic-tome"
+            },
+            "name": {
+                "curseforge": "Akashic Tome"
+            },
+            "id": {
+                "curseforge": "250577"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AkashicTome-1.7-27.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5605/501/AkashicTome-1.7-27.jar",
+                    "id": "5605501",
+                    "parent_id": "250577",
+                    "hashes": {
+                        "sha1": "06c00f0fd09dda54ef47f51b66093447929c936a",
+                        "md5": "6c10ec14218552c159e853cb7201fcb0"
+                    },
+                    "required_dependencies": [],
+                    "size": 45653,
+                    "date_published": "2024-08-07T18:15:28.447Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "pfud7o3AC0iunClp",
             "type": "MOD",
             "slug": {
@@ -612,43 +648,6 @@
                     "required_dependencies": [],
                     "size": 19471,
                     "date_published": "2023-11-29T11:27:43.890Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "l9encDLxFyJHFvPc",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "badoptimizations"
-            },
-            "name": {
-                "curseforge": "BadOptimizations"
-            },
-            "id": {
-                "curseforge": "949555"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "BadOptimizations-2.4.0-1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7269/215/BadOptimizations-2.4.0-1.20.1.jar",
-                    "id": "7269215",
-                    "parent_id": "949555",
-                    "hashes": {
-                        "sha1": "d664f5e16a4ddef2a207146155716cfb299eb4f7",
-                        "md5": "d21bd12d8cb6a53686774fa0efe2b9bb"
-                    },
-                    "required_dependencies": [],
-                    "size": 463375,
-                    "date_published": "2025-11-27T21:50:05.227Z"
                 }
             ]
         },
@@ -2470,6 +2469,81 @@
                     "required_dependencies": [],
                     "size": 1320675,
                     "date_published": "2024-08-31T23:11:49.240Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "o2lXE5HJeXv9i4UQ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "embergetic-expansion-embers-rekindled"
+            },
+            "name": {
+                "curseforge": "Embergetic Expansion (Embers Rekindled)"
+            },
+            "id": {
+                "curseforge": "1324516"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "embers_extended-1.4.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6983/941/embers_extended-1.4.1.jar",
+                    "id": "6983941",
+                    "parent_id": "1324516",
+                    "hashes": {
+                        "sha1": "ea79c4f1780bd2c7496f67bbbada51c78d100de5",
+                        "md5": "a261359e03679f321204adb40d5aeeb9"
+                    },
+                    "required_dependencies": [
+                        "300777"
+                    ],
+                    "size": 363212,
+                    "date_published": "2025-09-10T18:33:41.097Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "HRFkedxtbW33lqiO",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "embers-rekindled"
+            },
+            "name": {
+                "curseforge": "Embers Rekindled"
+            },
+            "id": {
+                "curseforge": "300777"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "embersrekindled-1.20.1-1.4.6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7279/674/embersrekindled-1.20.1-1.4.6.jar",
+                    "id": "7279674",
+                    "parent_id": "300777",
+                    "hashes": {
+                        "sha1": "d75c77ba20199bbd4743fbcc17236fb6538f9440",
+                        "md5": "1fd90f12dd25530a2ddcd9cbe7bb8330"
+                    },
+                    "required_dependencies": [],
+                    "size": 15569738,
+                    "date_published": "2025-11-30T21:09:26.700Z"
                 }
             ]
         },
@@ -4302,7 +4376,7 @@
             ]
         },
         {
-            "pakku_id": "qbbcvJd45Gzza5SL",
+            "pakku_id": "fkICpNVejiPpgYXs",
             "type": "MOD",
             "slug": {
                 "curseforge": "kotlin-for-forge"
@@ -4316,29 +4390,29 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "kotlinforforge-4.11.0-all.jar",
+                    "file_name": "kotlinforforge-4.12.0-all.jar",
                     "mc_versions": [
                         "1.20.2",
-                        "1.20.3",
                         "1.20.1",
                         "1.20",
-                        "1.20.4"
+                        "1.20.4",
+                        "1.20.3"
                     ],
                     "loaders": [
-                        "neoforge",
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5402/61/kotlinforforge-4.11.0-all.jar",
-                    "id": "5402061",
+                    "url": "https://edge.forgecdn.net/files/7291/67/kotlinforforge-4.12.0-all.jar",
+                    "id": "7291067",
                     "parent_id": "351264",
                     "hashes": {
-                        "sha1": "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5",
-                        "md5": "417caa90d17dc86cf7d24b802c2a5c56"
+                        "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+                        "md5": "d6a40dede74edbe646b34a1bafd53b4d"
                     },
                     "required_dependencies": [],
-                    "size": 7193768,
-                    "date_published": "2024-06-05T23:45:43.380Z"
+                    "size": 7442998,
+                    "date_published": "2025-12-03T19:47:08.457Z"
                 }
             ]
         },
@@ -7653,6 +7727,45 @@
                     ],
                     "size": 435496,
                     "date_published": "2025-03-17T12:36:07.270Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6Ek2drwukeXae7e4",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "wizards-reborn"
+            },
+            "name": {
+                "curseforge": "Wizard's Reborn"
+            },
+            "id": {
+                "curseforge": "913994"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "wizards_reborn-1.20.1-0.2.9.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6480/636/wizards_reborn-1.20.1-0.2.9.jar",
+                    "id": "6480636",
+                    "parent_id": "913994",
+                    "hashes": {
+                        "sha1": "203c0f173e3e7c2862437e3bae4ec00979f99df9",
+                        "md5": "6beb486e3f5d529b322052d27b9c4ab4"
+                    },
+                    "required_dependencies": [
+                        "309927",
+                        "1097456"
+                    ],
+                    "size": 37299940,
+                    "date_published": "2025-04-30T16:07:23.940Z"
                 }
             ]
         },
