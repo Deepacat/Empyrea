@@ -965,7 +965,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["09BA5C10E5A06D48"]
@@ -1360,10 +1360,7 @@
 			y: -11.0d
 		}
 		{
-			dependencies: [
-				"3839CE8B0E38D407"
-				"46C6E58FB664FE45"
-			]
+			dependencies: ["3839CE8B0E38D407"]
 			id: "77BC8783600E1A2B"
 			tasks: [
 				{
@@ -1377,8 +1374,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -8.5d
+			x: 9.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["7F8CDDFB08CA7A1A"]
@@ -1406,7 +1403,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["35733D04135B10A6"]
@@ -1417,7 +1414,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6CDF31D77CCB9000"]
@@ -1435,7 +1432,7 @@
 				}
 			]
 			x: 4.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2B3747B5C54DEDE1"]
@@ -1453,10 +1450,13 @@
 				}
 			]
 			x: 6.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["6D5B7BFF4E05B4AE"]
+			dependencies: [
+				"6D5B7BFF4E05B4AE"
+				"4BDD3594B851A07C"
+			]
 			id: "466A7C6DCB45CFA4"
 			tasks: [
 				{
@@ -1470,8 +1470,8 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: -8.5d
+			x: 9.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -1486,7 +1486,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1501,7 +1501,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1516,7 +1516,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1531,7 +1531,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1546,7 +1546,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5B667AAAC03F416C"]
@@ -1558,7 +1558,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["47E3293F30D8C9F3"]
@@ -1570,7 +1570,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1724,7 +1724,7 @@
 		{
 			dependencies: [
 				"6DBEC7F17D5D5D09"
-				"6D5B7BFF4E05B4AE"
+				"3839CE8B0E38D407"
 			]
 			id: "4BDD3594B851A07C"
 			tasks: [{
@@ -1732,8 +1732,8 @@
 				item: "minecraft:end_portal_frame"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -7.0d
+			x: 8.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["77BC8783600E1A2B"]
@@ -1751,7 +1751,7 @@
 				}
 			]
 			x: 9.5d
-			y: -8.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6D5B7BFF4E05B4AE"]
@@ -1761,8 +1761,8 @@
 				id: "14BD79B88A849571"
 				type: "dimension"
 			}]
-			x: 9.5d
-			y: -10.0d
+			x: 11.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["15FECCF2D792A83A"]
@@ -1801,7 +1801,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1A3B86810035A0CC"]
@@ -1813,7 +1813,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["678160E35FB584F0"]
@@ -1837,7 +1837,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			id: "57AA037B957C3054"
@@ -2181,7 +2181,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -8.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3CC975EF567EFC1F"]
@@ -2224,7 +2224,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			id: "4F4C32C11DFB9069"
@@ -2234,7 +2234,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			id: "1AC64A66FB1ED0EA"
@@ -2244,7 +2244,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			id: "019F2287A8367247"
@@ -2254,7 +2254,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			id: "5E686E07AA0A6859"
@@ -2264,7 +2264,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.5d
+			y: -4.5d
 		}
 	]
 	title: "goog :)"

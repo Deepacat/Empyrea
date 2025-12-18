@@ -13,6 +13,7 @@
 			id: "47029CAD6ADC01FC"
 			tasks: [
 				{
+					icon: "botania:root"
 					id: "0918D0B956D6D1CF"
 					observe_type: 0
 					timer: 0L
@@ -420,17 +421,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["3AC7205A27EF087B"]
-			id: "1A0258A76525C5F0"
-			tasks: [{
-				id: "661BC7C709F4F8FD"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["6E43127B50E50F2E"]
 			icon: "minecraft:nether_bricks"
 			id: "31A490F38305518B"
@@ -447,7 +437,7 @@
 				}
 			]
 			title: "The Nether"
-			x: 2.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -460,7 +450,7 @@
 				type: "dimension"
 			}]
 			title: "The End"
-			x: 2.5d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -481,7 +471,7 @@
 				type: "dimension"
 			}]
 			title: "Descend, Artist. Descend."
-			x: 2.5d
+			x: 2.0d
 			y: -4.5d
 		}
 		{
@@ -492,36 +482,37 @@
 				item: "botania:cocoon"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3AC7205A27EF087B"]
 			id: "532B0A3B1A8654C5"
-			tasks: [{
-				id: "45B74A90EA65F5CB"
-				item: "minecraft:dirt"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3AC7205A27EF087B"]
-			id: "62C46ED902490710"
-			tasks: [{
-				id: "6A96194A6A5A327A"
-				item: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "45B74A90EA65F5CB"
+					item: "minecraft:dirt"
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.5d
+				{
+					id: "3C14B354ED8107DD"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "6B776AF732598D47"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CC5C9B8099E09C7"]
@@ -575,7 +566,7 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
@@ -590,74 +581,13 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4C76B61FAE8B7DE6"]
-			id: "3B229F28C83D7BD0"
-			tasks: [{
-				id: "428DB934CFCF792D"
-				item: "minecraft:deepslate"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3AC7205A27EF087B"]
 			id: "029941764C440C49"
-			tasks: [{
-				id: "6EEFD815996E3DA6"
-				item: "occultism:otherstone"
-				type: "item"
-			}]
 			x: 4.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["496FD4BF28186E38"]
-			id: "4C76B61FAE8B7DE6"
-			tasks: [{
-				id: "13BD5D0ACEDC9B4C"
-				item: "ars_nouveau:sourcestone"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["038A096FD4841835"]
-			id: "2944EFEACCB598F7"
-			tasks: [{
-				id: "1CD3D5C131DD37E6"
-				item: "minecraft:netherrack"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["038A096FD4841835"]
-			id: "3BD4C8040BE4E861"
-			tasks: [
-				{
-					id: "3D2AB5E51ECCE360"
-					item: "minecraft:amethyst_shard"
-					type: "item"
-				}
-				{
-					id: "60C7DA2AA39FD418"
-					item: "spectrum:topaz_shard"
-					type: "item"
-				}
-				{
-					id: "0F88B63B558DAD02"
-					item: "spectrum:citrine_shard"
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["3AC7205A27EF087B"]
@@ -717,37 +647,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 1.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["3BD4C8040BE4E861"]
-			id: "496FD4BF28186E38"
-			tasks: [{
-				id: "4A9FFECA00E50A71"
-				item: "ars_nouveau:source_gem"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["029941764C440C49"]
-			id: "038A096FD4841835"
-			tasks: [
-				{
-					id: "74CC6751036C9465"
-					item: "minecraft:basalt"
-					type: "item"
-				}
-				{
-					id: "224492B8D2181110"
-					item: "minecraft:calcite"
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -0.5d
 		}
 		{
 			dependencies: ["3AC7205A27EF087B"]
@@ -772,8 +673,78 @@
 					type: "item"
 				}
 			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Resets the base island, in case you destroyed all your roots or water somehow!"
+				""
+				"Can only be used &nonce!&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ars_nouveau:item/ritual_conjure_island_plains"
+				}
+			}
+			id: "4055929D51193817"
+			rewards: [{
+				command: "/gardenofglass regen-island @p"
+				elevate_perms: true
+				id: "53536A02AC6FC6C6"
+				type: "command"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "53CFCB17BC0CAFC5"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Emergency Island reset"
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"52999A0B54A27E94"
+				"474DB5FFE9FF6608"
+				"45F0B452405BA514"
+				"3AC7205A27EF087B"
+			]
+			dependency_requirement: "one_completed"
+			icon: "spectrum:paintbrush"
+			id: "1F52D3E8EE6D498E"
+			tasks: [
+				{
+					id: "19F4E4C2A7A535A4"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(spectrum:pedestal_basic_topaz)item(spectrum:pedestal_basic_amethyst)item(spectrum:pedestal_basic_citrine))"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "fancytoasts:textures/gui/icons/looking.png"
+						}
+					}
+					id: "7B82CA65CA927C26"
+					observe_type: 1
+					timer: 0L
+					to_observe: "spectrum:pedestals"
+					type: "observation"
+				}
+			]
 			x: 4.5d
-			y: 1.5d
+			y: 0.5d
 		}
 	]
 	title: "Beginning"

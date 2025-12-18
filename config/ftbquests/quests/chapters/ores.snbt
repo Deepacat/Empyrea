@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ores"
+	group: "7CF78894AB8C612C"
+	id: "098B339E94AA0245"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "74DCE795AC4D6A9F"
+			tasks: [{
+				id: "72B2E05E03BFE8F1"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "0764F98BC7B5442A"
+			tasks: [{
+				id: "3AF05759DDFB9592"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "4B06B7B5BB9A6699"
+			tasks: [{
+				id: "0E18B80BED3ADF07"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "3C98406F7E7FABD1"
+			tasks: [{
+				id: "66AB0E3B3623D9D3"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "41A0FB451569836C"
+			tasks: [{
+				id: "73561B7D48E06B09"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "36A5547435D66DB3"
+			tasks: [{
+				id: "6C809A2AABA969F4"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "Resources"
+}

@@ -21,8 +21,8 @@
 				item: "minecraft:calcite"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: -8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4451BB42ACB5C113"]
@@ -32,8 +32,8 @@
 				item: "spectrum:topaz_shard"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4451BB42ACB5C113"]
@@ -43,8 +43,8 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: -7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4451BB42ACB5C113"]
@@ -54,8 +54,8 @@
 				item: "spectrum:citrine_shard"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -64,6 +64,7 @@
 				"45F0B452405BA514"
 			]
 			dependency_requirement: "one_completed"
+			icon: "spectrum:guidebook"
 			id: "265A7ABDA4E76418"
 			tasks: [
 				{
@@ -75,25 +76,17 @@
 							"ftbfiltersystem:filter": "or(item(spectrum:pedestal_basic_topaz)item(spectrum:pedestal_basic_amethyst)item(spectrum:pedestal_basic_citrine))"
 						}
 					}
+					title: "Craft a Pedestal"
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "fancytoasts:textures/gui/icons/looking.png"
-						}
-					}
-					id: "270111FCEF482615"
-					observe_type: 1
-					timer: 0L
-					to_observe: "spectrum:pedestals"
-					type: "observation"
+					id: "2E6D4B8900D4609B"
+					item: "spectrum:guidebook"
+					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 2.0d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["265A7ABDA4E76418"]
@@ -103,9 +96,9 @@
 				item: "spectrum:paintbrush"
 				type: "item"
 			}]
-			title: "Rise, Artist"
-			x: -0.5d
-			y: 3.0d
+			title: "Rise, Artist!"
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6FD700D3F068A4F6"]
@@ -113,6 +106,7 @@
 			id: "64383EEBF82F4D91"
 			tasks: [
 				{
+					icon: "spectrum:pedestal_all_basic"
 					id: "5B0282DC92F83796"
 					observe_type: 0
 					timer: 0L
@@ -127,8 +121,8 @@
 				}
 			]
 			title: "Upgrading the pedestal"
-			x: -0.5d
-			y: 4.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["64383EEBF82F4D91"]
@@ -138,8 +132,8 @@
 				item: "kubejs:astral_attractor"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["64383EEBF82F4D91"]
@@ -150,8 +144,8 @@
 				title: "Arcane Tree"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7FBCA9EF64A3055B"]
@@ -161,8 +155,8 @@
 				item: "spectrum:shimmerstone_gem"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2CCD74DAA6B8A638"]
@@ -172,18 +166,18 @@
 				item: "spectrum:bottle_of_fading"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["265A7ABDA4E76418"]
+			dependencies: ["6FD700D3F068A4F6"]
 			id: "2D3163D4BBB6D227"
 			tasks: [{
 				id: "6C35CCE6C049D905"
 				item: "spectrum:mermaids_gem"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -4.0d
 			y: 3.0d
 		}
 		{
@@ -194,7 +188,7 @@
 				item: "spectrum:mud_bucket"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -3.5d
 			y: 4.0d
 		}
 		{
@@ -215,8 +209,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["36F834BBCB377992"]
@@ -226,8 +220,8 @@
 				item: "spectrum:vegetal"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4EEEAF36CDD60F45"]
@@ -246,36 +240,423 @@
 				type: "item"
 			}]
 			title: "Blossoming Colors"
-			x: -0.5d
-			y: 9.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7B5E2AE59113F710"]
 			id: "020FF39CDF795CC5"
+			tasks: [{
+				id: "08B2DB8C32471FE7"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(spectrum:pigments)"
+					}
+				}
+				title: "Pigments"
+				type: "item"
+			}]
+			title: "Vials of pure color"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D3163D4BBB6D227"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "spectrum:block/mermaids_brush_full"
+				}
+			}
+			id: "3596EDEB81D605C8"
+			tasks: [{
+				id: "584B64EC3D997760"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CCD74DAA6B8A638"]
+			id: "55D9AE51DB4BBE9C"
+			optional: true
+			tasks: [{
+				id: "4CDE4668E19C934F"
+				item: {
+					Count: 1
+					id: "spectrum:lucky_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D3163D4BBB6D227"]
+			id: "066976BC54B0D0AA"
+			optional: true
+			tasks: [{
+				id: "1D3CC8D7D243BFBB"
+				item: {
+					Count: 1
+					id: "spectrum:tender_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6286625B3AB1A83B"
+				"73BCC8D939182B59"
+			]
+			id: "18353B20BED29853"
+			tasks: [{
+				id: "6E7894D1291F7404"
+				item: "spectrum:quitoxic_reeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["020FF39CDF795CC5"]
+			id: "3769FBFDD841A1E8"
+			optional: true
+			tasks: [{
+				id: "37FFFA983ADA82AC"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["020FF39CDF795CC5"]
+			id: "1E5862F0D09CC90F"
+			tasks: [{
+				id: "26AC3338650E5E4B"
+				item: "spectrum:fusion_shrine_basalt"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E5862F0D09CC90F"]
+			id: "1090D82DC99BCAEF"
+			tasks: [{
+				id: "1CCAB588D4362635"
+				item: "spectrum:onyx_shard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1090D82DC99BCAEF"]
+			icon: "spectrum:pedestal_onyx"
+			id: "5DDFB5F243C0AF0C"
 			tasks: [
 				{
-					id: "08B2DB8C32471FE7"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(spectrum:pigments)"
-						}
-					}
-					title: "Pigments"
+					id: "7AC877D7B60EA223"
+					observe_type: 0
+					timer: 0L
+					to_observe: "spectrum:pedestal_onyx"
+					type: "observation"
+				}
+				{
+					advancement: "spectrum:midgame/build_advanced_pedestal_structure"
+					criterion: ""
+					id: "3EC84CE2323A881E"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["020FF39CDF795CC5"]
+			id: "38623DEB180F533B"
+			tasks: [{
+				id: "577BE9C008D8503C"
+				item: "spectrum:clover"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "36539EA94C518626"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3655F3967D5F88E5"
+				type: "dimension"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CCDD31CC99C9CC7"]
+			id: "0E5738FCE02D9613"
+			tasks: [{
+				id: "1F466EC180C39DAB"
+				item: "spectrum:stratine_fragments"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["36539EA94C518626"]
+			id: "2CCDD31CC99C9CC7"
+			tasks: [{
+				id: "39C41C2BBC24B0BA"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5DDFB5F243C0AF0C"
+				"0E5738FCE02D9613"
+			]
+			id: "280FCA24CB393BAD"
+			tasks: [{
+				id: "683991C564BC667F"
+				item: "spectrum:bottle_of_failing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["280FCA24CB393BAD"]
+			id: "35AFBAEADA18DC1F"
+			tasks: [{
+				id: "13979FB96AAA68B8"
+				item: "spectrum:raw_azurite"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["280FCA24CB393BAD"]
+			id: "757C35D626B00401"
+			tasks: [{
+				id: "6EEC1B0756DA5B2F"
+				item: "spectrum:storm_stone"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DDFB5F243C0AF0C"]
+			id: "2D213EF4F2BA6BAC"
+			tasks: [{
+				id: "41730C412E28CA13"
+				item: "spectrum:liquid_crystal_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E5738FCE02D9613"]
+			id: "50D4529638BAB16B"
+			tasks: [{
+				id: "40B2B225880DE546"
+				item: "spectrum:potion_workshop"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["280FCA24CB393BAD"]
+			id: "30113357A20E2D33"
+			tasks: [{
+				id: "21DBC917C4313D49"
+				item: "spectrum:neolith"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35AFBAEADA18DC1F"]
+			id: "72C67C5A5277B2D3"
+			tasks: [{
+				id: "01C2EDFFEB81A94F"
+				item: "spectrum:storage_node"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30113357A20E2D33"]
+			id: "0ED850CC6C805A8E"
+			tasks: [{
+				id: "7060C4FCB3A0BF4D"
+				item: "spectrum:midnight_aberration"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0ED850CC6C805A8E"]
+			id: "0AA4C7EBFFFEEB52"
+			tasks: [
+				{
+					id: "0E772734E91CD75E"
+					item: "spectrum:midnight_solution_bucket"
 					type: "item"
 				}
 				{
-					id: "41324DD8593593C3"
-					observe_type: 1
-					timer: 0L
-					to_observe: "spectrum:colored_leaves"
-					type: "observation"
+					id: "7FDE65DC094BD1C1"
+					item: "spectrum:midnight_chip"
+					type: "item"
 				}
 			]
-			title: "Vials of pure color"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CCD74DAA6B8A638"]
+			id: "6C447701AD807235"
+			tasks: [{
+				id: "18281651C729EAAF"
+				item: "botania:rune_air"
+				type: "item"
+			}]
 			x: -0.5d
-			y: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18353B20BED29853"]
+			id: "2296E89862EC4EB2"
+			tasks: [{
+				id: "4F1B312AA9438BC3"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0AA4C7EBFFFEEB52"]
+			id: "70AEBF94BA41CC72"
+			tasks: [{
+				id: "42F8CEF180C6FACB"
+				item: "spectrum:bottle_of_ruin"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70AEBF94BA41CC72"]
+			id: "2F3968DEC39FCB6C"
+			tasks: [{
+				id: "3CC7F6DB1991F0B9"
+				item: "spectrum:bedrock_dust"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F3968DEC39FCB6C"]
+			id: "2D58F67AFF742BCA"
+			tasks: [{
+				id: "57D896D49D5E0C3C"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D58F67AFF742BCA"]
+			id: "00D123334F908DF4"
+			tasks: [{
+				advancement: "spectrum:midgame/open_deeper_down_portal"
+				criterion: ""
+				id: "58BDCB08D2BEB529"
+				type: "advancement"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30113357A20E2D33"]
+			id: "30A98072DBC4E622"
+			tasks: [{
+				id: "60D27AA52D8B8566"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00D123334F908DF4"]
+			hide_dependency_lines: true
+			id: "0B19AFB7F28F7BCF"
+			tasks: [{
+				advancement: "spectrum:midgame/enter_dimension"
+				criterion: ""
+				id: "6DD089BEE1B896D7"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0B19AFB7F28F7BCF"]
+			id: "1A1654B489CAC85D"
+			tasks: [{
+				id: "2DFFA186248299BC"
+				item: "spectrum:moonstone_shard"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1A1654B489CAC85D"]
+			id: "79C978081E295964"
+			tasks: [{
+				id: "244E00E93CAAE037"
+				item: "spectrum:raw_malachite"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
 		}
 	]
 	title: "Spectrum"
