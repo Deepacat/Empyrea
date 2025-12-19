@@ -5,7 +5,7 @@
   "size": 6,
   "spawn_overrides": {},
   "start_height": {
-    "absolute": 33
+    "absolute": 5
   },
   "start_pool": "malum:weeping_well",
   "step": "underground_structures",

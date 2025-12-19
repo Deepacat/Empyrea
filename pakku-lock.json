@@ -7998,7 +7998,7 @@
             ]
         },
         {
-            "pakku_id": "7012ctWb0Ee0TKoB",
+            "pakku_id": "JbTpCZVGkIjNhorL",
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
@@ -8015,22 +8015,22 @@
                     "type": "curseforge",
                     "file_name": "zume-1.2.0.jar",
                     "mc_versions": [
-                        "1.20.2",
-                        "1.20.5",
                         "1.20.2-Snapshot",
                         "1.20.5-Snapshot",
-                        "1.20.3-Snapshot",
-                        "1.20.3",
+                        "1.20.2",
+                        "1.20.5",
                         "1.20.1",
                         "1.20",
                         "1.20.6",
+                        "1.20-Snapshot",
                         "1.20.4",
-                        "1.20-Snapshot"
+                        "1.20.3-Snapshot",
+                        "1.20.3"
                     ],
                     "loaders": [
                         "fabric",
-                        "neoforge",
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7071/992/zume-1.2.0.jar",
