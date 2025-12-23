@@ -1025,6 +1025,44 @@
             ]
         },
         {
+            "pakku_id": "YjEfxs8fEgokHvPO",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "botania-window-box"
+            },
+            "name": {
+                "curseforge": "Botania: Window Box"
+            },
+            "id": {
+                "curseforge": "1403414"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "window_box-1.20.1-1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7361/521/window_box-1.20.1-1.0.jar",
+                    "id": "7361521",
+                    "parent_id": "1403414",
+                    "hashes": {
+                        "sha1": "76d8a59a76f905280a74d96d546652293f43062c",
+                        "md5": "ce9caad15a365048e7e04e3804fa0d65"
+                    },
+                    "required_dependencies": [
+                        "225643"
+                    ],
+                    "size": 642942,
+                    "date_published": "2025-12-21T13:39:47.683Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "G9XmaPc9fgSVvVuw",
             "type": "MOD",
             "slug": {
