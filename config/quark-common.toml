@@ -522,7 +522,7 @@
 	"Dragon Scales" = true
 	"Dyeable Item Frames" = true
 	Emotes = true
-	"Enhanced Ladders" = true
+	"Enhanced Ladders" = false
 	"Glass Shard" = true
 	"Gold Tools Have Fortune" = true
 	"Grab Chickens" = true

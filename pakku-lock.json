@@ -1631,6 +1631,45 @@
             ]
         },
         {
+            "pakku_id": "iDpYG04uys5XyL3m",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "continuity"
+            },
+            "name": {
+                "curseforge": "Continuity"
+            },
+            "id": {
+                "curseforge": "531351"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "continuity-3.0.0+1.20.1.forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5981/334/continuity-3.0.0+1.20.1.forge.jar",
+                    "id": "5981334",
+                    "parent_id": "531351",
+                    "hashes": {
+                        "sha1": "816c1bb15c3686f67143dabced87bd4811cc43d2",
+                        "md5": "d14cdccb4b6c161d9846cc8cdf03068e"
+                    },
+                    "required_dependencies": [
+                        "889079",
+                        "890127"
+                    ],
+                    "size": 1016666,
+                    "date_published": "2024-12-10T23:44:55.397Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "GmisEeNwmGNGqwid",
             "pakku_links": [
                 "LjbCCSAtUNyvMxAs"
@@ -2234,6 +2273,45 @@
             ]
         },
         {
+            "pakku_id": "zG2ZIXawrHUdpa4X",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "draggable-lists"
+            },
+            "name": {
+                "curseforge": "Draggable Lists"
+            },
+            "id": {
+                "curseforge": "522697"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "draggable_lists-mc1.20-1.0.1-rev.824b2f3.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6313/249/draggable_lists-mc1.20-1.0.1-rev.824b2f3.jar",
+                    "id": "6313249",
+                    "parent_id": "522697",
+                    "hashes": {
+                        "sha1": "90644052d1a3c87b220954bb69e0e1b82d607340",
+                        "md5": "6fc93236e88f27f8149ce0d86430bf88"
+                    },
+                    "required_dependencies": [],
+                    "size": 93320,
+                    "date_published": "2025-03-16T20:51:04.557Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "219OHCnhooqsnOrL",
             "pakku_links": [
                 "zW9lmZA0ozgi1ZIQ"
@@ -2308,6 +2386,44 @@
                     "required_dependencies": [],
                     "size": 1048567,
                     "date_published": "2025-04-14T03:37:30.690Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "PtNttUF1NxAW5AOE",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "emi-backport"
+            },
+            "name": {
+                "curseforge": "EMI++ Backport"
+            },
+            "id": {
+                "curseforge": "1411826"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "emixx-forge-1.0.0-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7369/359/emixx-forge-1.0.0-1.20.1.jar",
+                    "id": "7369359",
+                    "parent_id": "1411826",
+                    "hashes": {
+                        "sha1": "e12d0c9ffa16599dda2a8222f12a89fb0b588243",
+                        "md5": "75a118cc9a90a2cc2e5e9058efcf83d6"
+                    },
+                    "required_dependencies": [
+                        "351264"
+                    ],
+                    "size": 370594,
+                    "date_published": "2025-12-23T13:08:06.587Z"
                 }
             ]
         },
