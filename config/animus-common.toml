@@ -153,6 +153,9 @@
 		#Default: 0.1 (10% chance)
 		#Range: 0.0 ~ 1.0
 		cullingWillConsumeChance = 0.1
+		#Horizontal range in blocks for Ritual of Peaceful Beckoning mob spawning
+		#Range: 1 ~ 32
+		peacefulBeckoningRange = 8
 
 		#Ritual of Endless Greed - Collects mob drops into a container
 		[animus.rituals.endlessGreed]
@@ -168,6 +171,45 @@
 			#Base LP cost per refresh cycle (20 ticks) for Ritual of Endless Greed
 			#Range: 0 ~ 1000
 			refreshCost = 5
+
+		#Enable or disable individual rituals
+		[animus.rituals.enabled]
+			#Enable the Ritual of Culling
+			culling = true
+			#Enable the Ritual of Endless Greed
+			endlessGreed = true
+			#Enable the Ritual of Entropy
+			entropy = true
+			#Enable the Ritual of Luna
+			luna = true
+			#Enable the Ritual of Nature's Leach
+			naturesLeach = true
+			#Enable the Ritual of Nolite Ignem
+			noliteIgnem = true
+			#Enable the Ritual of Peaceful Beckoning
+			peacefulBeckoning = true
+			#Enable the Ritual of Persistence
+			persistence = true
+			#Enable the Ritual of Relentless Tides
+			relentlessTides = true
+			#Enable the Ritual of Reparare
+			reparare = true
+			#Enable the Ritual of Serenity
+			serenity = true
+			#Enable the Ritual of Siphon
+			siphon = true
+			#Enable the Ritual of Sol
+			sol = true
+			#Enable the Ritual of Source Vitaeum (requires Ars Nouveau)
+			sourceVitaeum = true
+			#Enable the Ritual of Steadfast Heart
+			steadfastHeart = true
+			#Enable the Ritual of Unmaking
+			unmaking = true
+			#Enable the Ritual of Floral Supremacy (requires Botania)
+			floralSupremacy = true
+			#Enable the Ritual of Arcane Mastery (requires Iron's Spells)
+			arcaneMastery = true
 
 	[animus.sigils]
 		#LP cost for Sigil of Consumption per block
@@ -230,6 +272,12 @@
 			#Set to 0 to disable LP drain
 			#Range: 0 ~ 10000
 			lpPerSecond = 100
+			#Maximum HP percentage threshold for execute effect with full demon will
+			#Execute threshold scales from 1% (at 1 will) to this value (at 4096 will)
+			#Targets at or below this % of max HP will be instantly killed
+			#Default: 0.15 (15%)
+			#Range: 0.0 ~ 1.0
+			executeThreshold = 0.15
 
 	[animus.hurtCooldown]
 		#How will the Hurt Cooldown (iframes) be affected
@@ -299,6 +347,12 @@
 		unleashedNatureManaDrain = 10
 
 	[animus.ironsSpells]
+		#Master toggle for Iron's Spellbooks integration
+		#Set to false to completely disable all Iron's Spellbooks features
+		#Use this if you're experiencing crashes with Iron's Spellbooks pre-release versions
+		#Requires game restart to take effect
+		#Default: true
+		enableIntegration = true
 
 		#Phase 1: LP-Powered Spell Casting
 		[animus.ironsSpells.lpCasting]
@@ -392,4 +446,139 @@
 			#Default: 10
 			#Range: 1 ~ 1000
 			baseXP = 10
+
+	#Imperfect Ritual Configuration
+	[animus.imperfectRituals]
+
+		#Imperfect Ritual of Boundless Skies - Sets weather to permanent clear
+		[animus.imperfectRituals.boundlessSkies]
+			#Enable the Imperfect Ritual of Boundless Skies
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Boundless Skies
+			#Range: 0 ~ 1000000
+			cost = 10000
+
+		#Imperfect Ritual of Clear Skies - Clears the weather temporarily
+		[animus.imperfectRituals.clearSkies]
+			#Enable the Imperfect Ritual of Clear Skies
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Clear Skies
+			#Range: 0 ~ 1000000
+			cost = 1000
+
+		#Imperfect Ritual of Enhancement - Enhances enchantments on held item by 1 level
+		[animus.imperfectRituals.enhancement]
+			#Enable the Imperfect Ritual of Enhancement
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Enhancement
+			#Range: 0 ~ 1000000
+			cost = 5000
+
+		#Imperfect Ritual of Hunger - Sets player to hungry state
+		[animus.imperfectRituals.hunger]
+			#Enable the Imperfect Ritual of Hunger
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Hunger
+			#Range: 0 ~ 1000000
+			cost = 500
+
+		#Imperfect Ritual of Iron Heart - Provides absorption hearts
+		[animus.imperfectRituals.ironHeart]
+			#Enable the Imperfect Ritual of Iron Heart
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Iron Heart
+			#Range: 0 ~ 1000000
+			cost = 3500
+
+		#Imperfect Ritual of Magi - Converts source to LP (requires Ars Nouveau)
+		[animus.imperfectRituals.magi]
+			#Enable the Imperfect Ritual of Magi
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Magi
+			#Range: 0 ~ 1000000
+			cost = 2500
+
+		#Imperfect Ritual of Manasteel Soul - Infuses manasteel with blood (requires Botania)
+		[animus.imperfectRituals.manasteelSoul]
+			#Enable the Imperfect Ritual of Manasteel Soul
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Manasteel Soul
+			#Range: 0 ~ 1000000
+			cost = 2500
+
+		#Imperfect Ritual of Neptune's Blessing - Grants water breathing and swim speed
+		[animus.imperfectRituals.neptuneBlessing]
+			#Enable the Imperfect Ritual of Neptune's Blessing
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Neptune's Blessing
+			#Range: 0 ~ 1000000
+			cost = 2000
+
+		#Imperfect Ritual of Reduction - Downgrades all enchantments on held item by 1 level
+		[animus.imperfectRituals.reduction]
+			#Enable the Imperfect Ritual of Reduction
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Reduction
+			#Range: 0 ~ 1000000
+			cost = 1000
+
+		#Imperfect Ritual of Regression - Removes anvil repair cost from held item
+		[animus.imperfectRituals.regression]
+			#Enable the Imperfect Ritual of Regression
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Regression
+			#Range: 0 ~ 1000000
+			cost = 3000
+
+		#Imperfect Ritual of Soul Stained Blood - Converts blood orb to soul stained variant
+		[animus.imperfectRituals.soulStainedBlood]
+			#Enable the Imperfect Ritual of Soul Stained Blood
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of Soul Stained Blood
+			#Range: 0 ~ 1000000
+			cost = 2000
+
+		#Imperfect Ritual of the Warden - Summons warden-related effects
+		[animus.imperfectRituals.warden]
+			#Enable the Imperfect Ritual of the Warden
+			enabled = true
+			#LP cost to activate the Imperfect Ritual of the Warden
+			#Range: 0 ~ 1000000
+			cost = 3000
+
+	#Weapon Configuration
+	[animus.weapons]
+
+		#Sentient Bow - Demon will powered bow
+		[animus.weapons.sentientBow]
+			#Amount of demon will consumed per arrow fired
+			#Default: 1.0
+			#Range: 0.0 ~ 100.0
+			willCostPerShot = 1.0
+
+		#Hellforged Bow - LP powered bow with charged shots
+		[animus.weapons.hellforgedBow]
+			#Base LP cost to fire an arrow (before charging)
+			#Default: 5
+			#Range: 0 ~ 1000
+			baseLpCost = 5
+			#LP consumed per tick while charging beyond normal draw
+			#At max charge (70 ticks), this totals 3500 LP for the charge alone
+			#Default: 50
+			#Range: 0 ~ 1000
+			lpPerChargeTick = 50
+			#Maximum charge time in ticks (20 ticks = 1 second)
+			#Normal bow draw is ~22 ticks (1.1 seconds)
+			#Default: 70 (3.5 seconds total)
+			#Range: 20 ~ 200
+			maxChargeTicks = 70
+			#Maximum damage at full charge
+			#Default: 40.0
+			#Range: 1.0 ~ 200.0
+			maxDamage = 40.0
+			#HP percentage threshold for execute effect at full charge
+			#Targets at or below this % of max HP will be instantly killed
+			#Default: 0.15 (15%)
+			#Range: 0.0 ~ 1.0
+			executeThreshold = 0.15
 

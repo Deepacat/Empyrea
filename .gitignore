@@ -103,6 +103,7 @@
 /config/tunnelyrefab.json
 /config/hexcessible.json
 /config/keymap*
+/config/worldedit/
 
 # Linux
 *~
