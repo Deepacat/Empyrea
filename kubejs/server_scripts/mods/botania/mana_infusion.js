@@ -7,10 +7,11 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'botania:mana_infusion/calcite_to_deepslate' })
     e.remove({ id: 'botania:mana_infusion/tuff_to_calcite' })
 
-    // otherstone to basalt
+    // otherstone > basalt
     e.recipes.botania.mana_infusion('minecraft:basalt', 'occultism:otherstone', 300, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/otherstone_to_basalt')
-    // basalt>calcite>tuff cycle
+
+    // basalt > calcite > tuff <> cycle
     e.recipes.botania.mana_infusion('minecraft:calcite', 'minecraft:basalt', 250, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/basalt_to_calcite')
     e.recipes.botania.mana_infusion('minecraft:tuff', 'minecraft:calcite', 250, 'botania:alchemy_catalyst')
@@ -18,21 +19,30 @@ ServerEvents.recipes(e => {
     e.recipes.botania.mana_infusion('minecraft:basalt', 'minecraft:tuff', 250, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/tuff_to_basalt')
 
-    // kelp bamboo cycle
+    // netherrack <> blackstone cycle
+    e.recipes.botania.mana_infusion('minecraft:netherrack', 'minecraft:blackstone', 100, 'botania:alchemy_catalyst')
+        .id('kubejs:botania/mana_infusion/blackstone_to_netherrack')
+    e.recipes.botania.mana_infusion('minecraft:blackstone', 'minecraft:netherrack', 100, 'botania:alchemy_catalyst')
+        .id('kubejs:botania/mana_infusion/netherrack_to_blackstone')
+
+    // kelp <> bamboo cycle
     e.recipes.botania.mana_infusion('minecraft:bamboo', 'minecraft:kelp', 250, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/kelp_to_bamboo')
     e.recipes.botania.mana_infusion('minecraft:kelp', 'minecraft:bamboo', 250, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/bamboo_to_kelp')
 
-    // misc alchemy reversion/crushing 
+    // misc. alchemy reverting recipes (Non crushing)
     e.recipes.botania.mana_infusion('spectrum:mermaids_gem', 'minecraft:heart_of_the_sea', 10000, 'botania:alchemy_catalyst')
         .id('kubejs:botania/mana_infusion/heart_to_mermaids_gem')
-    e.recipes.botania.mana_infusion('hexcasting:amethyst_dust', 'minecraft:amethyst_shard', 200, 'botania:alchemy_catalyst')
+
+    // Crushing catalyst recipes
+    e.recipes.botania.mana_infusion('hexcasting:amethyst_dust', 'minecraft:amethyst_shard', 200, 'kubejs:pulverizing_catalyst')
         .id('kubejs:botania/mana_infusion/amethyst_to_dust')
-    e.recipes.botania.mana_infusion('waystones:warp_stone', '#waystones:waystones', 5000, 'botania:alchemy_catalyst')
+    e.recipes.botania.mana_infusion('waystones:warp_stone', '#waystones:waystones', 5000, 'kubejs:pulverizing_catalyst')
         .id('kubejs:botania/mana_infusion/waystone_to_warp_stone')
-    e.recipes.botania.mana_infusion('waystones:warp_stone', '#waystones:sharestones', 5000, 'botania:alchemy_catalyst')
+    e.recipes.botania.mana_infusion('waystones:warp_stone', '#waystones:sharestones', 5000, 'kubejs:pulverizing_catalyst')
         .id('kubejs:botania/mana_infusion/sharestone_to_warp_stone')
+
 
     // copy spectrums anvil crushing recipes to pulverizing catalyst infusing
     let recipeIter = 0

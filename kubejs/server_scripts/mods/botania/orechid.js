@@ -43,11 +43,11 @@ ServerEvents.recipes(e => {
     // blazing quartz from vanilla quartz ore
     e.recipes.botania.orechid_ignem('malum:blazing_quartz_ore', 'minecraft:nether_quartz_ore', 33)
         .id('kubejs:botania/orechid/blazing_quartz_ore_nether')
-    e.recipes.botania.orechid_ignem('minecraft:netherrack', 'minecraft:nether_quartz_ore', 67)
+    e.recipes.botania.orechid_ignem('minecraft:blackstone', 'minecraft:nether_quartz_ore', 67) // fail recipe
         .id('kubejs:botania/orechid/nether_quartz_loss')
     // stratine from nether gold ore
     e.recipes.botania.orechid_ignem('spectrum:stratine_ore', 'minecraft:nether_gold_ore', 5)
         .id('kubejs:botania/orechid/stratine_ore')
-    e.recipes.botania.orechid_ignem('minecraft:netherrack', 'minecraft:nether_gold_ore', 95)
+    e.recipes.botania.orechid_ignem('minecraft:blackstone', 'minecraft:nether_gold_ore', 95) // fail recipe
         .id('kubejs:botania/orechid/nether_gold_loss')
 })
