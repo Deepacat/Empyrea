@@ -22,9 +22,3 @@ ServerEvents.tags('worldgen/biome', e => {
     e.removeAll('malum:has_structure/weeping_well_biomes')
     e.add('malum:has_structure/weeping_well_biomes', '#minecraft:is_nether')
 })
-
-// debug netherrack fishing loot drop test
-EntityEvents.spawned(e => {
-    if (e.entity.name.string != 'Netherrack') { return }
-    e.server.tell(`netherrack drop`)
-})
