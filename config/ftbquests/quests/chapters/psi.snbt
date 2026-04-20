@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "embers_rekindled"
+	filename: "psi"
 	group: "60ECDD4782CBCF7F"
-	icon: "embers:ember_crystal_cluster"
-	id: "411EB3983B607B21"
-	order_index: 6
+	icon: "psi:psimetal"
+	id: "3924A582A8B78437"
+	order_index: 8
 	quest_links: [ ]
 	quests: [ ]
-	title: "Embers"
+	title: "Psi"
 }

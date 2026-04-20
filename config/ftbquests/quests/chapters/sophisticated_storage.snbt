@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: "60ECDD4782CBCF7F"
+	icon: "sophisticatedstorage:basic_tier_upgrade"
+	id: "1C029841E2C55FB6"
+	order_index: 12
+	quest_links: [ ]
+	quests: [ ]
+	title: "Soph. Mods"
+}

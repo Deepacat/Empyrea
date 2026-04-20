@@ -1,6 +1,7 @@
 {
 	chapter_groups: [
-		{ id: "60ECDD4782CBCF7F", title: "Magics" }
+		{ id: "58065E6754AFC5F6", title: "Empyrean Skies" }
+		{ id: "60ECDD4782CBCF7F", title: "Mod Guides" }
 		{ id: "7CF78894AB8C612C", title: "Tips" }
 		{ id: "4A1900BF0483C4C6", title: "olgd" }
 	]

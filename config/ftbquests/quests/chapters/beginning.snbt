@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "beginning"
-	group: ""
+	group: "58065E6754AFC5F6"
 	icon: "botania:living_root"
 	id: "7907F972F841B36D"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -213,6 +213,11 @@
 				{
 					id: "454B74A7B81CE5AE"
 					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					id: "26515299B00A2737"
+					item: "minecraft:blaze_powder"
 					type: "item"
 				}
 			]
@@ -696,12 +701,25 @@
 				id: "53536A02AC6FC6C6"
 				type: "command"
 			}]
-			tasks: [{
-				count: 1000L
-				id: "53CFCB17BC0CAFC5"
-				item: "minecraft:cobblestone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 100L
+					id: "53CFCB17BC0CAFC5"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "598DDD9D2CD6D57F"
+					title: "YES I WANT TO !!!"
+					type: "checkmark"
+				}
+				{
+					id: "0E5799DED2808EBE"
+					title: "I REALLY REALLY WANT TO !!!"
+					type: "checkmark"
+				}
+			]
 			title: "Emergency Island reset"
 			x: -11.5d
 			y: 1.0d

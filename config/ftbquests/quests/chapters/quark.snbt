@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "embers_rekindled"
+	filename: "quark"
 	group: "60ECDD4782CBCF7F"
-	icon: "embers:ember_crystal_cluster"
-	id: "411EB3983B607B21"
-	order_index: 6
+	icon: "quark:diamond_heart"
+	id: "481940F1547AF705"
+	order_index: 11
 	quest_links: [ ]
 	quests: [ ]
-	title: "Embers"
+	title: "Quark"
 }

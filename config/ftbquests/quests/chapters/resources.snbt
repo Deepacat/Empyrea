@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resources"
+	group: "58065E6754AFC5F6"
+	id: "56676BACB4FCD42D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Resources"
+}

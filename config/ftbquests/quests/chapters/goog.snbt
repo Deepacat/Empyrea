@@ -4,10 +4,60 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "goog"
-	group: ""
+	group: "58065E6754AFC5F6"
 	icon: "botania:mana_diamond"
 	id: "193A50A5106765C9"
-	order_index: 0
+	images: [
+		{
+			height: 1.0d
+			image: "botania:block/orechid"
+			rotation: 0.0d
+			width: 1.0d
+			x: -20.5d
+			y: -24.5d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/orechid"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: -24.5d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/orechid"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.5d
+			y: -24.5d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/orechid_ignem"
+			rotation: 0.0d
+			width: 1.0d
+			x: -20.5d
+			y: -20.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:item/missing_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.5d
+			y: -20.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:item/missing_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: -20.0d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -301,7 +351,7 @@
 				item: "minecraft:deepslate"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -17.0d
 			y: -11.0d
 		}
 		{
@@ -378,8 +428,8 @@
 				type: "item"
 			}]
 			title: "replaxceme with source"
-			x: -17.0d
-			y: -11.0d
+			x: -16.5d
+			y: -10.0d
 		}
 		{
 			id: "553C2E3135CD5B0C"
@@ -456,7 +506,7 @@
 				}
 			]
 			x: -20.5d
-			y: -18.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -467,7 +517,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: -18.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -478,7 +528,7 @@
 				type: "item"
 			}]
 			x: -20.0d
-			y: -19.0d
+			y: -23.5d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -489,7 +539,7 @@
 				type: "item"
 			}]
 			x: -21.0d
-			y: -19.0d
+			y: -23.5d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -500,7 +550,7 @@
 				type: "item"
 			}]
 			x: -21.5d
-			y: -18.0d
+			y: -22.5d
 		}
 		{
 			id: "0241E72C7F16B121"
@@ -509,8 +559,8 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: -17.0d
-			y: -14.5d
+			x: -20.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -521,7 +571,7 @@
 				type: "item"
 			}]
 			x: -21.0d
-			y: -17.0d
+			y: -21.5d
 		}
 		{
 			dependencies: ["747F13C39A682883"]
@@ -532,7 +582,7 @@
 				type: "item"
 			}]
 			x: -20.0d
-			y: -17.0d
+			y: -21.5d
 		}
 		{
 			id: "37DF71047572E454"
@@ -541,8 +591,8 @@
 				item: "minecraft:calcite"
 				type: "item"
 			}]
-			x: -17.0d
-			y: -18.0d
+			x: -13.5d
+			y: -23.5d
 		}
 		{
 			id: "56F798792F6E55E7"
@@ -632,26 +682,49 @@
 			y: -17.0d
 		}
 		{
-			dependencies: ["0241E72C7F16B121"]
+			dependencies: ["3FD8876D47028589"]
+			dependency_requirement: "one_completed"
+			icon: "malum:blazing_quartz"
 			id: "1453486E728A7DD2"
-			tasks: [{
-				id: "2D8295002A9AAE98"
-				item: "malum:blazing_quartz_ore"
-				type: "item"
-			}]
-			x: -16.0d
-			y: -14.5d
+			tasks: [
+				{
+					id: "2D8295002A9AAE98"
+					item: "malum:blazing_quartz"
+					type: "item"
+				}
+				{
+					block: "malum:blazing_quartz_ore"
+					block_type: 0
+					checkItem: false
+					id: "72908CF478118DFA"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -19.0d
+			y: -19.0d
 		}
 		{
-			dependencies: ["0241E72C7F16B121"]
+			dependencies: ["65F5B0A391532E89"]
+			icon: "spectrum:stratine_fragments"
 			id: "557B91655C5D047A"
-			tasks: [{
-				id: "4BA6D9BAE9F84CC6"
-				item: "spectrum:stratine_ore"
-				type: "item"
-			}]
-			x: -18.0d
-			y: -14.5d
+			tasks: [
+				{
+					id: "4BA6D9BAE9F84CC6"
+					item: "spectrum:stratine_fragments"
+					type: "item"
+				}
+				{
+					block: "spectrum:stratine_ore"
+					block_type: 0
+					checkItem: false
+					id: "1E61E15BDCF5103E"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -21.5d
+			y: -18.0d
 		}
 		{
 			id: "612638F00369FD21"
@@ -1860,26 +1933,6 @@
 			y: -2.5d
 		}
 		{
-			id: "15492D078BEDC34F"
-			tasks: [{
-				id: "6F0091FA6A81B047"
-				item: "malum:soulstone_ore"
-				type: "item"
-			}]
-			x: -16.0d
-			y: -6.0d
-		}
-		{
-			id: "673816C57443687E"
-			tasks: [{
-				id: "478B8841A31D55A1"
-				item: "malum:brilliant_stone"
-				type: "item"
-			}]
-			x: -16.0d
-			y: -7.0d
-		}
-		{
 			id: "629A0D32602CE6EB"
 			tasks: [{
 				id: "7AC39A54DE0374F7"
@@ -1920,14 +1973,25 @@
 		}
 		{
 			dependencies: ["6E59CA69F3590ABB"]
+			icon: "malum:natural_quartz"
 			id: "4A84D5C9065C646B"
-			tasks: [{
-				id: "4C57C8378CEEE89B"
-				item: "malum:natural_quartz_ore"
-				type: "item"
-			}]
-			x: -17.5d
-			y: -22.5d
+			tasks: [
+				{
+					id: "4C57C8378CEEE89B"
+					item: "malum:natural_quartz"
+					type: "item"
+				}
+				{
+					block: "malum:natural_quartz_ore"
+					block_type: 0
+					checkItem: false
+					id: "1E9967C7A6E6B5FC"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -18.0d
+			y: -21.5d
 		}
 		{
 			dependencies: ["37DF71047572E454"]
@@ -1937,8 +2001,8 @@
 				item: "spectrum:topaz_ore"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -19.0d
+			x: -13.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["37DF71047572E454"]
@@ -1948,8 +2012,8 @@
 				item: "spectrum:citrine_ore"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -18.0d
+			x: -12.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["37DF71047572E454"]
@@ -1959,52 +2023,84 @@
 				item: "spectrum:amethyst_ore"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -19.0d
+			x: -14.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["6E59CA69F3590ABB"]
-			id: "31A7A8CAF5FDEB68"
-			tasks: [{
-				id: "1D38703983C77128"
-				item: "malum:deepslate_soulstone_ore"
-				type: "item"
-			}]
-			x: -16.5d
-			y: -22.5d
-		}
-		{
-			dependencies: ["6E59CA69F3590ABB"]
+			icon: "malum:cluster_of_brilliance"
 			id: "74D6F0A61A3FF894"
-			tasks: [{
-				id: "5D97DF2C87AA9898"
-				item: "malum:brilliant_deepslate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "721F7BCF252B7DD6"
+					item: "malum:cluster_of_brilliance"
+					type: "item"
+				}
+				{
+					block: "malum:brilliant_deepslate"
+					block_type: 0
+					checkItem: false
+					id: "31E91FC69EDF4111"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
 			x: -16.0d
 			y: -21.5d
 		}
 		{
 			dependencies: ["6E59CA69F3590ABB"]
+			icon: "eidolon:silver_ingot"
 			id: "030F7E95BF4DEF13"
-			tasks: [{
-				id: "2A148767131C69CE"
-				item: "eidolon:deep_silver_ore"
-				type: "item"
-			}]
-			x: -17.0d
-			y: -20.5d
+			tasks: [
+				{
+					id: "5579489F7A710B92"
+					item: "eidolon:silver_ingot"
+					type: "item"
+				}
+				{
+					block: "eidolon:deep_silver_ore"
+					block_type: 0
+					checkItem: false
+					id: "3590FF4296FBB08D"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					id: "0134F899E5BB03DF"
+					item: "eidolon:raw_silver"
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6E59CA69F3590ABB"]
+			icon: "eidolon:lead_ingot"
 			id: "7884B3D01EA1C87C"
-			tasks: [{
-				id: "57C0F5BAB84822AE"
-				item: "eidolon:deep_lead_ore"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "02001D7357FDFFEE"
+					item: "eidolon:lead_ingot"
+					type: "item"
+				}
+				{
+					block: "eidolon:deep_lead_ore"
+					block_type: 0
+					checkItem: false
+					id: "7030DABDF4E7FA7F"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					id: "0BB8F35954C232B5"
+					item: "eidolon:raw_lead"
+					type: "item"
+				}
+			]
 			x: -18.0d
-			y: -20.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["56F798792F6E55E7"]
@@ -2018,44 +2114,79 @@
 			y: -19.0d
 		}
 		{
-			dependencies: ["0241E72C7F16B121"]
+			dependencies: [
+				"0241E72C7F16B121"
+				"1056FE2E71A01051"
+			]
+			icon: "occultism:iesnium_ingot"
 			id: "55B9C28B59403CBB"
 			tasks: [
 				{
-					id: "6E20732FD9266FDB"
-					item: "occultism:iesnium_ore"
+					id: "2B1E2E8BE58F80E0"
+					item: "occultism:raw_iesnium"
 					type: "item"
 				}
 				{
-					id: "5DD59B6D103EC584"
-					item: "occultism:iesnium_ore_natural"
+					block: "occultism:iesnium_ore_natural"
+					block_type: 0
+					checkItem: false
+					id: "5AC6BEAAD51A66B1"
+					title: "Suspicious netherrack"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					id: "135774F25B9AE58B"
+					item: "occultism:iesnium_ingot"
 					type: "item"
 				}
 			]
-			x: -16.5d
-			y: -13.5d
+			x: -20.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["0241E72C7F16B121"]
+			icon: "minecraft:quartz"
 			id: "3FD8876D47028589"
-			tasks: [{
-				id: "42994DB812CBC1CF"
-				item: "minecraft:nether_quartz_ore"
-				type: "item"
-			}]
-			x: -16.5d
-			y: -15.5d
+			tasks: [
+				{
+					id: "42994DB812CBC1CF"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					block: "minecraft:nether_quartz_ore"
+					block_type: 0
+					checkItem: false
+					id: "6206A0575BF2718E"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -20.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["0241E72C7F16B121"]
+			icon: "minecraft:gold_nugget"
 			id: "65F5B0A391532E89"
-			tasks: [{
-				id: "68F4EA5E3A4D362B"
-				item: "minecraft:nether_gold_ore"
-				type: "item"
-			}]
-			x: -17.5d
-			y: -15.5d
+			tasks: [
+				{
+					id: "68F4EA5E3A4D362B"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					block: "minecraft:nether_gold_ore"
+					block_type: 0
+					checkItem: false
+					id: "56388598F5F1F144"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -21.0d
+			y: -17.0d
 		}
 		{
 			id: "4152A5C8E54BBCA4"
@@ -2064,29 +2195,41 @@
 				item: "minecraft:end_stone"
 				type: "item"
 			}]
-			x: -24.0d
-			y: -21.5d
+			x: -17.0d
+			y: -18.0d
 		}
 		{
+			dependencies: ["4152A5C8E54BBCA4"]
 			id: "3165CEEF159B17F1"
 			tasks: [{
 				id: "067B15BE94C7D6BF"
 				item: "spectrum:paltaeria_ore"
 				type: "item"
 			}]
-			x: -24.0d
-			y: -22.5d
+			x: -17.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["6E59CA69F3590ABB"]
+			icon: "spectrum:raw_azurite"
 			id: "65DD88A0D94BD607"
-			tasks: [{
-				id: "41F12108CA043261"
-				item: "spectrum:deepslate_azurite_ore"
-				type: "item"
-			}]
-			x: -16.0d
-			y: -20.5d
+			tasks: [
+				{
+					id: "19FBF53F1BE3B4AA"
+					item: "spectrum:raw_azurite"
+					type: "item"
+				}
+				{
+					block: "spectrum:deepslate_azurite_ore"
+					block_type: 0
+					checkItem: false
+					id: "206FC6FA9E3807AA"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -17.0d
+			y: -23.5d
 		}
 		{
 			id: "6E59CA69F3590ABB"
@@ -2096,7 +2239,7 @@
 				type: "item"
 			}]
 			x: -17.0d
-			y: -21.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["55E286E3500102CE"]
@@ -2207,13 +2350,24 @@
 		}
 		{
 			dependencies: ["6E59CA69F3590ABB"]
+			icon: "malum:cthonic_gold_fragment"
 			id: "1424385F5FA8F636"
-			tasks: [{
-				id: "6E9A9092DC474FBE"
-				item: "malum:cthonic_gold_ore"
-				type: "item"
-			}]
-			x: -18.0d
+			tasks: [
+				{
+					id: "6E9A9092DC474FBE"
+					item: "malum:cthonic_gold_fragment"
+					type: "item"
+				}
+				{
+					block: "malum:cthonic_gold_ore"
+					block_type: 0
+					checkItem: false
+					id: "2A87980B0A1B12F2"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -17.0d
 			y: -21.5d
 		}
 		{
@@ -2265,6 +2419,77 @@
 			}]
 			x: 1.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["0241E72C7F16B121"]
+			id: "65DB1C9A25DBA513"
+			tasks: [{
+				id: "04E97A0790D4E985"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["65F5B0A391532E89"]
+			icon: "wizards_reborn:arcane_gold_ingot"
+			id: "29D0E220F3177ABF"
+			tasks: [
+				{
+					id: "6FF368CFCE82AE80"
+					item: "wizards_reborn:raw_arcane_gold"
+					type: "item"
+				}
+				{
+					block: "wizards_reborn:arcane_gold_ore"
+					block_type: 0
+					checkItem: false
+					id: "4C2124405B456F7F"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -22.0d
+			y: -17.0d
+		}
+		{
+			id: "1056FE2E71A01051"
+			tasks: [{
+				id: "6E7CC099D86A0BC8"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["0241E72C7F16B121"]
+			icon: "wizards_reborn:nether_salt"
+			id: "75071B7AF47791BD"
+			tasks: [
+				{
+					id: "33AAD2B066A6E4C1"
+					item: "wizards_reborn:nether_salt"
+					type: "item"
+				}
+				{
+					block: "wizards_reborn:nether_salt_ore"
+					block_type: 0
+					checkItem: false
+					id: "7EE4BF1ECD3A1A1E"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -19.5d
+			y: -18.0d
 		}
 	]
 	title: "goog :)"

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hexcasting"
+	group: "60ECDD4782CBCF7F"
+	icon: "hexcasting:quenched_allay_shard"
+	id: "0D47EC99EDAF95E8"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "Hexcasting"
+}

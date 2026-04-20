@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "embers_rekindled"
+	filename: "essentials"
 	group: "60ECDD4782CBCF7F"
-	icon: "embers:ember_crystal_cluster"
-	id: "411EB3983B607B21"
-	order_index: 6
+	icon: "essentials:candle_lilypad"
+	id: "17DAC560804CB23C"
+	order_index: 10
 	quest_links: [ ]
 	quests: [ ]
-	title: "Embers"
+	title: "Essentials"
 }

@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "blood_magic"
 	group: "60ECDD4782CBCF7F"
-	icon: "bloodmagic:daggerofsacrifice"
+	icon: "bloodmagic:altar"
 	id: "67708FA38877FD26"
 	order_index: 4
 	quest_links: [ ]
