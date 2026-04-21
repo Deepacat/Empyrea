@@ -1,8 +1,8 @@
-const $FelPumpkinBlock = Java.loadClass('vazkii.botania.common.block.FelPumpkinBlock')
-const $Properties = Java.loadClass('net.minecraft.world.level.block.state.BlockBehaviour$Properties')
-const $Blocks = Java.loadClass('net.minecraft.world.level.block.Blocks')
-const $BlockItem = Java.loadClass('net.minecraft.world.item.BlockItem')
-const $IProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
+let $FelPumpkinBlock = Java.loadClass('vazkii.botania.common.block.FelPumpkinBlock')
+let $BlockProperties = Java.loadClass('net.minecraft.world.level.block.state.BlockBehaviour$Properties')
+let $Blocks = Java.loadClass('net.minecraft.world.level.block.Blocks')
+let $BlockItem = Java.loadClass('net.minecraft.world.item.BlockItem')
+let $ItemProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
 
 let felonBlock
 
@@ -14,14 +14,13 @@ StartupEvents.registry('block', e => {
 
     // Fel melon block
     felonBlock = e.createCustom('kubejs:felon',
-        () => new $FelPumpkinBlock(new $Properties.copy($Blocks.MELON))
-    ).tagBlock('minecraft:mineable/axe')
+        () => new $FelPumpkinBlock(new $BlockProperties.copy($Blocks.MELON))
+    )
 })
 
 // Fel melon item 
 StartupEvents.registry('item', e => {
-    e.createCustom(
-        'kubejs:felon',
-        () => new $BlockItem(felonBlock.get(), new $IProperties())
+    e.createCustom('kubejs:felon',
+        () => new $BlockItem(felonBlock.get(), new $ItemProperties())
     )
 })
