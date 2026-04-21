@@ -1,3 +1,7 @@
+// Referenced from https://discord.com/channels/303440391124942858/1338944138145566781/1338944138145566781
+// and https://discord.com/channels/303440391124942858/1395533098980081724/1395540318887350423
+// from the Latvian.dev (KubeJS) discord server
+
 const $BonemealEvent = Java.loadClass('net.minecraftforge.event.entity.player.BonemealEvent')
 const $BonemealableBlock = Java.loadClass('net.minecraft.world.level.block.BonemealableBlock')
 
@@ -44,7 +48,8 @@ PlayerEvents.tick(e => {
                         player.damageHeldItem(handUsed, 1)
 
                         block.performBonemeal(level, level.random, pos, blockState) // Apply bonemeal
-                        // I don't know what this is or the number ID but AI found it and it makes particles and noise happen so that's cool
+                        // I don't know what this is or the number ID but 
+                        // AI found it and it makes particles and noise happen so that's cool
                         level.levelEvent(1505, pos, 0)
                         player.swing(handUsed, true)
 
