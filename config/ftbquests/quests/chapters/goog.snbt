@@ -926,7 +926,13 @@
 			tasks: [
 				{
 					id: "324D566C4F238C33"
-					item: "spectrum:pedestal_basic_amethyst"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(spectrum:pedestal_basic_topaz)item(spectrum:pedestal_basic_amethyst)item(spectrum:pedestal_basic_citrine))"
+						}
+					}
 					type: "item"
 				}
 				{
