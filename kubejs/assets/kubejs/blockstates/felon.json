@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kubejs:block/felon",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "kubejs:block/felon"
+    },
+    "facing=south": {
+      "model": "kubejs:block/felon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/felon",
+      "y": 270
+    }
+  }
+}

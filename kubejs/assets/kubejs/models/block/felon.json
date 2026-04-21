@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "kubejs:block/felon_face",
+    "side": "spectrum:block/glistering_melon_side",
+    "top": "spectrum:block/glistering_melon_top"
+  }
+}
