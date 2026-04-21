@@ -592,7 +592,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: -23.5d
+			y: -22.5d
 		}
 		{
 			id: "56F798792F6E55E7"
@@ -682,29 +682,6 @@
 			y: -17.0d
 		}
 		{
-			dependencies: ["3FD8876D47028589"]
-			dependency_requirement: "one_completed"
-			icon: "malum:blazing_quartz"
-			id: "1453486E728A7DD2"
-			tasks: [
-				{
-					id: "2D8295002A9AAE98"
-					item: "malum:blazing_quartz"
-					type: "item"
-				}
-				{
-					block: "malum:blazing_quartz_ore"
-					block_type: 0
-					checkItem: false
-					id: "72908CF478118DFA"
-					type: "questsadditions:break"
-					value: 1L
-				}
-			]
-			x: -19.0d
-			y: -19.0d
-		}
-		{
 			dependencies: ["65F5B0A391532E89"]
 			icon: "spectrum:stratine_fragments"
 			id: "557B91655C5D047A"
@@ -723,8 +700,8 @@
 					value: 1L
 				}
 			]
-			x: -21.5d
-			y: -18.0d
+			x: -22.0d
+			y: -17.0d
 		}
 		{
 			id: "612638F00369FD21"
@@ -1447,7 +1424,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 9.0d
 			y: -10.0d
 		}
 		{
@@ -1543,7 +1520,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 9.0d
 			y: -8.0d
 		}
 		{
@@ -1809,7 +1786,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["77BC8783600E1A2B"]
+			dependencies: [
+				"77BC8783600E1A2B"
+				"4BDD3594B851A07C"
+			]
 			id: "6D5B7BFF4E05B4AE"
 			tasks: [
 				{
@@ -1823,7 +1803,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 9.0d
 			y: -9.0d
 		}
 		{
@@ -1834,7 +1814,7 @@
 				id: "14BD79B88A849571"
 				type: "dimension"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: -9.0d
 		}
 		{
@@ -1995,36 +1975,69 @@
 		}
 		{
 			dependencies: ["37DF71047572E454"]
+			icon: "spectrum:topaz_shard"
 			id: "3021F7848B497979"
-			tasks: [{
-				id: "7DEFE9775675840C"
-				item: "spectrum:topaz_ore"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "18B6AA9EF0B6BA64"
+					item: "spectrum:topaz_shard"
+					type: "item"
+				}
+				{
+					block: "spectrum:topaz_ore"
+					block_type: 0
+					checkItem: false
+					id: "60273D91A9915A44"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
 			x: -13.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["37DF71047572E454"]
+			icon: "spectrum:citrine_shard"
+			id: "4D6E09D829F39669"
+			tasks: [
+				{
+					id: "4E1E85D54F89ED80"
+					item: "spectrum:citrine_shard"
+					type: "item"
+				}
+				{
+					block: "spectrum:citrine_ore"
+					block_type: 0
+					checkItem: false
+					id: "674E2EF873276495"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -12.5d
 			y: -22.5d
 		}
 		{
 			dependencies: ["37DF71047572E454"]
-			id: "4D6E09D829F39669"
-			tasks: [{
-				id: "6B7AE6F47FFEE82A"
-				item: "spectrum:citrine_ore"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -23.5d
-		}
-		{
-			dependencies: ["37DF71047572E454"]
+			icon: "minecraft:amethyst_shard"
 			id: "58875374016DACF8"
-			tasks: [{
-				id: "03EADB6E97A40D31"
-				item: "spectrum:amethyst_ore"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0650FE4CF88965AF"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					block: "spectrum:amethyst_ore"
+					block_type: 0
+					checkItem: false
+					id: "6C7F48EDE53AAE60"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
 			x: -14.5d
-			y: -23.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6E59CA69F3590ABB"]
@@ -2228,7 +2241,7 @@
 					value: 1L
 				}
 			]
-			x: -17.0d
+			x: -17.5d
 			y: -23.5d
 		}
 		{
@@ -2432,7 +2445,10 @@
 			y: -19.0d
 		}
 		{
-			dependencies: ["65F5B0A391532E89"]
+			dependencies: [
+				"65F5B0A391532E89"
+				"4155934AA1BEDF15"
+			]
 			icon: "wizards_reborn:arcane_gold_ingot"
 			id: "29D0E220F3177ABF"
 			tasks: [
@@ -2450,8 +2466,8 @@
 					value: 1L
 				}
 			]
-			x: -22.0d
-			y: -17.0d
+			x: -21.5d
+			y: -18.0d
 		}
 		{
 			id: "1056FE2E71A01051"
@@ -2466,7 +2482,7 @@
 				}
 				type: "item"
 			}]
-			x: -19.0d
+			x: -18.5d
 			y: -17.0d
 		}
 		{
@@ -2490,6 +2506,48 @@
 			]
 			x: -19.5d
 			y: -18.0d
+		}
+		{
+			dependencies: ["6E59CA69F3590ABB"]
+			icon: "wizards_reborn:arcanum"
+			id: "52459BA2B7A6AF9F"
+			tasks: [
+				{
+					id: "225D440C86334CED"
+					item: "wizards_reborn:arcanum"
+					type: "item"
+				}
+				{
+					block: "wizards_reborn:deepslate_arcanum_ore"
+					block_type: 0
+					checkItem: false
+					id: "5D7BFE81A32052F6"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: -16.5d
+			y: -23.5d
+		}
+		{
+			id: "4155934AA1BEDF15"
+			tasks: [{
+				id: "2ACCC2ECECAF24B2"
+				item: "wizards_reborn:arcanum_dust"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -18.0d
+		}
+		{
+			id: "4AD362AC26A0799D"
+			tasks: [{
+				id: "2770F51140B97017"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -23.5d
 		}
 	]
 	title: "goog :)"

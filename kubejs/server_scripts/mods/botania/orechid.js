@@ -32,22 +32,20 @@ ServerEvents.recipes(e => {
     // spectrum azurite
     e.recipes.botania.orechid('spectrum:deepslate_azurite_ore', 'ars_nouveau:sourcestone', 1)
         .id('kubejs:botania/orechid/deepslate_azurite_ore')
+    // wizards reborn Arcanum
+    e.recipes.botania.orechid('wizards_reborn:deepslate_arcanum_ore', 'ars_nouveau:sourcestone', 1)
+        .id('kubejs:botania/orechid/deepslate_arcanum_ore')
 
     /* -- orechid ignem ores */
     // netherrack hidden iesnium from netherrack
-    e.recipes.botania.orechid_ignem('occultism:iesnium_ore_natural', 'netherrack', 100)
+    e.recipes.botania.orechid_ignem('occultism:iesnium_ore_natural', 'netherrack', 2000)
         .id('kubejs:botania/orechid/netherrack_natural_iesnium')
     // nether salt from netherrack
-    e.recipes.botania.orechid_ignem('wizards_reborn:nether_salt_ore', 'netherrack', 100)
+    e.recipes.botania.orechid_ignem('wizards_reborn:nether_salt_ore', 'netherrack', 2000)
         .id('kubejs:botania/orechid/nether_salt_ore')
-    // blazing quartz from vanilla quartz ore
-    e.recipes.botania.orechid_ignem('malum:blazing_quartz_ore', 'minecraft:nether_quartz_ore', 33)
-        .id('kubejs:botania/orechid/blazing_quartz_ore_nether')
-    e.recipes.botania.orechid_ignem('minecraft:blackstone', 'minecraft:nether_quartz_ore', 67) // fail recipe
-        .id('kubejs:botania/orechid/nether_quartz_loss')
-    // stratine from nether gold ore
-    e.recipes.botania.orechid_ignem('spectrum:stratine_ore', 'minecraft:nether_gold_ore', 5)
+    // stratine from nether arcane gold ore
+    e.recipes.botania.orechid_ignem('spectrum:stratine_ore', 'wizards_reborn:nether_arcane_gold_ore', 67)
         .id('kubejs:botania/orechid/stratine_ore')
-    e.recipes.botania.orechid_ignem('minecraft:blackstone', 'minecraft:nether_gold_ore', 95) // fail recipe
+    e.recipes.botania.orechid_ignem('minecraft:blackstone', 'wizards_reborn:nether_arcane_gold_ore', 33) // fail recipe
         .id('kubejs:botania/orechid/nether_gold_loss')
 })
