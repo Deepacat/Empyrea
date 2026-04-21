@@ -908,7 +908,7 @@
 				"162C98E2A11197BB"
 				"3B9E4D319B8F4EA4"
 			]
-			description: ["can be used in orechid for gemstones"]
+			description: ["can be used in orechid for gemstone ores"]
 			id: "1B72798AB15A037D"
 			tasks: [{
 				id: "64C88534C4B639E5"
@@ -921,7 +921,7 @@
 		{
 			dependencies: ["42BBFA49DED56490"]
 			dependency_requirement: "one_started"
-			description: ["click paint brush on pedestal to start craft"]
+			description: ["interact with paint brush on pedestal to start crafting recipes"]
 			id: "09BA5C10E5A06D48"
 			tasks: [
 				{
@@ -1201,6 +1201,7 @@
 		}
 		{
 			dependencies: ["7B12B27CCDD1FDF4"]
+			description: ["lava fishing can get you netherrack and other nether goodies "]
 			id: "5B667AAAC03F416C"
 			tasks: [
 				{
@@ -1234,6 +1235,7 @@
 				"3633CBB030D49024"
 				"6DBEC7F17D5D5D09"
 			]
+			description: ["the orechid ignem gets you the nether ores"]
 			id: "78D30F54A4C958A4"
 			tasks: [{
 				id: "28109464263CD86D"
@@ -1271,6 +1273,11 @@
 				"0A8A2AB5A59293C7"
 				"7B12B27CCDD1FDF4"
 			]
+			description: [
+				"refer to spectrum book and recipe viewer for fusion shrine usage"
+				""
+				"you can use a hammock and bed to speed up getting to a new moon"
+			]
 			id: "7FEE4F76560B91CB"
 			tasks: [
 				{
@@ -1306,15 +1313,16 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["7FEE4F76560B91CB"]
+			dependencies: ["0A68047BAD25A547"]
+			description: ["after obtaining brown pigment you may see the nightsky glimmer on occasion"]
 			id: "49E15E617AA3D920"
 			tasks: [{
 				id: "5DE45A72BB7BDB5A"
 				item: "spectrum:stardust"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -14.0d
+			x: 9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -1359,14 +1367,18 @@
 			y: -17.0d
 		}
 		{
-			dependencies: ["7FEE4F76560B91CB"]
+			dependencies: [
+				"7FEE4F76560B91CB"
+				"2154F684067FFD34"
+			]
+			description: [""]
 			id: "11BB8FB5633AC4B0"
 			tasks: [{
 				id: "1BBE173D57A32E90"
 				item: "spectrum:liquid_crystal_bucket"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -14.0d
 		}
 		{
@@ -1429,6 +1441,8 @@
 		}
 		{
 			dependencies: ["7F8CDDFB08CA7A1A"]
+			description: ["needed for the gaia beacon"]
+			hide_dependent_lines: true
 			id: "2D972DF7207CA8B1"
 			tasks: [{
 				id: "13A7EF6BEA17A660"
@@ -1506,6 +1520,7 @@
 			dependencies: [
 				"6D5B7BFF4E05B4AE"
 				"4BDD3594B851A07C"
+				"2D972DF7207CA8B1"
 			]
 			id: "466A7C6DCB45CFA4"
 			tasks: [
@@ -1755,6 +1770,7 @@
 			y: -11.0d
 		}
 		{
+			description: ["demon dream seeds can come from grass"]
 			id: "3B9E4D319B8F4EA4"
 			tasks: [
 				{
@@ -1924,6 +1940,7 @@
 		}
 		{
 			dependencies: ["1A3B86810035A0CC"]
+			description: ["will convert nearby source jars into source fluid"]
 			id: "38AA8F0C530F62EA"
 			tasks: [
 				{
@@ -1942,6 +1959,11 @@
 		}
 		{
 			dependencies: ["38AA8F0C530F62EA"]
+			description: [
+				"source fluid can turn basalt into deepslate with a small chance to consume it"
+				""
+				"basalt comes from alchemy catalyst on otherstone"
+			]
 			id: "36D9C4417A7B4316"
 			tasks: [{
 				id: "21AF79D5175A1695"
@@ -2548,6 +2570,25 @@
 			}]
 			x: -13.5d
 			y: -23.5d
+		}
+		{
+			dependencies: ["2BA114C73AE7F632"]
+			hide_dependency_lines: true
+			id: "2154F684067FFD34"
+			tasks: [
+				{
+					id: "7E5E127269B31117"
+					item: "spectrum:yellow_pigment"
+					type: "item"
+				}
+				{
+					id: "4BD56A67A6AAD2BA"
+					item: "spectrum:pink_pigment"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -14.0d
 		}
 	]
 	title: "goog :)"
