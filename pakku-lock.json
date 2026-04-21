@@ -1994,44 +1994,6 @@
             ]
         },
         {
-            "pakku_id": "kyURGCagPHCSxI1U",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "curios"
-            },
-            "name": {
-                "curseforge": "Curios API (Forge/NeoForge)"
-            },
-            "id": {
-                "curseforge": "309927"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "curios-forge-5.14.1+1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6418/456/curios-forge-5.14.1+1.20.1.jar",
-                    "id": "6418456",
-                    "parent_id": "309927",
-                    "hashes": {
-                        "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-                        "md5": "2fdcc97cbc66c4b2492b407c792e7159"
-                    },
-                    "required_dependencies": [],
-                    "size": 398066,
-                    "date_published": "2025-04-13T13:09:30.850Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "xD8AdvKK0BovRW19",
             "type": "MOD",
             "slug": {
@@ -7377,46 +7339,6 @@
                     "required_dependencies": [],
                     "size": 104185,
                     "date_published": "2023-11-21T22:21:12.127Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "XxM3PbWrpCFrVH3U",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "squat-grow"
-            },
-            "name": {
-                "curseforge": "Squat Grow (Shift / Twerk to grow plants)"
-            },
-            "id": {
-                "curseforge": "515698"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "squatgrow-forge-5.3.0+mc1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5150/173/squatgrow-forge-5.3.0+mc1.20.1.jar",
-                    "id": "5150173",
-                    "parent_id": "515698",
-                    "hashes": {
-                        "sha1": "a692be4b155a6149f108e6dcb79e5ad9d49ad722",
-                        "md5": "156f37d244c716714a03cdb2ab7d6b8b"
-                    },
-                    "required_dependencies": [
-                        "348521",
-                        "419699"
-                    ],
-                    "size": 33811,
-                    "date_published": "2024-03-02T01:32:35.857Z"
                 }
             ]
         },
