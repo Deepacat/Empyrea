@@ -16,6 +16,16 @@ ServerEvents.tags('block', e => {
     e.add('minecraft:mineable/axe', [
         'schematicannon:schematicannon'
     ])
+
+    e.add('kubejs:runewood_logs', [
+        'malum:runewood_log',
+        'malum:exposed_runewood_log'
+    ])
+
+    e.add('kubejs:soulwood_logs', [
+        'malum:soulwood_log',
+        'malum:exposed_soulwood_log'
+    ])
 })
 
 ServerEvents.tags('worldgen/biome', e => {
