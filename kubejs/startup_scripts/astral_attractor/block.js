@@ -44,8 +44,9 @@ StartupEvents.registry("block", (e) => {
         .defaultCutout()
         .soundType("copper")
         .item(item => {
-            item.tooltip(Text.gray("Allures shimmering clusters from above"))
-            item.tooltip(Text.gray("Leave the attractor exposed to the sky and clear of any obstructions"))
+            item.tooltip(Text.gray("Allures shimmering clusters from the great stars above"))
+            item.tooltip(Text.gray("Leave the attractor out, exposed to the night sky"))
+            item.tooltip(Text.gray("Keep it clear of any obstructions"))
         })
         .model("minecraft:block/furnace")
         .property(global.meteor_spawned_prop)
