@@ -31,6 +31,7 @@ PlayerEvents.tick(e => {
             let block = blockState.getBlock()
 
             if (blockState.isAir()) continue // skip air blocks
+            if (Item.of(block.asItem()).hasTag('minecraft:dirt')) continue // don't bonemeal grass or other dirt blocks
             // Attempt starting a bonemeal event on the block
             let event = new $BonemealEvent(player, level, pos, blockState, Item.of('bone_meal'))
 
