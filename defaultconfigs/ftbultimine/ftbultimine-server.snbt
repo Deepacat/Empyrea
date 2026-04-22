@@ -28,6 +28,8 @@
 		"c:*_ores"
 		"forge:ores/*"
 		"forge:ores"
+		"kubejs:runewood_logs"
+		"kubejs:soulwood_logs"
 	]
 	
 	# These tags will be considered the same block when checking for blocks to Ultimine in shaped mining modes
