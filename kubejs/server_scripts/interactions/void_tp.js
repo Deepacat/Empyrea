@@ -87,8 +87,8 @@ EntityEvents.hurt(e => {
     let nextFallImmune = e.entity.persistentData.getInt('next_fall_immune')
     if (nextFallImmune == null || nextFallImmune == false) { return }
     if (e.source.type().msgId() == 'fall' && nextFallImmune == true) {
-        // delays the fall damage removal since some occurences cause 2 damage events at once (e.g. falling on farmland)
-        e.entity.server.scheduleInTicks(1, () => {
+        // delays the fall immunity removal by 5 ticks since some occurences cause 2 damage events at once (e.g. falling on farmland)
+        e.entity.server.scheduleInTicks(5, () => {
             e.entity.persistentData.putBoolean('next_fall_immune', false)
             e.level.playSound(null, e.player.x, e.player.y, e.player.z, 'botania:bellows', 'players', 1, 0.5)
         })
