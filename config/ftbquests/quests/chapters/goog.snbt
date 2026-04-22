@@ -812,7 +812,13 @@
 			tasks: [
 				{
 					id: "4821949ADF3B8C74"
-					item: "botania:fel_pumpkin"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(botania:fel_pumpkin)item(kubejs:felon))"
+						}
+					}
 					type: "item"
 				}
 				{
