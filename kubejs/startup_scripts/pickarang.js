@@ -17,7 +17,6 @@ for (let m of $PickarangModule.__javaObject__.getDeclaredMethods()) {
   }
 }
 
-// TODO: entity not appearing client side for some reason
 // TODO: custom max hardness & timeout values probably doesn't work right now.. fix later if needed
 
 makePickarang.invoke(module,
@@ -32,7 +31,7 @@ makePickarang.invoke(module,
         1     // cooldown
     ),
     "kubejs:whatahuh",
-    new $EntityFactory({create: (type, level) => new $Pickarang(type, level)}),
+    new $EntityFactory({m_20721_: (type, level) => new $Pickarang(type, level)}),
     new $PickarangConstructor({makePickarang: (type, level, thrower) => new $Pickarang(type, level, thrower)}),
     new $BooleanSupplier({getAsBoolean: () => true})
 ).setCreativeTab($CreativeModeTabs.TOOLS_AND_UTILITIES);
