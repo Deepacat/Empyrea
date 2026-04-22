@@ -3,9 +3,13 @@ StartupEvents.registry('item', e => {
         .maxDamage(256)
         .texture('quark:item/trowel')
         .color('#8e8e8e')
+        .tooltip(Text.gray("Quite a bit better at digging pebbles than your hands."))
+        .tooltip(Text.gray("Repairable in crafting."))
 
     e.create('kubejs:watering_can')
         .maxDamage(64)
         .texture('supplementaries:item/faucet')
         .color('#0080ff')
+        .tooltip(Text.gray("Sneaking will accelerate growth around you."))
+        .tooltip(Text.gray("Interact with water or craft with a water bowl to refill."))
 })

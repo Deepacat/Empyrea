@@ -38,6 +38,10 @@ BlockEvents.rightClicked(e => {
 
     switch (e.item.id) {
         case 'kubejs:sifting_spade': {
+            if (e.item.maxDamage - e.item.damageValue == 1) {
+                e.player.setStatusMessage("The spade needs to be repaired.")
+                break
+            }
             e.player.damageHeldItem(e.hand, 1, broken => { // damage spade
                 // play tool break noise because it doesn't by default for some reason
                 e.level.playSound(null, e.block.pos.x, e.block.pos.y, e.block.pos.z, 'entity.item.break', 'players', 1, 1)

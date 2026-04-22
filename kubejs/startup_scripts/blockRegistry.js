@@ -7,12 +7,13 @@ let $ItemProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
 let felonBlock
 
 StartupEvents.registry('block', e => {
+    // Pulverizing catalyst for botania mana pool
     e.create('kubejs:pulverizing_catalyst')
         .soundType('stone')
         .tagBlock('minecraft:mineable/pickaxe')
         .hardness(2)
 
-    // Fel melon block
+    // Fel melon block (Fel pumpkin alternative)
     felonBlock = e.createCustom('kubejs:felon',
         () => new $FelPumpkinBlock(new $BlockProperties.copy($Blocks.MELON))
     )
