@@ -52,8 +52,11 @@ PlayerEvents.tick(e => {
                         // I don't know what this is or the number ID but 
                         // AI found it and it makes particles and noise happen so that's cool
                         level.levelEvent(1505, pos, 0)
-                        player.swing(handUsed, true)
-
+                        level.spawnParticles('minecraft:falling_water', false,
+                            pos.x + 0.5, pos.y + 0.5, pos.z + 0.5,
+                            0.3, 0.3, 0.3,
+                            40, 0
+                        )
                     }
                 }
             }

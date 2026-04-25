@@ -1,9 +1,9 @@
 // Refills (repairs durability of) the watering can
 ItemEvents.firstRightClicked("kubejs:watering_can", e => {
     if (e.target.block == null) return
-    if (!e.target.block.id == 'minecraft:water') return
+    if (e.target.block.id !== 'minecraft:water') return
 
-    e.item.damageValue = Math.max(    0,    e.item.damageValue - 21)
+    e.item.damageValue = Math.max(0, e.item.damageValue - 10)
     e.player.swing(e.hand, true)
 
     let { x, y, z } = e.target.block
