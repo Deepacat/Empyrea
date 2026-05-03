@@ -1266,7 +1266,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["40B1C5AE1D3FEC90"]
@@ -1375,8 +1375,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -17.0d
+			x: -1.0d
+			y: -16.0d
 		}
 		{
 			dependencies: [
@@ -1448,7 +1448,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 10.0d
 			y: -10.0d
 		}
 		{
@@ -1547,7 +1547,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 10.0d
 			y: -8.0d
 		}
 		{
@@ -1692,8 +1692,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -17.0d
+			x: -5.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["424032A84719B07F"]
@@ -1803,13 +1803,22 @@
 			dependencies: [
 				"6DBEC7F17D5D5D09"
 				"3839CE8B0E38D407"
+				"7E58E2925DABEFC1"
 			]
+			icon: "minecraft:end_portal_frame"
 			id: "4BDD3594B851A07C"
-			tasks: [{
-				id: "1C7D3C7AE368F5AE"
-				item: "minecraft:end_portal_frame"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1A4D6C007D85C464"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					id: "4F4CCFC4A980BDDC"
+					item: "minecraft:end_portal_frame"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: -8.0d
 		}
@@ -1842,7 +1851,7 @@
 				id: "14BD79B88A849571"
 				type: "dimension"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -9.0d
 		}
 		{
@@ -2315,8 +2324,8 @@
 				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -17.0d
+			x: 1.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["1A3B86810035A0CC"]
@@ -2371,7 +2380,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["3CC975EF567EFC1F"]
@@ -2381,8 +2390,8 @@
 				item: "malum:natural_quartz"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -18.5d
+			x: 2.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["3CC975EF567EFC1F"]
@@ -2392,8 +2401,8 @@
 				item: "malum:raw_soulstone"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -18.5d
+			x: 1.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6E59CA69F3590ABB"]
@@ -2601,6 +2610,20 @@
 			]
 			x: 3.0d
 			y: -14.0d
+		}
+		{
+			dependencies: [
+				"6DBEC7F17D5D5D09"
+				"3839CE8B0E38D407"
+			]
+			id: "7E58E2925DABEFC1"
+			tasks: [{
+				id: "4E04B61313568B40"
+				item: "kubejs:ender_radiator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
 		}
 	]
 	title: "goog :)"

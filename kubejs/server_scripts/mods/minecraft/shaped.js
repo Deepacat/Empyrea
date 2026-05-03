@@ -29,4 +29,16 @@ ServerEvents.recipes(e => {
         B: 'minecraft:tropical_fish',
         C: 'botania:rune_mana'
     }).id('kubejs:minecraft/shaped/nautilus_shell')
+
+    e.remove({ output: 'minecraft:end_portal_frame' })
+    e.shaped('minecraft:end_portal_frame', [
+        'ABA',
+        'CDC',
+        'CCC'
+    ], {
+        A: "spectrum:neolith",
+        B: '#forge:nuggets/terrasteel',
+        C: 'minecraft:end_stone',
+        D: '#forge:storage_blocks/elementium'
+    })
 })

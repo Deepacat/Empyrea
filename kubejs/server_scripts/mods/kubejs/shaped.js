@@ -42,4 +42,15 @@ ServerEvents.recipes(e => {
         E: 'spectrum:notched_polished_basalt',
         F: 'botania:rune_mana'
     }).id('kubejs:shaped/astral_attractor')
+
+    e.shaped('kubejs:ender_radiator', [
+        'ABA',
+        'ACA',
+        'ADA'
+    ], {
+        A: 'botania:mana_pearl',
+        B: 'spectrum:neolith',
+        C: 'spectrum:radiating_ender',
+        D: 'botania:pixie_dust'
+    }).id('kubejs:shaped/ender_radiator')
 })
