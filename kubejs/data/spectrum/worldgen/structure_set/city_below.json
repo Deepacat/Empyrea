@@ -7,8 +7,14 @@
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 2985196,
-    "spacing": 8,
-    "separation": 5
+    "salt": 7831267,
+    "frequency": 0.9,
+    "spread_type": "triangular",
+    "spacing": 10,
+    "separation": 8,
+    "exclusion zone": {
+      "other_set": "spectrum:undergrowth_manor",
+      "chunk_count": 2
+    }
   }
 }
