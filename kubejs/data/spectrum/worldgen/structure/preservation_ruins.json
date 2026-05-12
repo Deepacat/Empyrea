@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#spectrum:in_deeper_down",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "start_pool": "spectrum:preservation_ruins",
+  "size": 2,
+  "terrain_adaptation": "beard_box",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "absolute": -120
+    },
+    "min_inclusive": {
+      "absolute": -316
+    }
+  },
+  "max_distance_from_center": 64,
+  "use_expansion_hack": false
+}

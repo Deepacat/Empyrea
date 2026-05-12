@@ -2625,6 +2625,17 @@
 			x: 7.0d
 			y: -9.0d
 		}
+		{
+			dependencies: ["466A7C6DCB45CFA4"]
+			id: "4D015857B7E280B0"
+			tasks: [{
+				id: "4DD8864A40AD1437"
+				item: "botania:dice"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
 	]
 	title: "goog :)"
 }

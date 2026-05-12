@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "spectrum:undergrowth_manor",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 67676767,
+    "spacing": 12,
+    "separation": 8,
+    "exclusion zone": {
+      "other_set": "spectrum:city_below",
+      "chunk_count": 1
+    }
+  }
+}
