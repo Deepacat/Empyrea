@@ -8,6 +8,42 @@
     },
     "projects": [
         {
+            "pakku_id": "iGSGq2nuKJTTKNhR",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "aea-fork"
+            },
+            "name": {
+                "curseforge": "AEA+ Fork"
+            },
+            "id": {
+                "curseforge": "1512994"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "additionalentityattributes-1.7.6+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7920/824/additionalentityattributes-1.7.6+1.20.1.jar",
+                    "id": "7920824",
+                    "parent_id": "1512994",
+                    "hashes": {
+                        "sha1": "ea65874af9ae479c42024c671a1478e17da05b85",
+                        "md5": "fc0fefc9e80987f1aa93376f6fba404f"
+                    },
+                    "required_dependencies": [],
+                    "size": 191868,
+                    "date_published": "2026-04-13T13:31:05.210Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ztLLuhUixdUPFUMM",
             "type": "MOD",
             "slug": {
@@ -1121,6 +1157,80 @@
                     "required_dependencies": [],
                     "size": 40125,
                     "date_published": "2024-04-22T07:58:30.183Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "wBj9Q4CkbXcpBDVJ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "capable-cauldrons"
+            },
+            "name": {
+                "curseforge": "Capable Cauldrons"
+            },
+            "id": {
+                "curseforge": "826695"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "capable_cauldrons-1.20.1-1.2.1.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5372/761/capable_cauldrons-1.20.1-1.2.1.7.jar",
+                    "id": "5372761",
+                    "parent_id": "826695",
+                    "hashes": {
+                        "sha1": "780c14578b78632693442ad8156f6e9fd2b63630",
+                        "md5": "252e74e29da14953c0bf7ee77208f5ac"
+                    },
+                    "required_dependencies": [],
+                    "size": 31632,
+                    "date_published": "2024-05-26T06:08:49.887Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "UZNXbxgOXV27WPeX",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "capable-composters"
+            },
+            "name": {
+                "curseforge": "Capable Composters"
+            },
+            "id": {
+                "curseforge": "826696"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "capable_composters-1.20.1-1.2.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4970/677/capable_composters-1.20.1-1.2.0.3.jar",
+                    "id": "4970677",
+                    "parent_id": "826696",
+                    "hashes": {
+                        "sha1": "bb4eb7e0f65d8d8754e5d5b1139d82514647d4f4",
+                        "md5": "8c995db009e34fc65fdd7bf08f281db8"
+                    },
+                    "required_dependencies": [],
+                    "size": 29457,
+                    "date_published": "2023-12-20T08:29:14.057Z"
                 }
             ]
         },
@@ -5094,7 +5204,7 @@
             ]
         },
         {
-            "pakku_id": "V0L5vRMoyhRNq6kg",
+            "pakku_id": "tRhcPSORNgKMqbPp",
             "type": "MOD",
             "slug": {
                 "curseforge": "lychee"
@@ -5108,7 +5218,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Lychee-1.20.1-Forge-5.2.0.jar",
+                    "file_name": "Lychee-1.20.1-Forge-5.2.1.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -5117,17 +5227,17 @@
                         "forge",
                         "neoforge"
                     ],
-                    "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/7652/24/Lychee-1.20.1-Forge-5.2.0.jar",
-                    "id": "7652024",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8030/949/Lychee-1.20.1-Forge-5.2.1.jar",
+                    "id": "8030949",
                     "parent_id": "567403",
                     "hashes": {
-                        "sha1": "8524261350169ed3dd677849bcc984b24aa778bc",
-                        "md5": "d2757d04c258080b9a44d411290a7897"
+                        "sha1": "7843a1d6fcb1fd5cb10e2e4296bea595cc8ffe8a",
+                        "md5": "150d5c9ad2939e770b939aecdfe0c09a"
                     },
                     "required_dependencies": [],
-                    "size": 694474,
-                    "date_published": "2026-02-20T04:14:44.623Z"
+                    "size": 694814,
+                    "date_published": "2026-05-03T07:21:13.997Z"
                 }
             ]
         },
@@ -5864,6 +5974,42 @@
                     ],
                     "size": 217831,
                     "date_published": "2023-12-08T13:26:48.770Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ooZUz7khZ2qPPpEq",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "nomusicpause"
+            },
+            "name": {
+                "curseforge": "No Music Pause"
+            },
+            "id": {
+                "curseforge": "1446167"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "nomusicpause-1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7535/150/nomusicpause-1.0.jar",
+                    "id": "7535150",
+                    "parent_id": "1446167",
+                    "hashes": {
+                        "sha1": "1dd48268321436d0ea033e585f482af25d71b7d6",
+                        "md5": "840ba8888d147a12cb80d7dfac5b1e53"
+                    },
+                    "required_dependencies": [],
+                    "size": 13222,
+                    "date_published": "2026-01-27T10:57:36.783Z"
                 }
             ]
         },
@@ -8092,42 +8238,6 @@
                     ],
                     "size": 37299940,
                     "date_published": "2025-04-30T16:07:23.940Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "zIlNRffxU3Q9blnm",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "world-preview"
-            },
-            "name": {
-                "curseforge": "World Preview"
-            },
-            "id": {
-                "curseforge": "891429"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "world_preview-forge-1.20.1-1.3.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5686/690/world_preview-forge-1.20.1-1.3.1.jar",
-                    "id": "5686690",
-                    "parent_id": "891429",
-                    "hashes": {
-                        "sha1": "98067c700d31f1b716cfbd6ddbeefd772bbba5bb",
-                        "md5": "49e556d551c38f7578346f681d287bfa"
-                    },
-                    "required_dependencies": [],
-                    "size": 370743,
-                    "date_published": "2024-09-02T15:34:54.467Z"
                 }
             ]
         },
