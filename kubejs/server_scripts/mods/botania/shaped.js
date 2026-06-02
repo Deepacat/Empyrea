@@ -20,7 +20,7 @@ ServerEvents.recipes(e => {
         B: 'minecraft:iron_bars',
         C: 'minecraft:stone_slab'
     }).id('kubejs:botania/shaped/brewing_stand_rod')
-    
+
     e.shaped('botania:alchemy_catalyst', [
         'ABA',
         'CDC',

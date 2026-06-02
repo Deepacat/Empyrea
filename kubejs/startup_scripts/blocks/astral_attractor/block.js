@@ -1,6 +1,22 @@
 // Meteor spawner block registry
+
 const $BooleanProperty = Java.loadClass("net.minecraft.world.level.block.state.properties.BooleanProperty")
 global.meteor_spawned_prop = $BooleanProperty.create("meteor_spawned")
+
+function rndPerimeter(cx, cz, size) {
+    const dir = Math.floor(Math.random() * 4);
+    const t = Math.round((Math.random() * 2 * size) - size);
+    switch (dir) {
+        case 0: // north
+            return { x: cx + t, z: cz - size };
+        case 1: // east
+            return { x: cx + size, z: cz + t };
+        case 2: // south
+            return { x: cx + t, z: cz + size };
+        case 3: // west
+            return { x: cx - size, z: cz + t };
+    }
+}
 
 /** @param {Internal.BlockEntity} attractor */
 global.attractorTick = (attractor) => {
